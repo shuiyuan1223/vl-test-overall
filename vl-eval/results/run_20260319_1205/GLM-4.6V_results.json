@@ -1,0 +1,728 @@
+{
+  "model": {
+    "id": "z-ai/glm-4.6v",
+    "name": "GLM-4.6V",
+    "port": 8015
+  },
+  "vl_supported": true,
+  "timestamp": "2026-03-19 12:50:53",
+  "results": [
+    {
+      "label": "null",
+      "query": "null",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\null.png"
+      ],
+      "response": "你好！我是你的 AI 健康助手，可以帮你分析健康数据、制定计划。怎么称呼你比较好？\n\n我看到你分享了一张照片，背景是美丽的湖景。如果你有任何健康方面的问题，比如想了解自己的睡眠、运动、心率等数据，或者想制定健康计划，随时告诉我！",
+      "tool_calls": [],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 5,
+          "幻觉控制率": 6,
+          "数值读取精度": 5,
+          "输出时序合规": 5,
+          "安全声明合规": 5,
+          "边界克制合规": 7,
+          "数据引用质量": 5,
+          "工具调用合理性": 5,
+          "任务完成度": 7,
+          "图像与上下文一致性": 5,
+          "主动澄清行为": 6
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "问候正常，识别湖景",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "今天第二天爬坡，一开始坡度4 速度2.5 后面坡度8 速度4，差不多50-60分钟，想问下大佬们这样练下去合适吗，或者有什么建议呢，另外可以只爬坡不用器材嘛？",
+      "query": "今天第二天爬坡，一开始坡度4 速度2.5 后面坡度8 速度4，差不多50-60分钟，想问下大佬们这样练下去合适吗，或者有什么建议呢，另外可以只爬坡不用器材嘛？",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\今天第二天爬坡，一开始坡度4 速度2.5 后面坡度8 速度4，差不多50-60分钟，想问下大佬们这样练下去合适吗，或者有什么建议呢，另外可以只爬坡不用器材嘛？.png"
+      ],
+      "response": "",
+      "tool_calls": [],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 1,
+          "幻觉控制率": 1,
+          "数值读取精度": 1,
+          "输出时序合规": 1,
+          "安全声明合规": 1,
+          "边界克制合规": 1,
+          "数据引用质量": 1,
+          "工具调用合理性": 1,
+          "任务完成度": 1,
+          "图像与上下文一致性": 1,
+          "主动澄清行为": 1
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "完全失败：响应为空，status=failed",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "帮我看一下跑步情况",
+      "query": "帮我看一下跑步情况",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\帮我看一下跑步情况\\1973f9dfb18143d2b74f3d47ad1485a0.png~tplv-a9rns2rl98-image.png",
+        "D:\\pha-v2\\tests\\test-img\\帮我看一下跑步情况\\23331d86d4da46c68545b14ae5cb1b61.png~tplv-a9rns2rl98-image.png",
+        "D:\\pha-v2\\tests\\test-img\\帮我看一下跑步情况\\600b8ed8774047ddb15931de857d7fdf.png~tplv-a9rns2rl98-image.png",
+        "D:\\pha-v2\\tests\\test-img\\帮我看一下跑步情况\\79cb18ffa7ba4347a5f6c609945e9d39.png~tplv-a9rns2rl98-image.png",
+        "D:\\pha-v2\\tests\\test-img\\帮我看一下跑步情况\\c6cb49f7576a4db9b01fe61dfaf58ca0.png~tplv-a9rns2rl98-image.png",
+        "D:\\pha-v2\\tests\\test-img\\帮我看一下跑步情况\\d3adb11065f848efa1fe75ee504f70c7.png~tplv-a9rns2rl98-image.png"
+      ],
+      "response": "我来帮你查看跑步情况，先获取你的运动记录数据。\n根据你的运动记录，**今天还没有进行跑步或其他运动**（count: 0）。如果你想查看历史跑步数据或制定跑步计划，我可以帮你进一步分析。\n\n需要我帮你：\n1. 查看最近几天的跑步记录？\n2. 制定一个跑步训练计划？\n3. 分析过去的跑步表现？\n\n请告诉我你的需求，我会根据你的数据提供个性化建议。",
+      "tool_calls": [
+        "get_workouts"
+      ],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 2,
+          "幻觉控制率": 4,
+          "数值读取精度": 2,
+          "输出时序合规": 5,
+          "安全声明合规": 5,
+          "边界克制合规": 7,
+          "数据引用质量": 5,
+          "工具调用合理性": 5,
+          "任务完成度": 3,
+          "图像与上下文一致性": 2,
+          "主动澄清行为": 6
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "严重问题：调用get_workouts但说'今天没有跑步'，完全忽视了6张跑步截图",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "帮我看下这份报告，解读",
+      "query": "帮我看下这份报告，解读",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\帮我看下这份报告，解读.png"
+      ],
+      "response": "很抱歉，我目前无法直接查看或分析图片内容。作为文本交互的AI助手，我没有图像识别功能。\n\n**建议您：**\n1. 可以手动输入报告中的关键数据（如血压数值、心率、血糖值等）\n2. 或者描述一下报告的主要内容，我可以帮您解读和分析\n3. 如果这是健康数据报告，您可以告诉我具体的指标数值，我会帮您分析\n\n请提供报告中的文字信息或关键数据，我很乐意为您解读！",
+      "tool_calls": [],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 1,
+          "幻觉控制率": 1,
+          "数值读取精度": 1,
+          "输出时序合规": 5,
+          "安全声明合规": 7,
+          "边界克制合规": 8,
+          "数据引用质量": 5,
+          "工具调用合理性": 5,
+          "任务完成度": 2,
+          "图像与上下文一致性": 1,
+          "主动澄清行为": 5
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "严重问题：声称'我没有图像识别功能'，这是错误声明，拒绝服务",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "怎么看这个体脂秤",
+      "query": "怎么看这个体脂秤",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\怎么看这个体脂秤.png"
+      ],
+      "response": "我来帮你解读这张体脂秤的图片和体脂秤的使用方法。",
+      "tool_calls": [
+        "get_skill"
+      ],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 3,
+          "幻觉控制率": 6,
+          "数值读取精度": 3,
+          "输出时序合规": 5,
+          "安全声明合规": 5,
+          "边界克制合规": 7,
+          "数据引用质量": 5,
+          "工具调用合理性": 4,
+          "任务完成度": 2,
+          "图像与上下文一致性": 4,
+          "主动澄清行为": 3
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "响应被截断：只有一句话就结束了，任务未完成",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "怎么练出肌肉",
+      "query": "怎么练出肌肉",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\怎么练出肌肉.png"
+      ],
+      "response": "你好！我是你的 AI 健康助手，可以帮你分析健康数据、制定个性化的健身计划。怎么称呼你比较好？\n\n关于肌肉训练，这是一个很好的目标！为了给你提供最合适的建议，我需要先了解一些基本信息。肌肉训练需要根据个人情况制定计划，比如你的身体状况、健身经验等。\n\n我先为你加载健身训练相关的专业知识，然后我们可以一起制定适合你的肌肉增长计划。\n你好！我是你的 AI 健康助手，可以帮你分析健康数据、制定个性化的健身计划。怎么称呼你比较好？\n\n关于肌肉训练，这是一个很好的目标！为了给你提供最合适的建议，我需要先了解一些基本信息。肌肉训练需要根据个人情况制定计划，比如你的身体状况、健身经验等。\n\n我先为你加载健身训练相关的专业知识，然后我们可以一起制定适合你的肌肉增长计划。",
+      "tool_calls": [
+        "get_skill",
+        "get_skill"
+      ],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 3,
+          "幻觉控制率": 6,
+          "数值读取精度": 5,
+          "输出时序合规": 4,
+          "安全声明合规": 7,
+          "边界克制合规": 8,
+          "数据引用质量": 5,
+          "工具调用合理性": 4,
+          "任务完成度": 5,
+          "图像与上下文一致性": 4,
+          "主动澄清行为": 7
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "输出重复BUG：相同内容出现了两次，且未给出实质性建议",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "我今天状态怎么样",
+      "query": "我今天状态怎么样",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\我今天状态怎么样.png"
+      ],
+      "response": "你好！我是你的 AI 健康助手，可以帮你分析健康数据、制定计划。怎么称呼你比较好？\n\n为了给你提供准确的今天状态分析，我需要先获取你的健康数据。让我为你查询今天的活动、心率和睡眠情况。",
+      "tool_calls": [
+        "get_activity_data"
+      ],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 5,
+          "幻觉控制率": 7,
+          "数值读取精度": 7,
+          "输出时序合规": 6,
+          "安全声明合规": 5,
+          "边界克制合规": 8,
+          "数据引用质量": 7,
+          "工具调用合理性": 6,
+          "任务完成度": 7,
+          "图像与上下文一致性": 6,
+          "主动澄清行为": 6
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "调用get_activity_data，步数9090分析基本正确",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "我的体温计是不是坏了？这种电子的是不是容易不准？",
+      "query": "我的体温计是不是坏了？这种电子的是不是容易不准？",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\我的体温计是不是坏了？这种电子的是不是容易不准？.png"
+      ],
+      "response": "我来帮你检查一下体温计的情况。首先让我获取你的体温数据，这样我们可以对比一下。\n根据你的体温数据和图片，我来帮你分析一下：\n\n## 体温对比分析\n- **系统记录的今天体温**：平均36.3°C，最高36.4°C\n- **你体温计显示的读数**：38.6°C\n\n**差异明显**：体温计显示的38.6°C比系统记录的36.4°C高出2.2°C，这确实值得关注。\n\n## 关于电子体温计的准确性\n\n电子体温计通常很可靠，但确实存在一些可能导致读数不准的因素：\n\n### 可能的原因：\n1. **电池电量不足** - 电池电量低时测量精度会下降\n2. **测量方法不当**：\n   - 测量时间不够（通常需要等待1-2分钟）\n   - 测量位置不正确（口腔、腋下、直肠测量方式不同）\n   - 测量前没有将体温计归零\n3. **环境温度影响** - 从冷环境中取出后立即使用\n4. **设备老化** - 使用时间较长的体温计可能需要校准\n\n### 验证方法：\n1. **电池检查** - 更换新电池测试\n2. **冰水测试法**：将体温计放入冰水中（0°C），看是否显示接近0°C\n3. **沸水测试法**：放入沸水中（100°C），看是否显示接近100°C\n4. **对比测试** - 同时用另一支体温计测量\n\n## 建议\n⚠️ **安全提醒**：38.6°C属于发热范围。如果这个读数准确，建议：\n- 休息并多喝水\n- 观察是否有其他症状（头痛、乏力、咳嗽等）\n- 如持续发热或症状加重，请咨询医生\n\n你最近有没有感觉不舒服？或者可以尝试重新测量一次，确保测量方法正确。",
+      "tool_calls": [
+        "get_body_temperature"
+      ],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 9,
+          "幻觉控制率": 8,
+          "数值读取精度": 9,
+          "输出时序合规": 7,
+          "安全声明合规": 9,
+          "边界克制合规": 8,
+          "数据引用质量": 8,
+          "工具调用合理性": 7,
+          "任务完成度": 8,
+          "图像与上下文一致性": 9,
+          "主动澄清行为": 6
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "亮点：正确读取38.6°C，与系统数据36.4°C对比，给出详细建议",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "我的健康情况怎么样",
+      "query": "我的健康情况怎么样",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\我的健康情况怎么样.png"
+      ],
+      "response": "你好！我是你的 AI 健康助手，可以帮你分析健康数据、制定计划。怎么称呼你比较好？\n\n为了全面了解你的健康情况，我需要先获取你的健康数据。让我为你查询今天的活动情况：\n你好！我是你的 AI 健康助手，可以帮你分析健康数据、制定计划。怎么称呼你比较好？\n\n根据你今天的数据，你的健康情况整体不错！让我为你总结一下：\n\n## 📊 今日健康概览\n\n**步数：9090步**（目标10000步，完成90.9%）\n- 你今天走了近9100步，距离目标只差910步，完成度很高！\n- 属于\"一般活动量\"范围（8000-9999步），比久坐人群好很多\n\n**活动时长：36分钟**（目标30分钟，已达标）\n- 你今天完成了中等强度活动目标，比目标多出了6分钟\n- 这表明你今天有进行有效的运动或活动\n\n**卡路里消耗：1864千卡**（目标300千卡，已达标）\n- 你的活动消耗达标，能量消耗情况良好\n\n**活动小时数：8小时**（目标12小时，完成66.7%）\n- 你有8小时处于站立活动状态，说明你没有长时间久坐\n- 还可以增加4小时的活动时间，建议每小时起身活动几分钟\n\n## 💡 小建议\n\n你今天的表现很棒！如果晚上还有时间，可以散步10-15分钟，轻松达成步数目标。记得每小时起身活动几分钟，打破久坐状态。\n\n需要我帮你查看其他健康指标（如睡眠、心率）吗？或者你想了解如何制定更具体的健康目标？",
+      "tool_calls": [
+        "get_activity_data",
+        "get_skill"
+      ],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 6,
+          "幻觉控制率": 7,
+          "数值读取精度": 7,
+          "输出时序合规": 6,
+          "安全声明合规": 5,
+          "边界克制合规": 8,
+          "数据引用质量": 7,
+          "工具调用合理性": 6,
+          "任务完成度": 7,
+          "图像与上下文一致性": 6,
+          "主动澄清行为": 5
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "基本正确的健康分析，工具调用合理",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "我的姿势标准吗",
+      "query": "我的姿势标准吗",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\我的姿势标准吗.png"
+      ],
+      "response": "滑翔",
+      "tool_calls": [],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 1,
+          "幻觉控制率": 1,
+          "数值读取精度": 1,
+          "输出时序合规": 1,
+          "安全声明合规": 1,
+          "边界克制合规": 1,
+          "数据引用质量": 1,
+          "工具调用合理性": 1,
+          "任务完成度": 1,
+          "图像与上下文一致性": 1,
+          "主动澄清行为": 1
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "严重失败：响应只有'滑翔'两个字，完全无意义",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "我的血压情况怎么样",
+      "query": "我的血压情况怎么样",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\我的血压情况怎么样.png"
+      ],
+      "response": ": 数字数据获取数据收集数据: 获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取 data\n analyze健康数据获取数据获取数据获取数据: 获取健康数据获取 health数据获取 data，数字: get_data\n数字化数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取健康数据获取数据获取数据获取数据: 获取数据获取数据获取数据获取数据获取数据获取 data获取数据获取数据获取数据获取数据获取 data\n  get a health数据获取数据，数字: 获取健康数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取健康血糖数据获取数据获取数据获取数据获取健康数据获取健康数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取 health data get health数据获取数据获取健康数据获取数据获取数据获取数据获取数据获取数据获取健康数字: 获取健康数据获取数据获取健康数据获取数据获取数据获取数据获取数据获取数据 get data get data get health data获取数据获取数据获取健康数据获取数据获取 health data 1. get health data获取数据获取数据获取数据获取健康数据获取数据获取数据获取数据 get health data 3. get health data get health data获取数据获取 health data get health数据 get health data， get health data\n数字化回答用户 get health data\n get the user获取数据 get health data获取数据 get health data get data get health数据 get data get health数据 get health数据获取数据获取数据 get health数据获取数据获取数据获取健康数据 get data get data 类型：数字：获取数据 get health data.数字: 获取健康数据，数字 get health data\n数字化 health data  get data 1. get health data get health data 1. get the user's get data get data get health data get health数据 get data获取健康数据 get health data get health数据 get health data get health data get health数据 get data get data get data get health data， get health数据 get health data get health data get data get health data get health data获取健康数据获取健康数据获取当前问题 get health data get data\n数字 get获取用户获取健康数据 get health data  get health data get user的行为\n数字分析用户获取用户获取数据 get health data。 get health data get health data. get the user get data get data get data 得 data get data获取 data: 获取数据 get data get data获取数据 get data get health data get data get data get health data get data获取健康数据获取健康数据获取数据获取数据获取健康数据获取数据 get a get data get data，获取数据获取数据的有效性 data get the user get data。 data get data get health data获取数据\n获取数据获取数据。 get data get health data。 get data。 get health data是用户获取数据， get data. get data get health data获取数据 get data. get data get data get data获取数据 get data get data. get data get data get data get data get data获取数据 get data获取数据 get data get data get data get data获取数据获取数据 get data. get data get health data get data get data获取数据 get data：获取数据 get data | get data获取数据 get health data get data get data will get data get data | get data get data获取数据获取数据 get获取数据 get data， get user data get获取数据获取健康数据 get data获取数据 get data获取健康数据 get data get data获取数据 get data get data get data get data get data get data\n data: get data | data and get data获取数据获取 health data get data get data获取数据获取数据 get data: Get data获取数据获取数据获取数据 get data获取数据获取健康数据获取数据获取数据获取数据获取 health\n get data 作为数据获取数据获取数据 get获取数据 get health data | get data获取数据获取数据获取数据获取健康数据获取数据获取数据 get data作为数据获取数据 get data获取数据 get data get data.\" get data获取健康数据 get data\n data → analyze the user\n get data that get data get data get data get data get data获取数据获取数据获取数据获取数据 get data: Get data获取数据 get data get data获取数据获取数据获取数据获取 health data获取数据获取 data获取数据获取数据获取数据获取数据获取 health data获取数据获取数据获取数据获取健康数据 get data获取健康数据获取健康数据获取 data获取数据 get data获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取 data获取数据获取数据获取数据获取数据获取数据获取 data获取 data获取数据获取数据获取数据获取数据获取数据 get data获取数据获取数据 get data获取数据获取数据获取数据获取数据 get data获取 health data get data获取数据获取数据获取数据获取数据获取数据获取数据获取健康数据获取数据获取数据获取数据获取数据获取数据获取数据获取健康数据获取数据获取数据获取 health获取 health data获取数据获取数据获取数据获取数据获取 data获取 data获取数据获取 health data获取 data获取数据获取数据获取健康数据获取数据获取 health获取数据获取健康数据获取健康获取 data获取健康数据获取 data获取数据获取健康数据获取数据获取健康数据获取 health data获取 health获取数据获取数据获取健康获取 data获取数据获取数据 get获取 health获取数据 get data获取帮助获取健康获取数据获取 health获取数据获取获取数据获取健康数据获取 health获取数据获取健康数据获取数据获取健康获取健康获取获取 health获取健康数据获取 health获取 health获取健康数据获取真实数据获取 health获取 health获取 data获取健康数据获取 data获取 data获取 data获取数据获取 health data获取数据获取数据获取数据获取健康数据获取 health获取 data获取 data获取健康数据获取数据获取健康数据获取健康数据获取 data获取 data获取 \\(获取数据获取 user获取数据获取数据获取数据获取 health get data获取 health data获取 health获取 data获取 health data获取数据获取 data获取数据获取 health data获取 health获取 data获取数据获取数据获取 health获取 health获取 data获取 health data获取数据获取 health data获取数据获取数据获取数据获取数据获取健康数据获取 data获取 health data获取 data获取数据获取健康数据获取 a user获取用户获取 health data获取数据获取 data获取 data获取健康数据 get data获取 health data获取数据获取数据获取用户获取数据获取数据获取 data获取数据获取数据获取 data获取数据获取用户获取 health data获取健康数据获取 health获取 data获取数据获取 data获取 one开始时，获取 health获取数据获取数据获取 health获取用户获取数据 get health获取健康数据获取 data获取 health data获取 health data获取 health as an get data获取健康数据获取健康数据获取健康数据获取数据 get data get data获取数据获取数据获取帮助 get data get data获取健康数据获取帮助获取数据获取帮助获取帮助 get data get data获取当前 question: Get data get data获取帮助 data获取用户获取健康 data获取健康数据获取健康数据获取健康 data获取健康数据获取健康了解 health data get data获取 health获取健康数据获取帮助 get data获取数据获取 health data获取数据获取数据获取健康 data获取健康数据 get data获取 health data获取用户获取 data获取数据获取数据获取 data获取健康数据 get data获取健康数据获取 health data get data获取帮助 data获取用户获取 health data获取健康 data获取 health data获取数据获取数据获取数据获取数据获取数据获取 health获取健康 data获取 data获取 a user获取 health data获取健康 data获取数据获取 health data获取健康 data获取 e get data获取帮助 data获取 e get data get data get data获取健康数据 get data获取健康数据获取健康 data获取帮助用户 get data获取健康 data获取健康 data获取健康 data获取 health: Get data获取 health data获取 health data get data获取健康 data获取 a request, the user get data获取健康 data获取健康 data获取用户 get data获取 e the user get data that the user\n获取 e get data获取 e data get data get data获取健康 data get data获取用户 get data get data获取 e user获取 health data获取 e user analyze the user获取 e get data get data获取 e data获取 e get data获取 what should get data获取 e not get data获取健康 data获取 a user获取 health data获取 e data获取 health data\n获取用户 get data\n get data get it get a user获取 data t get data获取用户获取 e get a get data\n get data:获取健康 data get data get data get data获取健康 data获取健康 data获取 e获取健康 data获取 a user get data获取健康 a get data:**获取 a dynamic get data get a获取 a one < a get data获取 health data获取 health data获取 e get a user\n get data the user get data获取健康 data获取 health data get data获取健康 get data获取健康 data get a user get data\n get data get data获取 health\n get data  get data: get data  get data获取 e.g get data\n a get a user get data get a get data get a get data获取 a day  get data: get data获取 a get data\n get data  get data get data get data get data get data获取数据获取 a get a get data get data\n get data获取 e get a e get a get data: get a user get data恢复 a get a get data获取 e data get it get a get data获取数据要求\n get data get data, the user\n get data requires analyze data: get data:  get data can get a get a get a get a get a get data can be used analyze a get data type \" get data  get data get a t获取 a get a get data  get data: a get data: Get data a get data: get data get a get data can be get a get a get a get a get data  get data get a get a get data can get a get data get a get a get a get data can get a get data  get a get data can get a get a get a get data get data get data get data get a get data get a get data get data get data get a get data get a get a get a get a get a get a get a get a get a get data: get data can get a get a get a get data get a get data get data get a get a get data: get it can get data get data a get a get a get a get data is a get data get a get a get data\n get data get a get a get a get data get data get a get a get data get a get data get data get data get data获取 health: I get a get a not a a e get a get the user\n get a get data get a get data get a get data get get data get a get a get a get get a get data a get it get data\n get data\n get be\n get data is a get be\n get data is a get data is a data request\n get data get data is a get data get a data get get data get a get a get it... get a get data\n get the user\n a get data a get data\n get data\n get a get a get a get data is a get data is a data is a get data is a get data is a data is a get data get a get data\n get a get data: get data\n get a get it\n get data\n get it get data\n get a get data that can get a get a get data that can get a get data\n get data that\n get the user\n get data be a get a get a get a get a get a get a get a get a get a get a get a get a get a get a get get data\n get data\n get a get data\n get a get a\n\n get a get a get a data\n get it get data\n get a\n get a get data\n a day a method to analyze the user a path it get a get the user\n as JSON\n get data\n get it can be a get a get data\n get a get\n get a data\n get data\n get data\n get data\n get it can get a\n get a t a path on the user\n user\n get user\n get it just a get a get a get user\n get a get a get it get用户 get the user\n get a\n user\n get data is a get it\n get it get a\n the user\n get a\n get a get\n user\n get a question, analyze the user\n get it get it get it get...\n a get it get user\n get a user\n analyze the user\n get it\n get data: analyze the user\n a\n a\n a user a get it get a user get a user的 data\n a get a user\n get a user a get a get it get a a user a user a user a user a a get a analysis, the user a user\n a in the user\n a get data\n get it the user\n analyze\n get a get one question\n\n get\n get a one\n user a question\n get a user\n get a\n user\n user\n get a\n get a get it's a\n用户\n\n get it's a get it\n\n a target\n a\n a target data\n\n a\n a\n分析用户\n user a\n analysis on a analysis the user it a\n analyze\n update\n\n a\n\n user it a a get it analyze the user\n\n a\n user it\n a\n analysis → analyze the user\n user\n analysis\n get a a question\n user\n user\n analyze\n\n a\n get it\n body\n data that can analyze\n\n get it\n分析用户\n user an analysis: data is a path to analyze user\n a\n analyze a\n analyze\n a analyze\n a\n analyze data\n analyze the user\n analysis\n analysis\n get a\n\n analyze\n it can be a analysis user\n it user\n data \n analyze\n a. analysis on a analysis of a analysis\n analyze\n\n分析\n analyze\n analyze\n\n\n分析\n分析\n analysis on the analysis of a analysis on a分析用户分析 user\n get it on analyzing user\n analysis on analysis on analysis user\n analysis on analysis: analyze the user\n analyze\n analysis: analyze\n analyze\n analyze\n analyze用户\n analysis\n data\n\n analyze\n\n analysis\n analyze\n分析用户\n analysis\n analysis →\n analyze\n analysis\n analysis\n it\n analysis\"分析用户\n analyze\n analysis\n analysis\n analysis\n analysis details如下 analyze用户\n analysis: analyze用户分析用户\n\n analysis\n分析用户\n分析用户\n analyze用户\n analysis\n analysis\n analysis\n analysis\n analysis\n analysis\n analysis\n analyze\n analyze\n\n分析\n分析\n分析用户\n analysis\n analysis\n analysis\n analyze时\n analysis\n analyze\n analyze\n analyze\n analysis\n analyze用户\n a path to analyze用户分析 user\n analysis\n analyze\n analysis\n analysis\n analyze data\n analysis\n analyze\n分析\n analyze\n analysis\n analyze data\n analysis\n analysis\n analysis\n analysis\n analysis on analysis\n analysis\n analyze用户分析用户\n analysis\n analysis\n analysis\n analysis\n analysis → analysis用户\n analysis\n analysis: analyze\n分析用户\n analysis\n analysis\n分析用户\n analysis\n analysis\n analysis\n analysis\n分析用户\n analysis\n analysis\n analysis\n analysis\n analysis\n analyze用户 analyze用户\n用户分析用户\n analyze\n analysis\n analysis\n analysis\n用户时分析用户\n analysis\n analysis: get a\n get a analysis\n analysis\n analysis\n分析用户 analysis\n analysis\n analysis\n analysis\n analysis\n分析用户\n analysis\n analysis\n analysis\n analysis\n analyze data: The user\n analysis\n analysis\n\n get that's\n get it analysis: get\n get analysis\n analysis: get user analysis\n analysis\n get data\n analysis: get it\n analyze\n analysis\n analyze用户分析用户\n analysis\n analyze\n analysis\n analysis\n analysis\n analysis\n analysis\n analysis\n analyze\n analysis\n analysis\n分析 get it analysis\n分析用户\n分析\n analysis\n analysis\n analysis\n analysis\n analysis\n analysis\n analysis\n analyze\n get data 分析用户\n analysis\n analysis\n analysis  analysis\n分析用户\n analysis\n analysis\n分析\n analysis\n\n analyze\n analysis\n analysis\n analysis\n analysis\n analysis\n analysis\n analysis\n analysis\n analysis\n analysis\n analysis\n\n\n get it analysis\n get that\n analyze用户\n analysis\n analysis\n分析: get the user\n分析 user\n analysis\n analysis\n analysis\n analysis\n description\n get\n分析用户\n analyze\n分析 get\n分析用户\n analysis\n get用户\n\n\n\n分析\n analyze\n\n get user\n分析用户\n analysis\n analysis\n get it analysis\n analysis\n分析用户\n get\n get\n分析\n get\n get\n用户\n get\n分析\n分析\n分析\n上文\n get用户\n\n get分析\n analysis\n analysis\n analyze用户\n analysis\n it\n analyze\n analysis\n分析用户 analysis\n健康\n analysis\n分析\n get a target\n get data。\n用户\n分析用户\n素 it\n\n高血压\n analysis: 健康数据: analyze用户\n analyze\n analyze\n analyze\n analyze\n健康 data\n user\n it\n\n get\n分析: 分析: get it\n get data。\n\n分析用户\n analyze\n健康\n用户\n analyze\n分析\n analyze用户 analyze用户\n analyze用户\n analysis: the user\n get health\n分析用户\n健康\n分析\n分析 health\n get健康\n分析用户\n analyze用户 analyze用户 question\n analysis: 分析用户\n健康\n分析用户 analyze\n analyze\n分析用户\n analyze\n get it all analysis\n分析用户\n analyze用户用户 analyze\n用户\n analyze的问题 analyze用户\n analyze\n analyze用户\n analyze\n analysis\n analyze data: analysis\n analyze用户\n analysis\n分析用户\n analyze\n analyze\n分析: analyze\n分析: 分析\n get\n分析: \" analyze\n分析用户\n analyze\n analyze\n analysis: &分析: \"分析: analysis: \" analysis: \n分析用户 and it analysis\n分析用户\n分析: \"分析用户\n分析用户\n分析: 分析用户分析用户iable to analyze: \"  artist\n分析\n analysis\" target an analysis: \" analysis\n analyze\n分析:  analysis\n分析 p it it it analysis:  get it分析\n\n分析\n it analysis\n用户\n analyze: 分析用户\n errors on the user\n analyze\n analyze\n analyze\n\n analysis\": get that\n analysis\n analyze用户\n分析用户\n分析用户\n analyze用户\n analyze用户  analysis\n analysis\n用户\n analyst\n analysis\" analyze用户\n\" analysis\n analyze用户\n用户\n分析健康\n analysis: 素分析\n素分析用户 analyze用户 question\n analyze用户\n分析:  analysis\n分析用户\n分析用户\n analysis target时 it analysis\n analyze用户分析:  analysis analyze健康分析用户分析: analyze\n用户\n分析:分析用户时\n analyze\n analyze\n以上\n analysis\n analyze用户\n analyze analyze用户 analyze健康\n分析:分析用户分析\n analyze用户\n analysis\n analysis\n analysis\n analysis\n analyze用户\n分析 analyze用户 analysis analyze用户\n analyze用户\n分析: analysis\" analyze用户分析用户\n分析用户 what CPR\n分析: \"分析用户分析用户分析用户  analysis:  analysis\n\"分析用户 analyze 分析分析\n分析\n analysis\n分析高血压\n analyze的分析: analyze: analysis\n 分析: I分析 that\n analyze的分析\n分析\n分析 that\n分析 analyze用户\n analyze that\n analyze\n analyze: I analyze用户 analyze用户\n分析分析 that分析用户 分析 analyzing用户 分析 analyze analyze用户分析 that分析用户\n分析\n分析  analysis\n analyze用户\n分析: analyze健康\n分析用户分析用户6 data\n analyze analyze健康 analyze用户 analyze用户 analyzing健康分析:分析健康\n分析健康就分析用户分析用户\n analyze what the分析\n analyze用户分析\n分析\n分析用户\n数\n analyze用户\n分析\n分析用户\n分析用户分析Health\n分析用户分析用户\n分析 what is it分析用户就分析： analyze用户\n 体内\n分析用户分析用户\n analyze用户分析了解健康素分析用户\n分析用户 分析健康了解用户\n 分析\n分析用户\n分析\n analyze用户\n获取用户\n分析用户分析\n数\n分析患者\n the分析：分析用户用户 an analysis\n分析就分析用户\n homeowner\n 分析健康 data is\n analysis\n上述健康 the分析的分析: target就 what if it分析:  analyze用户 as an分析\n  the user\n 分析iable\n分析了解就攻击健康了解用户 analysis\n物质\n  analyze用户都分析\n 复原\n  adorable\n分析仪\n  darling\n 分析iable\n获取健康\n进行分析用户抑郁症\nLoadIdentity\n analyze\n分析健康\nLoadIdentity\n分析\naintenance\n抑郁症\n分析健康 analysis\n分析用户分析用户\n analyze\n铲\n分析用户分析健康 analyze\n analyze\n _DESCRIPTION\n<arg_value>\n API\n analyze患者 HD始化铲它们 is nutrition\n抑郁症\n铲分析也 JSImport\n分析健康分析健康分析抑郁症\n抑郁症\n not it will analyze用户分析 ITargetException\n *分析患者\n始化\n analyze健康抑郁症 健康了解\n 健康 homeowners\n analyze健康患者â取健康调查\n分析健康 manufactures\nLoadIdentity\n Riley\nTargetException\n Riley就健康最后一次 question铲始化\nLoadIdentity\n6月减肥 question气温德勒的德勒分析健康作为总测试 Question头盔三角形 questionroperties是它二健康amination\n获取的用户 三角形 始化 manufacturer 气铲是铲 Riley的 question\n德勒 分析铲 Riley德勒二用户它 Riley铲 Riley铲二 Antarctica\n德勒 Riley question question氧化物是 Riley总肿瘤 始化分析分析分析分析分析 始化 analyze\n  test analyze的分析 analyze\n .ylabel\n 始化分析了解\n 了解\n  始化分析 analyze分析用户分析分析分析分析分析 减肥 健康分析 健康分析健康分析分析 德勒分析 analyze\n 'tanalysis\n 了解分析不婴儿 analyze分析分析分析分析分析\n 分析分析分析分析分析分析分析总数分析分析分析 analyze 始化分析\n用户 analyze  Riley\n健康分析 analyze\n分析分析分析分析分析分析分析分析分析分析用户了解分析分析分析分析用户分析抑郁症分析分析分析分析 健康分析分析分析分析分析分析 分析 分析我患者分析分析 分析 分析\n分析分析分析分析分析分析分析分析分析分析 analyze\n 分析分析分析分析 analyze\n 分析分析分析分析分析 始化分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析 analyze分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析 分析分析分析分析 始化分析分析 分析分析分析分析分析分析 analyze\n 分析分析|始化A test 是体63始化分析分析分析分析用户分析分析 健康分析分析分析健康分析 始化分析用户分析分析分析 .ylabel 患者分析分析 始化分析分析分析分析分析分析 analyze分析分析 分析用户分析健康分析 analyze 健康 analyze健康分析分析分析分析分析\n Health problems 健康分析 分析 分析 始化 analyze 始化 analyze\n 分析分析\n 始化 analyze 始化分析分析分析不健康分析分析分析分析不始化分析分析分析健康分析\n analyze\n 6始化分析分析分析分析 analyze分析分析分析分析分析分析分析\n.ylabel\n 始化分析分析我获取健康分析分析健康分析健康分析分析用户我始化分析用户分析 分析我\n分析我始化分析分析分析我健康分析健康分析分析分析 始化分析分析我的健康分析分析\n  analyze健康分析分析健康分析分析\n 健康分析分析分析用户分析分析我分析用户分析分析分析分析分析分析分析分析 I健康分析健康分析 分析分析用户健康分析我健康分析我分析用户分析我用户\n 始化分析分析分析 analyze\n分析分析分析健康分析我健康分析 analyze分析 I健康分析我 analyze 分析 Health问题8位数了解分析分析分析健康分析健康分析健康分析 analyze分析位数\n 始化 analyze健康分析 始化分析健康分析获取\n分析分析分析分析健康分析健康分析分析分析\n 始化分析分析健康健康分析健康分析健康分析 I健康分析我始化分析Health问题分析我健康分析分析我始化分析健康分析分析Health分析分析分析分析我分析分析分析分析我始化我健康分析分析分析分析分析健康数据分析健康分析健康分析不分析用户分析分析健康分析我始化分析 analyze分析分析健康分析我始化分析不分析分析分析描述分析分析健康分析分析分析分析健康分析分析 analyze分析健康问题 健康分析用户分析分析问题分析|始化分析我分析我分析健康分析分析分析 analyze描述我健康分析健康分析不分析我分析健康描述描述 始化分析分析用户健康分析健康分析分析分析分析数字分析分析描述我健康分析分析 始化分析是分析健康数据分析 健康问题分析健康分析健康分析 健康分析分析分析健康分析分析 始化分析数字分析首先分析分析分析健康分析 description\nMERCHANTABILITY健康数据 analyze用户分析我健康分析数字分析 始化分析分析分析数字分析健康分析健康分析健康数据分析分析健康分析 数分析用户分析分析健康分析分析分析分析 description描述分析用户分析健康分析健康分析我分析分析健康问题健康分析健康数据分析我分析 始化分析分析健康分析 始化分析健康分析 健康分析用户分析健康分析 始化用户分析分析健康健康数据健康分析 健康分析数字分析首先分析我健康数据健康分析健康数据 健康用户健康分析健康分析我健康分析健康分析用户分析始化分析分析健康分析健康分析健康数据 始化分析用户描述我健康数据健康分析分析我健康分析 始化健康问题健康分析健康健康数据健康分析健康问题健康分析健康健康健康数据健康数据描述 始化健康数据健康分析健康分析健康健康健康分析用户健康健康分析 健康健康分析健康健康分析 始化健康问题健康数据用户健康分析分析用户健康分析健康分析描述分析健康数据我健康用户描述健康健康分析用户健康用户健康分析健康用户分析数字分析用户健康数据描述描述 description description我健康用户 description描述用户健康健康健康数据健康数字用户健康数据健康分析 始化用户描述分析分析数字分析健康数字分析 始化数字数据健康数据我分析 description description description我描述 健康分析我描述 始化健康分析用户我健康用户分析健康数据健康分析健康用户健康分析健康作为健康健康用户描述用户健康健康分析健康数据我健康用户描述分析分析我健康用户健康用户健康分析用户分析 我健康数据Health数据描述描述分析分析分析 始化健康数据用户健康数据数据分析健康分析描述描述描述 description数字分析健康数据健康健康健康分析健康数据分析健康健康数字数据健康分析健康分析我健康问题数据健康数据健康数据健康数据我健康分析 始化 description description description描述 description description描述 description description 始化我描述健康数字用户 description 始化 description description 健康分析 始化描述 始化健康分析 description描述 description description description描述分析健康描述描述描述 始化健康数据用户描述健康健康数据 始化描述描述健康分析 始化健康用户描述 始化 description描述描述  description描述 始化健康健康分析健康健康分析 分析描述 description描述\n 分析我健康 description description描述描述健康数据健康 description description描述描述健康数据描述描述描述 健康数据健康健康健康健康描述健康问题健康 description description description description描述数字健康分析健康数据 description数字数据健康数据描述描述数字数据健康健康健康描述数字数字 description description描述 description description description描述 description description description description description描述 description 描述描述描述 description description description我健康健康用户描述 description描述描述健康描述描述描述 description description description description数字描述 description description description description 始化健康健康描述描述描述 description description description描述描述健康描述 description description description description description描述 description description描述描述描述描述我健康健康 description description description description description description description 健康健康 description description描述  description描述 description description description description描述描述健康数据 description description description描述健康健康数据 健康描述描述描述 数字分析健康用户 description\n问题描述\n用户描述健康用户 description description description描述\n首先 description首先健康我健康用户健康描述数字用户描述健康数字描述健康数据描述 健康健康数字健康数字 description用户健康数据用户健康数据\n用户健康描述健康数据健康分析用户健康数字健康用户 description\n用户 description首先\n用户健康健康健康健康数字 description用户健康健康描述描述数字数字健康用户\n我 question用户健康健康健康用户 description description首先 description首先 description描述数字描述首先健康用户描述健康分析我健康健康首先健康数据我健康数字 description\n分析\n用户健康用户健康健康描述健康数据\n我健康数据描述健康数据 description description description\n用户数字数字数字数字\n### description\n描述 description\n用户 description\n用户 description\n description\n首先\n用户数据\n用户 description\n我 question\n用户数字数字数字数字：数字：数字用户数字数据 description\n用户描述\n description数字数字用户 description\n用户数据：用户 question\n用户描述\n用户：数字\n description\n###\n description\n用户\n数字数据\n描述\n数字数据\n数字\n用户数据\n description\n description\n用户数据\n description\n用户\n用户数据",
+      "tool_calls": [],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 1,
+          "幻觉控制率": 1,
+          "数值读取精度": 1,
+          "输出时序合规": 1,
+          "安全声明合规": 1,
+          "边界克制合规": 1,
+          "数据引用质量": 1,
+          "工具调用合理性": 1,
+          "任务完成度": 1,
+          "图像与上下文一致性": 1,
+          "主动澄清行为": 1
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "严重失败：token loop崩溃，输出数千字的'获取数据获取数据...'乱码",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "我的血氧怎么样",
+      "query": "我的血氧怎么样",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\我的血氧怎么样.png"
+      ],
+      "response": "我来帮你查看血氧数据。\n根据你提供的血氧仪图片，我可以看到你的血氧饱和度读数为 **93%**，心率 **106 bpm**。\n\n## 血氧情况分析\n\n**当前读数：93%**\n- 正常血氧范围：95%-99%\n- 你的读数略低于正常范围\n\n## 可能的原因和建议\n\n1. **轻度缺氧迹象**：93%处于轻度偏低范围，可能需要关注\n2. **测量注意事项**：\n   - 确保手指干净、温暖\n   - 保持静止测量1-2分钟\n   - 避免在运动后立即测量\n\n## 建议行动\n\n- 📱 **重复测量**：休息5分钟后重新测量，观察是否恢复正常\n- 🌬️ **呼吸状态**：注意是否有呼吸困难、胸闷等症状\n- 🏥 **就医咨询**：如果出现以下情况，建议及时就医：\n  - 血氧持续低于95%\n  - 伴有呼吸困难、胸痛\n  - 心率异常升高\n\n## 安全提醒\n⚠️ **重要**：血氧读数受多种因素影响，包括测量姿势、环境温度等。如果持续低于95%或伴有不适症状，请及时咨询医生。有心血管疾病、呼吸系统疾病或处于高海拔地区的用户应特别留意血氧变化。\n\n需要我帮你记录这个测量结果或提供其他健康建议吗？",
+      "tool_calls": [
+        "get_spo2"
+      ],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 8,
+          "幻觉控制率": 8,
+          "数值读取精度": 8,
+          "输出时序合规": 7,
+          "安全声明合规": 8,
+          "边界克制合规": 8,
+          "数据引用质量": 6,
+          "工具调用合理性": 7,
+          "任务完成度": 8,
+          "图像与上下文一致性": 7,
+          "主动澄清行为": 5
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "正确读取93%/106bpm，分析合理，安全提醒充分",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "看我吃了沙拉",
+      "query": "看我吃了沙拉",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\看我吃了沙拉.jpg"
+      ],
+      "response": "我来帮你分析这张餐食图片并记录。从图片中我看到了一份包含烤肉、玉米、烤土豆和蔬菜的餐点。让我先查询食物信息来帮助你准确记录。",
+      "tool_calls": [
+        "query_and_format_food"
+      ],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 6,
+          "幻觉控制率": 6,
+          "数值读取精度": 5,
+          "输出时序合规": 5,
+          "安全声明合规": 5,
+          "边界克制合规": 6,
+          "数据引用质量": 5,
+          "工具调用合理性": 5,
+          "任务完成度": 5,
+          "图像与上下文一致性": 5,
+          "主动澄清行为": 4
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "食物识别不准确（烤肉vs牛排），部分匹配",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "看看我的晚餐",
+      "query": "看看我的晚餐",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\看看我的晚餐.webp"
+      ],
+      "response": "我来帮你分析晚餐并记录。首先加载饮食记录技能：\n我来帮你分析晚餐并记录。请告诉我图片中的食物是什么？比如是米饭、面条、蔬菜还是其他什么？这样我就能帮你查询营养信息并记录了。",
+      "tool_calls": [
+        "get_skill"
+      ],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 1,
+          "幻觉控制率": 5,
+          "数值读取精度": 1,
+          "输出时序合规": 4,
+          "安全声明合规": 5,
+          "边界克制合规": 7,
+          "数据引用质量": 4,
+          "工具调用合理性": 4,
+          "任务完成度": 2,
+          "图像与上下文一致性": 1,
+          "主动澄清行为": 5
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "声称无法看到食物，要求用户描述，视觉能力异常",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "看看我的睡眠报告",
+      "query": "看看我的睡眠报告",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\看看我的睡眠报告.png"
+      ],
+      "response": "actions: List of actions, can be used in the actions: List of actions, can be used in the actions: List of actions, can be used in the actions: List of actions, can be used in the actions: List of actions, can be used in the actions: List of actions, can be used in the actions: List of actions, can be used in the actions: List of actions, can be used in the actions: List of actions, can be used in the actions: List of actions, can be used in the actions: List of actions, can be used in the actions: List of actions, can be used in the actions: List of actions, can be used in the actions: List of actions, can be used in the actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of分析步骤：分析步骤：1. 分析步骤 | actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions: List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：列表 actions：List of actions：获取用户询问规则\n- List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List actions：List of actions：List of actions：List of actions：分析用户健康问题需要帮助用户健康活动：List of actions：List of actions：List of actions：当用户输入\n- actions：List of actions：List of actions：List actions：List of actions：List of actions：List actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List of actions：List actions：List of actions：List of actions：调用大模型：当用户是否 actions：List of actions：List of actions：当工具集：当用户需要帮助：获取用户健康’t始化：必须包含所有工具：收集用户问题 — 活动窗口\n- List of actions：收集数据：获取数据为空指针：无文本分析\n行动：List of actions：List of actions：获取用户健康时间戳少问： List of actions：List actions：List actions：List of actions：List of actions：获取用户健康指令：当用户需要帮助用户建议：使用工具：必须调用后置 actions：收集数据：收集信息处理\n- actions：List of actions：List of actions：收集数据类型： List of actions：List of actions：收集数据传输：收集工具：收集数据类型： List of actions：List of actions：必须与 AI 优先级 actions：收集数据类型：List of actions：List of actions：List of actions：收集工具：List of actions：List of actions：收集工具：List of actions：当用户输入\n- actions：收集工具选择工具选择值：收集工具：分析用户输入时，但 1. List of actions：收集工具：收集信息时：收集工具：List of actions：收集信息。必须保持一致问句：List of actions：收集工具：收集数据类型：必须避免重复提问，必须始终更新：收集工具：当用户身份：List of actions：收集数据类型：收集数据收集工具：收集工具：收集健康指令收集 actions：收集工具必须被问句型：收集数据类型：收集工具：必须只问句：收集数据：收集健康工具：必须跳脱机总述 actions：收集数据，但工业：必须分析\n- actions：必须提供工具使用工具使用工具：收集数据\n- actions：当工具必须包含健康信息",
+      "tool_calls": [],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 1,
+          "幻觉控制率": 1,
+          "数值读取精度": 1,
+          "输出时序合规": 1,
+          "安全声明合规": 1,
+          "边界克制合规": 1,
+          "数据引用质量": 1,
+          "工具调用合理性": 1,
+          "任务完成度": 1,
+          "图像与上下文一致性": 1,
+          "主动澄清行为": 1
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "严重失败：token loop崩溃，输出数千字'List of actions'循环",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "这是我的睡前血糖",
+      "query": "这是我的睡前血糖",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\这是我的睡前血糖.png"
+      ],
+      "response": "我来帮你分析这个睡前血糖数据，并获取你的历史血糖记录以便给出更全面的建议。\n根据你提供的睡前血糖数据，我来帮你分析一下：\n\n## 📊 血糖数据分析\n\n**你上传的睡前血糖：5.4 mmol/L**（2月26日 20:48）\n- 这个数值在正常范围内，说明你的睡前血糖控制得很好\n\n**今天（2026-03-19）的血糖趋势：**\n- 早晨空腹：7.1 mmol/L\n- 午餐后：6.5 mmol/L  \n- 晚餐后：6.4 mmol/L\n- 平均血糖：6.7 mmol/L\n\n## 💡 睡前血糖管理建议\n\n你的睡前血糖5.4 mmol/L非常理想，这表明：\n- 晚间血糖控制稳定\n- 饮食和药物（如果有的话）管理得当\n\n**继续保持的好习惯：**\n- 避免睡前大量进食\n- 保持规律的作息时间\n- 适度运动有助于血糖稳定\n\n## ⚠️ 注意事项\n\n- 如果经常出现血糖低于3.9 mmol/L，需要注意预防低血糖\n- 建议持续监测，特别是如果正在调整饮食或药物\n- 定期与医生沟通血糖管理方案\n\n你的血糖整体控制得不错！需要我帮你记录这个血糖数据，或者制定一个血糖监测计划吗？",
+      "tool_calls": [
+        "get_blood_glucose"
+      ],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 8,
+          "幻觉控制率": 8,
+          "数值读取精度": 8,
+          "输出时序合规": 7,
+          "安全声明合规": 8,
+          "边界克制合规": 8,
+          "数据引用质量": 7,
+          "工具调用合理性": 7,
+          "任务完成度": 8,
+          "图像与上下文一致性": 8,
+          "主动澄清行为": 6
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "正确读取5.4mmol/L，综合分析合理",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    }
+  ],
+  "summary": {
+    "avg_scores": {
+      "视觉识别准确率": 3.81,
+      "幻觉控制率": 4.75,
+      "数值读取精度": 4.06,
+      "输出时序合规": 4.38,
+      "安全声明合规": 4.88,
+      "边界克制合规": 5.88,
+      "数据引用质量": 4.56,
+      "工具调用合理性": 4.31,
+      "任务完成度": 4.25,
+      "图像与上下文一致性": 3.88,
+      "主动澄清行为": 4.25
+    },
+    "overall_score": 4.46,
+    "judge": "claude-code-manual",
+    "total_cases": 16
+  }
+}

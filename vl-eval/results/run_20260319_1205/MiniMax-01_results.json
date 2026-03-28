@@ -1,0 +1,706 @@
+{
+  "model": {
+    "id": "minimax/minimax-01",
+    "name": "MiniMax-01",
+    "port": 8010
+  },
+  "vl_supported": true,
+  "timestamp": "2026-03-19 12:09:42",
+  "results": [
+    {
+      "label": "null",
+      "query": "null",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\null.png"
+      ],
+      "response": "⚠️ 404 No endpoints found that support tool use. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection",
+      "tool_calls": [],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 1,
+          "幻觉控制率": 1,
+          "数值读取精度": 1,
+          "输出时序合规": 1,
+          "安全声明合规": 1,
+          "边界克制合规": 1,
+          "数据引用质量": 1,
+          "工具调用合理性": 1,
+          "任务完成度": 1,
+          "图像与上下文一致性": 1,
+          "主动澄清行为": 1
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "404错误：OpenRouter上MiniMax-01不支持工具调用，无法运行，模型无效",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "今天第二天爬坡，一开始坡度4 速度2.5 后面坡度8 速度4，差不多50-60分钟，想问下大佬们这样练下去合适吗，或者有什么建议呢，另外可以只爬坡不用器材嘛？",
+      "query": "今天第二天爬坡，一开始坡度4 速度2.5 后面坡度8 速度4，差不多50-60分钟，想问下大佬们这样练下去合适吗，或者有什么建议呢，另外可以只爬坡不用器材嘛？",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\今天第二天爬坡，一开始坡度4 速度2.5 后面坡度8 速度4，差不多50-60分钟，想问下大佬们这样练下去合适吗，或者有什么建议呢，另外可以只爬坡不用器材嘛？.png"
+      ],
+      "response": "⚠️ 404 No endpoints found that support tool use. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection",
+      "tool_calls": [],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 1,
+          "幻觉控制率": 1,
+          "数值读取精度": 1,
+          "输出时序合规": 1,
+          "安全声明合规": 1,
+          "边界克制合规": 1,
+          "数据引用质量": 1,
+          "工具调用合理性": 1,
+          "任务完成度": 1,
+          "图像与上下文一致性": 1,
+          "主动澄清行为": 1
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "404错误：OpenRouter上MiniMax-01不支持工具调用，无法运行，模型无效",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "帮我看一下跑步情况",
+      "query": "帮我看一下跑步情况",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\帮我看一下跑步情况\\1973f9dfb18143d2b74f3d47ad1485a0.png~tplv-a9rns2rl98-image.png",
+        "D:\\pha-v2\\tests\\test-img\\帮我看一下跑步情况\\23331d86d4da46c68545b14ae5cb1b61.png~tplv-a9rns2rl98-image.png",
+        "D:\\pha-v2\\tests\\test-img\\帮我看一下跑步情况\\600b8ed8774047ddb15931de857d7fdf.png~tplv-a9rns2rl98-image.png",
+        "D:\\pha-v2\\tests\\test-img\\帮我看一下跑步情况\\79cb18ffa7ba4347a5f6c609945e9d39.png~tplv-a9rns2rl98-image.png",
+        "D:\\pha-v2\\tests\\test-img\\帮我看一下跑步情况\\c6cb49f7576a4db9b01fe61dfaf58ca0.png~tplv-a9rns2rl98-image.png",
+        "D:\\pha-v2\\tests\\test-img\\帮我看一下跑步情况\\d3adb11065f848efa1fe75ee504f70c7.png~tplv-a9rns2rl98-image.png"
+      ],
+      "response": "⚠️ 404 No endpoints found that support tool use. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection",
+      "tool_calls": [],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 1,
+          "幻觉控制率": 1,
+          "数值读取精度": 1,
+          "输出时序合规": 1,
+          "安全声明合规": 1,
+          "边界克制合规": 1,
+          "数据引用质量": 1,
+          "工具调用合理性": 1,
+          "任务完成度": 1,
+          "图像与上下文一致性": 1,
+          "主动澄清行为": 1
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "404错误：OpenRouter上MiniMax-01不支持工具调用，无法运行，模型无效",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "帮我看下这份报告，解读",
+      "query": "帮我看下这份报告，解读",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\帮我看下这份报告，解读.png"
+      ],
+      "response": "⚠️ 404 No endpoints found that support tool use. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection",
+      "tool_calls": [],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 1,
+          "幻觉控制率": 1,
+          "数值读取精度": 1,
+          "输出时序合规": 1,
+          "安全声明合规": 1,
+          "边界克制合规": 1,
+          "数据引用质量": 1,
+          "工具调用合理性": 1,
+          "任务完成度": 1,
+          "图像与上下文一致性": 1,
+          "主动澄清行为": 1
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "404错误：OpenRouter上MiniMax-01不支持工具调用，无法运行，模型无效",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "怎么看这个体脂秤",
+      "query": "怎么看这个体脂秤",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\怎么看这个体脂秤.png"
+      ],
+      "response": "⚠️ 404 No endpoints found that support tool use. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection",
+      "tool_calls": [],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 1,
+          "幻觉控制率": 1,
+          "数值读取精度": 1,
+          "输出时序合规": 1,
+          "安全声明合规": 1,
+          "边界克制合规": 1,
+          "数据引用质量": 1,
+          "工具调用合理性": 1,
+          "任务完成度": 1,
+          "图像与上下文一致性": 1,
+          "主动澄清行为": 1
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "404错误：OpenRouter上MiniMax-01不支持工具调用，无法运行，模型无效",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "怎么练出肌肉",
+      "query": "怎么练出肌肉",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\怎么练出肌肉.png"
+      ],
+      "response": "⚠️ 404 No endpoints found that support tool use. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection",
+      "tool_calls": [],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 1,
+          "幻觉控制率": 1,
+          "数值读取精度": 1,
+          "输出时序合规": 1,
+          "安全声明合规": 1,
+          "边界克制合规": 1,
+          "数据引用质量": 1,
+          "工具调用合理性": 1,
+          "任务完成度": 1,
+          "图像与上下文一致性": 1,
+          "主动澄清行为": 1
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "404错误：OpenRouter上MiniMax-01不支持工具调用，无法运行，模型无效",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "我今天状态怎么样",
+      "query": "我今天状态怎么样",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\我今天状态怎么样.png"
+      ],
+      "response": "⚠️ 404 No endpoints found that support tool use. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection",
+      "tool_calls": [],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 1,
+          "幻觉控制率": 1,
+          "数值读取精度": 1,
+          "输出时序合规": 1,
+          "安全声明合规": 1,
+          "边界克制合规": 1,
+          "数据引用质量": 1,
+          "工具调用合理性": 1,
+          "任务完成度": 1,
+          "图像与上下文一致性": 1,
+          "主动澄清行为": 1
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "404错误：OpenRouter上MiniMax-01不支持工具调用，无法运行，模型无效",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "我的体温计是不是坏了？这种电子的是不是容易不准？",
+      "query": "我的体温计是不是坏了？这种电子的是不是容易不准？",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\我的体温计是不是坏了？这种电子的是不是容易不准？.png"
+      ],
+      "response": "⚠️ 404 No endpoints found that support tool use. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection",
+      "tool_calls": [],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 1,
+          "幻觉控制率": 1,
+          "数值读取精度": 1,
+          "输出时序合规": 1,
+          "安全声明合规": 1,
+          "边界克制合规": 1,
+          "数据引用质量": 1,
+          "工具调用合理性": 1,
+          "任务完成度": 1,
+          "图像与上下文一致性": 1,
+          "主动澄清行为": 1
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "404错误：OpenRouter上MiniMax-01不支持工具调用，无法运行，模型无效",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "我的健康情况怎么样",
+      "query": "我的健康情况怎么样",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\我的健康情况怎么样.png"
+      ],
+      "response": "⚠️ 404 No endpoints found that support tool use. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection",
+      "tool_calls": [],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 1,
+          "幻觉控制率": 1,
+          "数值读取精度": 1,
+          "输出时序合规": 1,
+          "安全声明合规": 1,
+          "边界克制合规": 1,
+          "数据引用质量": 1,
+          "工具调用合理性": 1,
+          "任务完成度": 1,
+          "图像与上下文一致性": 1,
+          "主动澄清行为": 1
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "404错误：OpenRouter上MiniMax-01不支持工具调用，无法运行，模型无效",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "我的姿势标准吗",
+      "query": "我的姿势标准吗",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\我的姿势标准吗.png"
+      ],
+      "response": "⚠️ 404 No endpoints found that support tool use. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection",
+      "tool_calls": [],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 1,
+          "幻觉控制率": 1,
+          "数值读取精度": 1,
+          "输出时序合规": 1,
+          "安全声明合规": 1,
+          "边界克制合规": 1,
+          "数据引用质量": 1,
+          "工具调用合理性": 1,
+          "任务完成度": 1,
+          "图像与上下文一致性": 1,
+          "主动澄清行为": 1
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "404错误：OpenRouter上MiniMax-01不支持工具调用，无法运行，模型无效",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "我的血压情况怎么样",
+      "query": "我的血压情况怎么样",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\我的血压情况怎么样.png"
+      ],
+      "response": "⚠️ 404 No endpoints found that support tool use. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection",
+      "tool_calls": [],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 1,
+          "幻觉控制率": 1,
+          "数值读取精度": 1,
+          "输出时序合规": 1,
+          "安全声明合规": 1,
+          "边界克制合规": 1,
+          "数据引用质量": 1,
+          "工具调用合理性": 1,
+          "任务完成度": 1,
+          "图像与上下文一致性": 1,
+          "主动澄清行为": 1
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "404错误：OpenRouter上MiniMax-01不支持工具调用，无法运行，模型无效",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "我的血氧怎么样",
+      "query": "我的血氧怎么样",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\我的血氧怎么样.png"
+      ],
+      "response": "⚠️ 404 No endpoints found that support tool use. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection",
+      "tool_calls": [],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 1,
+          "幻觉控制率": 1,
+          "数值读取精度": 1,
+          "输出时序合规": 1,
+          "安全声明合规": 1,
+          "边界克制合规": 1,
+          "数据引用质量": 1,
+          "工具调用合理性": 1,
+          "任务完成度": 1,
+          "图像与上下文一致性": 1,
+          "主动澄清行为": 1
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "404错误：OpenRouter上MiniMax-01不支持工具调用，无法运行，模型无效",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "看我吃了沙拉",
+      "query": "看我吃了沙拉",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\看我吃了沙拉.jpg"
+      ],
+      "response": "⚠️ 404 No endpoints found that support tool use. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection",
+      "tool_calls": [],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 1,
+          "幻觉控制率": 1,
+          "数值读取精度": 1,
+          "输出时序合规": 1,
+          "安全声明合规": 1,
+          "边界克制合规": 1,
+          "数据引用质量": 1,
+          "工具调用合理性": 1,
+          "任务完成度": 1,
+          "图像与上下文一致性": 1,
+          "主动澄清行为": 1
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "404错误：OpenRouter上MiniMax-01不支持工具调用，无法运行，模型无效",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "看看我的晚餐",
+      "query": "看看我的晚餐",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\看看我的晚餐.webp"
+      ],
+      "response": "⚠️ 404 No endpoints found that support tool use. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection",
+      "tool_calls": [],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 1,
+          "幻觉控制率": 1,
+          "数值读取精度": 1,
+          "输出时序合规": 1,
+          "安全声明合规": 1,
+          "边界克制合规": 1,
+          "数据引用质量": 1,
+          "工具调用合理性": 1,
+          "任务完成度": 1,
+          "图像与上下文一致性": 1,
+          "主动澄清行为": 1
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "404错误：OpenRouter上MiniMax-01不支持工具调用，无法运行，模型无效",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "看看我的睡眠报告",
+      "query": "看看我的睡眠报告",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\看看我的睡眠报告.png"
+      ],
+      "response": "⚠️ 404 No endpoints found that support tool use. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection",
+      "tool_calls": [],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 1,
+          "幻觉控制率": 1,
+          "数值读取精度": 1,
+          "输出时序合规": 1,
+          "安全声明合规": 1,
+          "边界克制合规": 1,
+          "数据引用质量": 1,
+          "工具调用合理性": 1,
+          "任务完成度": 1,
+          "图像与上下文一致性": 1,
+          "主动澄清行为": 1
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "404错误：OpenRouter上MiniMax-01不支持工具调用，无法运行，模型无效",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    },
+    {
+      "label": "这是我的睡前血糖",
+      "query": "这是我的睡前血糖",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\这是我的睡前血糖.png"
+      ],
+      "response": "⚠️ 404 No endpoints found that support tool use. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection",
+      "tool_calls": [],
+      "status": "judged",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 1,
+          "幻觉控制率": 1,
+          "数值读取精度": 1,
+          "输出时序合规": 1,
+          "安全声明合规": 1,
+          "边界克制合规": 1,
+          "数据引用质量": 1,
+          "工具调用合理性": 1,
+          "任务完成度": 1,
+          "图像与上下文一致性": 1,
+          "主动澄清行为": 1
+        },
+        "reasons": {
+          "视觉识别准确率": "Claude Code人工评分",
+          "幻觉控制率": "Claude Code人工评分",
+          "数值读取精度": "Claude Code人工评分",
+          "输出时序合规": "Claude Code人工评分",
+          "安全声明合规": "Claude Code人工评分",
+          "边界克制合规": "Claude Code人工评分",
+          "数据引用质量": "Claude Code人工评分",
+          "工具调用合理性": "Claude Code人工评分",
+          "任务完成度": "Claude Code人工评分",
+          "图像与上下文一致性": "Claude Code人工评分",
+          "主动澄清行为": "Claude Code人工评分"
+        },
+        "overall_comment": "404错误：OpenRouter上MiniMax-01不支持工具调用，无法运行，模型无效",
+        "judge": "claude-code-manual"
+      },
+      "original_run_status": "judged",
+      "judged": true
+    }
+  ],
+  "summary": {
+    "avg_scores": {
+      "视觉识别准确率": 1.0,
+      "幻觉控制率": 1.0,
+      "数值读取精度": 1.0,
+      "输出时序合规": 1.0,
+      "安全声明合规": 1.0,
+      "边界克制合规": 1.0,
+      "数据引用质量": 1.0,
+      "工具调用合理性": 1.0,
+      "任务完成度": 1.0,
+      "图像与上下文一致性": 1.0,
+      "主动澄清行为": 1.0
+    },
+    "overall_score": 1.0,
+    "judge": "claude-code-manual",
+    "total_cases": 16
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "Qwen2.5VL-32B::看我吃了沙拉": {
+    "model": "Qwen2.5VL-32B",
+    "label": "看我吃了沙拉",
+    "error": "judge failed",
+    "ts": "2026-03-18 17:04:09"
+  },
+  "Qwen3VL-32B::看我吃了沙拉": {
+    "model": "Qwen3VL-32B",
+    "label": "看我吃了沙拉",
+    "error": "judge failed",
+    "ts": "2026-03-18 17:06:22"
+  },
+  "Qwen2.5VL-72B::这是我的睡前血糖": {
+    "model": "Qwen2.5VL-72B",
+    "label": "这是我的睡前血糖",
+    "error": "empty response after retries",
+    "ts": "2026-03-18 17:07:46"
+  },
+  "Qwen3VL-30B-A3B::看看我的睡眠报告": {
+    "model": "Qwen3VL-30B-A3B",
+    "label": "看看我的睡眠报告",
+    "error": "judge failed",
+    "ts": "2026-03-18 17:10:24"
+  },
+  "Qwen3VL-235B-A22B::帮我看一下跑步情况": {
+    "model": "Qwen3VL-235B-A22B",
+    "label": "帮我看一下跑步情况",
+    "error": "judge failed",
+    "ts": "2026-03-18 17:13:03"
+  },
+  "Qwen3VL-235B-A22B::我今天状态怎么样": {
+    "model": "Qwen3VL-235B-A22B",
+    "label": "我今天状态怎么样",
+    "error": "judge failed",
+    "ts": "2026-03-18 17:13:41"
+  },
+  "Qwen3VL-235B-A22B::我的体温计是不是坏了？这种电子的是不是容易不准？": {
+    "model": "Qwen3VL-235B-A22B",
+    "label": "我的体温计是不是坏了？这种电子的是不是容易不准？",
+    "error": "judge failed",
+    "ts": "2026-03-18 17:13:44"
+  },
+  "Qwen3VL-235B-A22B::看我吃了沙拉": {
+    "model": "Qwen3VL-235B-A22B",
+    "label": "看我吃了沙拉",
+    "error": "judge failed",
+    "ts": "2026-03-18 17:16:23"
+  },
+  "Qwen3VL-235B-A22B::今天第二天爬坡，一开始坡度4 速度2.5 后面坡度8 速度4，差不多50-60分钟，想问下大佬们这样练下去合适吗，或者有什么建议呢，另外可以只爬坡不用器材嘛？": {
+    "model": "Qwen3VL-235B-A22B",
+    "label": "今天第二天爬坡，一开始坡度4 速度2.5 后面坡度8 速度4，差不多50-60分钟，想问下大佬们这样练下去合适吗，或者有什么建议呢，另外可以只爬坡不用器材嘛？",
+    "error": "empty response after retries",
+    "ts": "2026-03-18 17:18:16"
+  },
+  "Qwen3VL-8B::我今天状态怎么样": {
+    "model": "Qwen3VL-8B",
+    "label": "我今天状态怎么样",
+    "error": "judge failed",
+    "ts": "2026-03-18 17:18:40"
+  },
+  "Qwen3.5-122B::帮我看下这份报告，解读": {
+    "model": "Qwen3.5-122B",
+    "label": "帮我看下这份报告，解读",
+    "error": "judge failed",
+    "ts": "2026-03-18 17:40:30"
+  },
+  "Qwen3.5-122B::帮我看一下跑步情况": {
+    "model": "Qwen3.5-122B",
+    "label": "帮我看一下跑步情况",
+    "error": "judge failed",
+    "ts": "2026-03-18 17:55:28"
+  },
+  "Qwen3.5-122B::我的体温计是不是坏了？这种电子的是不是容易不准？": {
+    "model": "Qwen3.5-122B",
+    "label": "我的体温计是不是坏了？这种电子的是不是容易不准？",
+    "error": "judge failed",
+    "ts": "2026-03-18 17:54:51"
+  },
+  "Qwen3.5-122B::看我吃了沙拉": {
+    "model": "Qwen3.5-122B",
+    "label": "看我吃了沙拉",
+    "error": "judge failed",
+    "ts": "2026-03-18 17:56:41"
+  },
+  "Qwen3.5-122B::看看我的睡眠报告": {
+    "model": "Qwen3.5-122B",
+    "label": "看看我的睡眠报告",
+    "error": "judge failed",
+    "ts": "2026-03-18 17:59:03"
+  },
+  "Qwen3.5-397B::我的血压情况怎么样": {
+    "model": "Qwen3.5-397B",
+    "label": "我的血压情况怎么样",
+    "error": "judge failed",
+    "ts": "2026-03-18 18:01:00"
+  },
+  "Qwen3.5-397B::我的姿势标准吗": {
+    "model": "Qwen3.5-397B",
+    "label": "我的姿势标准吗",
+    "error": "judge failed",
+    "ts": "2026-03-18 18:03:04"
+  },
+  "Qwen3.5-397B::看看我的睡眠报告": {
+    "model": "Qwen3.5-397B",
+    "label": "看看我的睡眠报告",
+    "error": "judge failed",
+    "ts": "2026-03-18 18:03:28"
+  },
+  "GLM-4.6V::帮我看一下跑步情况": {
+    "model": "GLM-4.6V",
+    "label": "帮我看一下跑步情况",
+    "error": "empty response after retries",
+    "ts": "2026-03-18 18:07:38"
+  },
+  "GLM-4.6V::怎么练出肌肉": {
+    "model": "GLM-4.6V",
+    "label": "怎么练出肌肉",
+    "error": "judge failed",
+    "ts": "2026-03-18 18:07:16"
+  },
+  "GLM-4.6V::我的体温计是不是坏了？这种电子的是不是容易不准？": {
+    "model": "GLM-4.6V",
+    "label": "我的体温计是不是坏了？这种电子的是不是容易不准？",
+    "error": "judge failed",
+    "ts": "2026-03-18 18:07:34"
+  },
+  "GLM-4.6V::我的健康情况怎么样": {
+    "model": "GLM-4.6V",
+    "label": "我的健康情况怎么样",
+    "error": "empty response after retries",
+    "ts": "2026-03-18 18:07:48"
+  },
+  "GLM-4.6V::我今天状态怎么样": {
+    "model": "GLM-4.6V",
+    "label": "我今天状态怎么样",
+    "error": "judge failed",
+    "ts": "2026-03-18 18:08:21"
+  },
+  "GLM-4.6V::我的姿势标准吗": {
+    "model": "GLM-4.6V",
+    "label": "我的姿势标准吗",
+    "error": "empty response after retries",
+    "ts": "2026-03-18 18:10:32"
+  },
+  "GLM-4.6V::我的血氧怎么样": {
+    "model": "GLM-4.6V",
+    "label": "我的血氧怎么样",
+    "error": "empty response after retries",
+    "ts": "2026-03-18 18:10:51"
+  },
+  "GLM-4.6V::我的血压情况怎么样": {
+    "model": "GLM-4.6V",
+    "label": "我的血压情况怎么样",
+    "error": "empty response after retries",
+    "ts": "2026-03-18 18:10:51"
+  },
+  "GLM-4.6V::看看我的睡眠报告": {
+    "model": "GLM-4.6V",
+    "label": "看看我的睡眠报告",
+    "error": "judge failed",
+    "ts": "2026-03-18 18:12:45"
+  },
+  "GLM-4.6V::看我吃了沙拉": {
+    "model": "GLM-4.6V",
+    "label": "看我吃了沙拉",
+    "error": "empty response after retries",
+    "ts": "2026-03-18 18:12:47"
+  },
+  "GLM-4.6V::这是我的睡前血糖": {
+    "model": "GLM-4.6V",
+    "label": "这是我的睡前血糖",
+    "error": "empty response after retries",
+    "ts": "2026-03-18 18:15:41"
+  },
+  "GLM-4.6V::看看我的晚餐": {
+    "model": "GLM-4.6V",
+    "label": "看看我的晚餐",
+    "error": "empty response after retries",
+    "ts": "2026-03-18 18:14:27"
+  }
+}

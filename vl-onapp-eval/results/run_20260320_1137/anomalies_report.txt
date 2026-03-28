@@ -1,0 +1,46 @@
+=== Anomaly Report: D:\pha-v2\tests\vl-onapp-eval\results\run_20260320_1137 ===
+
+[GLM-4.6V][A] total=48 done=46 failed=1 empty=1 loops=1 judged=0 anomaly_no_tool=8 normal_with_tool=8
+[GLM-4.6V][B] total=48 done=48 failed=0 empty=0 loops=0 judged=0 anomaly_no_tool=12 normal_with_tool=7
+[GLM-4.6V][C] total=16 done=16 failed=0 empty=0 loops=0 judged=0 anomaly_no_tool=4 normal_with_tool=0
+[GLM-4.6V][D] total=0 done=0 failed=0 empty=0 loops=0 judged=0 anomaly_no_tool=0 normal_with_tool=0
+[kimi-k2.5][A] total=48 done=48 failed=0 empty=0 loops=0 judged=0 anomaly_no_tool=0 normal_with_tool=11
+[kimi-k2.5][B] total=48 done=48 failed=0 empty=0 loops=0 judged=0 anomaly_no_tool=0 normal_with_tool=12
+[kimi-k2.5][C] total=48 done=48 failed=0 empty=0 loops=0 judged=0 anomaly_no_tool=0 normal_with_tool=12
+[kimi-k2.5][D] total=48 done=48 failed=0 empty=0 loops=0 judged=0 anomaly_no_tool=0 normal_with_tool=12
+[Qwen3-235B][A] total=48 done=48 failed=0 empty=0 loops=0 judged=0 anomaly_no_tool=0 normal_with_tool=12
+[Qwen3-235B][B] total=5 done=5 failed=0 empty=0 loops=0 judged=0 anomaly_no_tool=0 normal_with_tool=0
+[Qwen3-235B][C] total=0 done=0 failed=0 empty=0 loops=0 judged=0 anomaly_no_tool=0 normal_with_tool=0
+[Qwen3-235B][D] total=0 done=0 failed=0 empty=0 loops=0 judged=0 anomaly_no_tool=0 normal_with_tool=0
+[Qwen3.5-122B][A] total=48 done=48 failed=0 empty=0 loops=0 judged=0 anomaly_no_tool=0 normal_with_tool=12
+[Qwen3.5-122B][B] total=48 done=48 failed=0 empty=0 loops=0 judged=0 anomaly_no_tool=1 normal_with_tool=12
+[Qwen3.5-122B][C] total=48 done=47 failed=1 empty=1 loops=0 judged=0 anomaly_no_tool=0 normal_with_tool=10
+[Qwen3.5-122B][D] total=48 done=48 failed=0 empty=0 loops=0 judged=0 anomaly_no_tool=1 normal_with_tool=12
+[Qwen3.5-397B][A] total=48 done=48 failed=0 empty=0 loops=0 judged=0 anomaly_no_tool=1 normal_with_tool=12
+[Qwen3.5-397B][B] total=48 done=48 failed=0 empty=0 loops=0 judged=0 anomaly_no_tool=0 normal_with_tool=12
+[Qwen3.5-397B][C] total=48 done=48 failed=0 empty=0 loops=0 judged=0 anomaly_no_tool=0 normal_with_tool=12
+[Qwen3.5-397B][D] total=48 done=48 failed=0 empty=0 loops=0 judged=0 anomaly_no_tool=0 normal_with_tool=12
+
+Issues (22):
+  ⚠️  [GLM-4.6V][A] 1 failed cases
+  ⚠️  [GLM-4.6V][A] 1 empty responses
+  ⚠️  [GLM-4.6V][A] 1 possible token loops
+  ⚠️  [GLM-4.6V][A] 8 anomaly cases without tool call
+  ⚠️  [GLM-4.6V][A] 8 normal cases over-called tools
+  ⚠️  [GLM-4.6V][B] 12 anomaly cases without tool call
+  ⚠️  [GLM-4.6V][B] 7 normal cases over-called tools
+  ⚠️  [kimi-k2.5][A] 11 normal cases over-called tools
+  ⚠️  [kimi-k2.5][B] 12 normal cases over-called tools
+  ⚠️  [kimi-k2.5][C] 12 normal cases over-called tools
+  ⚠️  [kimi-k2.5][D] 12 normal cases over-called tools
+  ⚠️  [Qwen3-235B][A] 12 normal cases over-called tools
+  ⚠️  [Qwen3.5-122B][A] 12 normal cases over-called tools
+  ⚠️  [Qwen3.5-122B][B] 12 normal cases over-called tools
+  ⚠️  [Qwen3.5-122B][C] 1 failed cases
+  ⚠️  [Qwen3.5-122B][C] 1 empty responses
+  ⚠️  [Qwen3.5-122B][C] 10 normal cases over-called tools
+  ⚠️  [Qwen3.5-122B][D] 12 normal cases over-called tools
+  ⚠️  [Qwen3.5-397B][A] 12 normal cases over-called tools
+  ⚠️  [Qwen3.5-397B][B] 12 normal cases over-called tools
+  ⚠️  [Qwen3.5-397B][C] 12 normal cases over-called tools
+  ⚠️  [Qwen3.5-397B][D] 12 normal cases over-called tools

@@ -1,0 +1,466 @@
+加载 16 个测试 cases
+
+将评测 6 个模型（并发运行）:
+  MiniMax-01           minimax/minimax-01                            端口 8010
+  Qwen3VL-235B         qwen/qwen3-vl-235b-a22b-instruct              端口 8011
+  Qwen3.5-122B         qwen/qwen3.5-122b-a10b                        端口 8012
+  Qwen3.5-397B         qwen/qwen3.5-397b-a17b                        端口 8013
+  kimi-k2.5            moonshotai/kimi-k2.5                          端口 8014
+  GLM-4.6V             z-ai/glm-4.6v                                 端口 8015
+
+============================================================
+[MiniMax-01:8010] 开始评测 minimax/minimax-01
+============================================================
+
+============================================================
+[Qwen3VL-235B:8011] 开始评测 qwen/qwen3-vl-235b-a22b-instruct
+============================================================
+
+============================================================
+[Qwen3.5-122B:8012] 开始评测 qwen/qwen3.5-122b-a10b
+============================================================
+
+============================================================[Qwen3.5-397B:8013] 开始评测 qwen/qwen3.5-397b-a17b
+
+
+========================================================================================================================
+
+[kimi-k2.5:8014] 开始评测 moonshotai/kimi-k2.5
+============================================================
+============================================================
+
+[GLM-4.6V:8015] 开始评测 z-ai/glm-4.6v
+============================================================
+[MiniMax-01:8010] 状态目录: D:\pha-eval-8010[Qwen3VL-235B:8011] 状态目录: D:\pha-eval-8011
+
+[Qwen3VL-235B:8011] 需运行 16 cases（0 缓存）
+[MiniMax-01:8010] 需运行 16 cases（0 缓存）
+[Qwen3.5-122B:8012] 状态目录: D:\pha-eval-8012
+[Qwen3.5-397B:8013] 状态目录: D:\pha-eval-8013[GLM-4.6V:8015] 状态目录: D:\pha-eval-8015[kimi-k2.5:8014] 状态目录: D:\pha-eval-8014
+
+
+[Qwen3.5-397B:8013] 需运行 16 cases（0 缓存）[GLM-4.6V:8015] 需运行 16 cases（0 缓存）[Qwen3.5-122B:8012] 需运行 16 cases（0 缓存）[kimi-k2.5:8014] 需运行 16 cases（0 缓存）
+
+
+
+[Qwen3VL-235B:8011] 等待 PHA 启动...[Qwen3.5-397B:8013] 等待 PHA 启动...[GLM-4.6V:8015] 等待 PHA 启动...[kimi-k2.5:8014] 等待 PHA 启动...[Qwen3.5-122B:8012] 等待 PHA 启动...[MiniMax-01:8010] 等待 PHA 启动... 就绪
+ 就绪
+ 就绪
+ 就绪
+ 就绪
+ 就绪
+      [⚠️ retry 1] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [Qwen3.5-122B:8012] [null] resp(164c): 你好！我看到你分享了一张很美的湖边照片～ 📸  不过这张图片里似乎没有食物哦。如果你想记录饮食打卡，需要告诉我： - 吃了什么食物 - 大概的分量（比如 1 碗
+  [Qwen3.5-122B:8012] [null] 裁判全部失败 → 加入重试队列
+  [Qwen3VL-235B:8011] [null] resp(41c): 你好！我是你的 AI 健康助手，可以帮你分析健康数据、制定计划。怎么称呼你比较好？
+  [Qwen3VL-235B:8011] [null] 裁判全部失败 → 加入重试队列
+      [⚠️ retry 2] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [Qwen3.5-397B:8013] [null] resp(140c): 你好！我看到你分享了一张照片，是在湖边拍的吗？景色很美～  我是你的 AI 健康助手 PHA，可以帮你： -  分析健康数据（心率、睡眠、运动等） - 🎯 制定
+  [Qwen3.5-397B:8013] [null] 裁判全部失败 → 加入重试队列
+  [MiniMax-01:8010] [null] resp(154c): ⚠️ 404 No endpoints found that support tool use. To learn more about provider ro
+  [MiniMax-01:8010] [null] 裁判全部失败 → 加入重试队列
+  [kimi-k2.5:8014] [null] resp(144c): 你好！我是你的 AI 健康助手，可以帮你分析健康数据、制定计划。  收到你分享的照片啦～湖边风景很美呢！这是你最近出去玩拍的吗？  对了，我是第一次认识你，还不
+  [kimi-k2.5:8014] [null] 裁判全部失败 → 加入重试队列
+  [GLM-4.6V:8015] [null] resp(114c): 你好！我是你的 AI 健康助手，可以帮你分析健康数据、制定计划。怎么称呼你比较好？  我看到你分享了一张照片，背景是美丽的湖景。如果你有任何健康方面的问题，比如
+  [GLM-4.6V:8015] [null] 裁判全部失败 → 加入重试队列
+      [⚠️ retry 1] ⚠️ 404 No endpoints found that support tool use. To learn mo
+      [⚠️ retry 2] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [MiniMax-01:8010] [爬坡训练建议] resp(154c): ⚠️ 404 No endpoints found that support tool use. To learn more about provider ro
+  [MiniMax-01:8010] [爬坡训练建议] 裁判全部失败 → 加入重试队列
+      [⚠️ retry 1] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [Qwen3.5-122B:8012] [爬坡训练建议] resp(840c) tools=[get_skill,get_workouts,get_workouts]: 你的爬坡训练计划整体设计合理，但有几个关键点需要优化：  ### 🔍 当前训练分析 1. **强度安排**：坡度4→8、速度2.5→4的递增模式符合「渐进超负荷
+  [Qwen3.5-122B:8012] [爬坡训练建议] 裁判全部失败 → 加入重试队列
+      [⚠️ retry 2] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [MiniMax-01:8010] [跑步情况] resp(154c): ⚠️ 404 No endpoints found that support tool use. To learn more about provider ro
+  [MiniMax-01:8010] [跑步情况] 裁判全部失败 → 加入重试队列
+      [⚠️ retry 1] ⚠️ 404 No endpoints found that support tool use. To learn mo
+      [⚠️ retry 2] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [Qwen3.5-122B:8012] [跑步情况] resp(1342c): ## 🏃‍♀️ 跑步数据分析 — 2026/3/17 18:36  这是一次**非常出色的跑步训练**！从数据来看，你的跑步能力和心肺适能都处于专业水平。  -
+  [Qwen3.5-122B:8012] [跑步情况] 裁判全部失败 → 加入重试队列
+  [MiniMax-01:8010] [医学报告解读] resp(154c): ⚠️ 404 No endpoints found that support tool use. To learn more about provider ro
+  [MiniMax-01:8010] [医学报告解读] 裁判全部失败 → 加入重试队列
+      [⚠️ retry 1] ⚠️ **我无法解读这份医疗检验报告。**
+
+这属于医疗诊断/化验解读的范畴，需要医疗专业人员的专业知识。我建议你：
+
+
+      [⚠️ retry 1] ⚠️ 404 No endpoints found that support tool use. To learn mo
+      [⚠️ retry 2] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [kimi-k2.5:8014] [爬坡训练建议] resp(729c) tools=[get_skill,get_skill]: 你好！看到你分享的健身房打卡照片，状态不错 👍  关于你的跑步机爬坡训练，我来分析一下：  ---  ## 📊 当前训练评估  **坡度4→8，速度2.5→4，
+  [kimi-k2.5:8014] [爬坡训练建议] 裁判全部失败 → 加入重试队列
+  [Qwen3.5-122B:8012] [医学报告解读] resp(321c): 你好！我注意到你发来了一份报告图片，但我目前**无法直接查看或分析图片内容**。  更重要的是，**医疗报告解读属于医疗专业领域**，这需要医生或专业医疗人员的
+  [Qwen3.5-122B:8012] [医学报告解读] 裁判全部失败 → 加入重试队列
+  [MiniMax-01:8010] [体脂秤读取] resp(154c): ⚠️ 404 No endpoints found that support tool use. To learn more about provider ro
+  [MiniMax-01:8010] [体脂秤读取] 裁判全部失败 → 加入重试队列
+      [⚠️ retry 1] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [Qwen3VL-235B:8011] [爬坡训练建议] resp(1008c) tools=[get_skill,get_workouts,get_heart_rate,get_resting_heart_rate,get_hrv,memory_search,get_workouts,get_heart_rate,get_resting_heart_rate,get_hrv,get_sleep,get_skill,get_skill,memory_save]: **你的爬坡训练计划分析：当前强度可能过高，身体恢复不足，建议调整。**  你好！根据你过去一周的运动和生理数据，我为你做了详细分析。总的来说，你的训练强度在提
+  [Qwen3VL-235B:8011] [爬坡训练建议] 裁判全部失败 → 加入重试队列
+      [⚠️ retry 2] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [Qwen3.5-122B:8012] [体脂秤读取] resp(317c) tools=[get_body_composition]: 从图片看，你的体脂秤显示：  - **体重**：**54.40 kg** - **环境温度**：24°C（这是秤上的室温显示，不是体温）  ---  ## 如何
+  [Qwen3.5-122B:8012] [体脂秤读取] 裁判全部失败 → 加入重试队列
+  [MiniMax-01:8010] [增肌训练] resp(154c): ⚠️ 404 No endpoints found that support tool use. To learn more about provider ro
+  [MiniMax-01:8010] [增肌训练] 裁判全部失败 → 加入重试队列
+      [⚠️ retry 1] ⚠️ 404 No endpoints found that support tool use. To learn mo
+      [⚠️ retry 2] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [Qwen3.5-397B:8013] [爬坡训练建议] resp(1423c) tools=[get_skill,get_workouts,get_heart_rate,get_sleep]: ## 你的爬坡训练方案分析  从你描述的训练安排来看，**这个方案对初学者是合适的**！采用前段低强度热身、后段逐步提升强度的渐进式训练，是很科学的安排。  #
+  [Qwen3.5-397B:8013] [爬坡训练建议] 裁判全部失败 → 加入重试队列
+  [MiniMax-01:8010] [今日状态] resp(154c): ⚠️ 404 No endpoints found that support tool use. To learn more about provider ro
+  [MiniMax-01:8010] [今日状态] 裁判全部失败 → 加入重试队列
+      [⚠️ retry 1] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [Qwen3VL-235B:8011] [跑步情况] resp(650c) tools=[get_skill,get_workouts,get_heart_rate,get_activity_data,get_vo2max,memory_save,daily_log]: **你的3月17日跑步表现总结：专业水平，状态出色！**  **核心数据亮点：** *   **距离与配速**：跑了 **7.43公里**，平均配速 **6'0
+  [Qwen3VL-235B:8011] [跑步情况] 裁判全部失败 → 加入重试队列
+      [⚠️ retry 2] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [Qwen3.5-122B:8012] [增肌训练] resp(1171c) tools=[get_skill,get_skill,get_body_composition,get_workouts,get_activity_data]: ## 💪 增肌训练指南  看到你想要练出肌肉！从你的数据来看，**近期运动以有氧（骑行）为主**，过去一周有2次骑行训练，平均心率135 bpm左右。增肌需要*
+  [Qwen3.5-122B:8012] [增肌训练] 裁判全部失败 → 加入重试队列
+  [MiniMax-01:8010] [体温计准确性] resp(154c): ⚠️ 404 No endpoints found that support tool use. To learn more about provider ro
+  [MiniMax-01:8010] [体温计准确性] 裁判全部失败 → 加入重试队列
+  [kimi-k2.5:8014] [跑步情况] resp(1476c) tools=[get_skill,update_user_profile,get_workouts,memory_search]: ## 🏃‍♀️ 跑步分析 | 一次高质量的有氧训练  **总体评价**：非常棒的一次跑步！**VO2 Max 51** 在同龄女性中属于**专业水平**，说明你
+  [kimi-k2.5:8014] [跑步情况] 裁判全部失败 → 加入重试队列
+      [⚠️ retry 1] ⚠️ 404 No endpoints found that support tool use. To learn mo
+      [⚠️ retry 2] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [Qwen3VL-235B:8011] [医学报告解读] resp(221c): 我无法解读这份医疗检验报告。  作为你的健康助手，我的职责是基于你的日常健康数据（如睡眠、运动、心率等）提供生活方式建议。**我不能解读血液化验单、诊断疾病或提
+  [Qwen3VL-235B:8011] [医学报告解读] 裁判全部失败 → 加入重试队列
+  [MiniMax-01:8010] [健康概览] resp(154c): ⚠️ 404 No endpoints found that support tool use. To learn more about provider ro
+  [MiniMax-01:8010] [健康概览] 裁判全部失败 → 加入重试队列
+      [⚠️ retry 1] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [Qwen3.5-397B:8013] [跑步情况] resp(1228c) tools=[get_skill,get_workouts]: ## 🏃 跑步数据分析  这是一次**非常出色的有氧跑步训练**！从数据来看，你的跑步能力和身体状态都很优秀。  ### 核心数据  | 指标 | 数值 | 评
+  [Qwen3.5-397B:8013] [跑步情况] 裁判全部失败 → 加入重试队列
+  [Qwen3.5-122B:8012] [今日状态] resp(620c) tools=[get_skill,get_activity_data,get_sleep,get_heart_rate,get_hrv,daily_log]: ## 🌟 今天状态：优秀！  从你的健康数据来看，今天状态非常好！  ### 📊 关键指标  | 指标 | 今日数据 | 状态 | |------|------
+  [Qwen3.5-122B:8012] [今日状态] 裁判全部失败 → 加入重试队列
+      [⚠️ retry 2] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [kimi-k2.5:8014] [医学报告解读] resp(947c): 这份报告是**传染病筛查**（乙肝五项+丙肝、梅毒、HIV），报告显示：  ## 核心发现  **乙肝"小三阳"状态** - 乙肝表面抗原：**阳性(+)** 
+  [kimi-k2.5:8014] [医学报告解读] 裁判全部失败 → 加入重试队列
+  [MiniMax-01:8010] [深蹲姿势] resp(154c): ⚠️ 404 No endpoints found that support tool use. To learn more about provider ro
+  [MiniMax-01:8010] [深蹲姿势] 裁判全部失败 → 加入重试队列
+      [⚠️ retry 1] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [Qwen3.5-122B:8012] [体温计准确性] resp(791c) tools=[get_body_temperature]: ## 体温计可能没问题，但你的体温确实偏高了  从图片看体温计显示 **38.6°C**，这属于**低烧范围**（37.3-38°C 为低烧，38-39°C 为
+  [Qwen3.5-122B:8012] [体温计准确性] 裁判全部失败 → 加入重试队列
+      [⚠️ retry 2] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [MiniMax-01:8010] [血压读取] resp(154c): ⚠️ 404 No endpoints found that support tool use. To learn more about provider ro
+  [MiniMax-01:8010] [血压读取] 裁判全部失败 → 加入重试队列
+  [Qwen3.5-397B:8013] [医学报告解读] resp(1156c): ## 检验报告解读  这是一份**传染病免疫学检验报告**，来自南昌大学第一附属医院检验中心。我来为您逐项说明检测结果：  ---  ###  检测结果汇总  
+  [Qwen3.5-397B:8013] [医学报告解读] 裁判全部失败 → 加入重试队列
+  [Qwen3VL-235B:8011] [体脂秤读取] resp(140c) tools=[get_body_composition,update_user_profile,complete_onboarding]: 你好！我是你的AI健康助手PHA。看到你刚用体脂秤测了体重，显示是 **54.4kg**。为了给你更全面的健康分析，我需要再了解一点信息：  1.  你的性别是
+  [Qwen3VL-235B:8011] [体脂秤读取] 裁判全部失败 → 加入重试队列
+      [⚠️ retry 1] ⚠️ 404 No endpoints found that support tool use. To learn mo
+      [⚠️ retry 2] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [MiniMax-01:8010] [血氧读取] resp(154c): ⚠️ 404 No endpoints found that support tool use. To learn more about provider ro
+  [MiniMax-01:8010] [血氧读取] 裁判全部失败 → 加入重试队列
+      [⚠️ retry 1] ⚠️ 404 No endpoints found that support tool use. To learn mo
+      [⚠️ retry 2] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [kimi-k2.5:8014] [体脂秤读取] resp(462c) tools=[get_skill,get_body_composition]: 根据你图片中的体脂秤数据，我来帮你解读一下：  ---  ## 📊 测量数据解读  | 指标 | 数值 | 说明 | |------|------|------
+  [kimi-k2.5:8014] [体脂秤读取] 裁判全部失败 → 加入重试队列
+  [Qwen3.5-122B:8012] [健康概览] resp(1234c) tools=[get_skill,get_activity_data,get_heart_rate,get_sleep,get_stress,daily_log]: ## 📊 今日健康概览  你的整体健康状况**非常优秀**！多项指标超出健康标准。  ---  ### 🏃♂️ 活动表现 | 指标 | 今日数据 | 目标 | 
+  [Qwen3.5-122B:8012] [健康概览] 裁判全部失败 → 加入重试队列
+  [Qwen3VL-235B:8011] [增肌训练] resp(127c) tools=[get_skill,get_skill,get_skill,memory_search,get_body_composition,get_workouts,search_courses,update_user_profile,memory_save,memory_search]: 你好！我是你的AI健康助手，可以帮你分析健康数据、制定计划。怎么称呼你比较好？  对了，为了给你制定一个真正有效的增肌计划，我需要先了解一些基本信息，比如你的身
+  [Qwen3VL-235B:8011] [增肌训练] 裁判全部失败 → 加入重试队列
+  [MiniMax-01:8010] [食物识别(沙拉)] resp(154c): ⚠️ 404 No endpoints found that support tool use. To learn more about provider ro
+  [MiniMax-01:8010] [食物识别(沙拉)] 裁判全部失败 → 加入重试队列
+      [⚠️ retry 1] ⚠️ 404 No endpoints found that support tool use. To learn mo
+      [⚠️ retry 2] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [Qwen3.5-122B:8012] [深蹲姿势] resp(925c) tools=[get_skill]: 从图片来看，你做的是**杠铃深蹲（Back Squat）**，整体姿势相当不错！让我给你详细分析一下：  ## ✅ 做得好的地方  | 要点 | 你的表现 | 
+  [Qwen3.5-122B:8012] [深蹲姿势] 裁判全部失败 → 加入重试队列
+  [MiniMax-01:8010] [晚餐识别] resp(154c): ⚠️ 404 No endpoints found that support tool use. To learn more about provider ro
+  [MiniMax-01:8010] [晚餐识别] 裁判全部失败 → 加入重试队列
+      [⚠️ retry 1] ⚠️ 404 No endpoints found that support tool use. To learn mo
+      [⚠️ retry 2] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [Qwen3.5-122B:8012] [血压读取] resp(815c) tools=[get_blood_pressure,get_skill]: ## 🩺 血压情况分析  我看到你分享的血压计读数，同时也查询了系统中的记录：  ### 本次测量值（图片） | 指标 | 数值 | 状态 | |------|
+  [Qwen3.5-122B:8012] [血压读取] 裁判全部失败 → 加入重试队列
+  [MiniMax-01:8010] [睡眠报告] resp(154c): ⚠️ 404 No endpoints found that support tool use. To learn more about provider ro
+  [MiniMax-01:8010] [睡眠报告] 裁判全部失败 → 加入重试队列
+      [⚠️ retry 1] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [Qwen3VL-235B:8011] [今日状态] resp(705c) tools=[get_health_overview,get_heart_rate,get_resting_heart_rate,get_hrv,get_sleep,get_activity_data,get_stress,get_spo2,get_skill,get_activity_data,get_heart_rate,get_resting_heart_rate,get_hrv,get_sleep]: **今日健康概览：睡眠出色，活动量接近目标，心率与恢复状态良好**  你好！根据你今天的健康数据，我为你整理了一份简明报告：  ### 📊 活动与能量消耗 * 
+  [Qwen3VL-235B:8011] [今日状态] 裁判全部失败 → 加入重试队列
+  [kimi-k2.5:8014] [增肌训练] resp(614c) tools=[get_skill,get_skill,get_skill]: 你好！我是 PHA，你的个人健康助手，可以帮你分析健康数据、制定增肌计划、追踪训练进度 💪  看到你的手臂照片，目前基础肌肉量比较小，这正是最好的起点——新手增
+  [kimi-k2.5:8014] [增肌训练] 裁判全部失败 → 加入重试队列
+      [⚠️ retry 2] ⚠️ 404 No endpoints found that support tool use. To learn mo
+  [MiniMax-01:8010] [睡前血糖] resp(154c): ⚠️ 404 No endpoints found that support tool use. To learn more about provider ro
+  [MiniMax-01:8010] [睡前血糖] 裁判全部失败 → 加入重试队列
+  [Qwen3.5-122B:8012] [血氧读取] resp(712c) tools=[get_spo2,get_skill]: ## 血氧读数分析  从您提供的照片来看，指夹式血氧仪显示：  | 指标 | 读数 | 参考范围 | 状态 | |------|------|---------
+  [Qwen3.5-122B:8012] [血氧读取] 裁判全部失败 → 加入重试队列
+
+[MiniMax-01:8010] 重试 16 个裁判失败 cases...
+  [MiniMax-01:8010] [null] 裁判依然失败，最终排除出均值计算
+  [MiniMax-01:8010] [爬坡训练建议] 裁判依然失败，最终排除出均值计算
+  [MiniMax-01:8010] [跑步情况] 裁判依然失败，最终排除出均值计算
+  [MiniMax-01:8010] [医学报告解读] 裁判依然失败，最终排除出均值计算
+  [MiniMax-01:8010] [体脂秤读取] 裁判依然失败，最终排除出均值计算
+  [MiniMax-01:8010] [增肌训练] 裁判依然失败，最终排除出均值计算
+  [MiniMax-01:8010] [今日状态] 裁判依然失败，最终排除出均值计算
+  [MiniMax-01:8010] [体温计准确性] 裁判依然失败，最终排除出均值计算
+  [MiniMax-01:8010] [健康概览] 裁判依然失败，最终排除出均值计算
+  [MiniMax-01:8010] [深蹲姿势] 裁判依然失败，最终排除出均值计算
+  [MiniMax-01:8010] [血压读取] 裁判依然失败，最终排除出均值计算
+  [MiniMax-01:8010] [血氧读取] 裁判依然失败，最终排除出均值计算
+  [MiniMax-01:8010] [食物识别(沙拉)] 裁判依然失败，最终排除出均值计算
+  [MiniMax-01:8010] [晚餐识别] 裁判依然失败，最终排除出均值计算
+  [MiniMax-01:8010] [睡眠报告] 裁判依然失败，最终排除出均值计算
+  [MiniMax-01:8010] [睡前血糖] 裁判依然失败，最终排除出均值计算
+[MiniMax-01:8010] 停止 PHA...
+
+[MiniMax-01:8010] 【异常检测】
+  ⚠️ 异常：16/16 个case含0分，疑似系统错误而非模型能力问题
+  ⚠️ 异常：所有case得分几乎相同，裁判可能未正常工作
+  ⚠️ 系统错误响应（16个）：['null', '爬坡训练建议', '跑步情况', '医学报告解读', '体脂秤读取', '增肌训练', '今日状态', '体温计准确性', '健康概览', '深蹲姿势', '血压读取', '血氧读取', '食物识别(沙拉)', '晚餐识别', '睡眠报告', '睡前血糖'] - 疑似OpenRouter截断或PHA内部错误，非模型能力
+  ⚠️ 裁判失败（16个）：['null', '爬坡训练建议', '跑步情况', '医学报告解读', '体脂秤读取', '增肌训练', '今日状态', '体温计准确性', '健康概览', '深蹲姿势', '血压读取', '血氧读取', '食物识别(沙拉)', '晚餐识别', '睡眠报告', '睡前血糖']
+  [Qwen3VL-235B:8011] [体温计准确性] resp(613c) tools=[get_body_temperature]: **你的体温计很可能没有坏，38.6°C 的读数需要引起重视。**  从你提供的图片和健康数据来看：  1.  **体温读数异常**：图片中的体温计显示 **3
+  [Qwen3VL-235B:8011] [体温计准确性] 裁判全部失败 → 加入重试队列
+  [Qwen3.5-397B:8013] [体脂秤读取] resp(624c) tools=[get_skill,get_body_composition]: 从图片中我看到你的体脂秤显示：**54.40 kg**，这是你的当前体重。  不过，我注意到你的健康数据中还没有身体成分记录（体重、BMI、体脂率等）。这可能是
+  [Qwen3.5-397B:8013] [体脂秤读取] 裁判全部失败 → 加入重试队列
+  [Qwen3.5-122B:8012] [食物识别(沙拉)] resp(454c) tools=[query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food,log_food_entry,log_food_entry,log_food_entry,log_food_entry]: 看到你吃的这顿午餐很丰盛！图片里有： - **牛排**（2块，约200克） - **蔬菜沙拉**（生菜、小番茄） - **玉米段**（2段，约200克） - *
+  [Qwen3.5-122B:8012] [食物识别(沙拉)] 裁判全部失败 → 加入重试队列
+  [GLM-4.6V:8015] [爬坡训练建议] EMPTY — 标记失败
+  [Qwen3VL-235B:8011] [健康概览] resp(771c) tools=[get_activity_data,get_heart_rate,get_stress,get_sleep,get_body_composition,memory_search,get_skill]: **你的健康概览：活跃但需关注睡眠与体重**  根据2022年10月12日的数据，你的整体健康状况呈现“活跃但有改进空间”的特点。核心指标如下：  ### 📊 
+  [Qwen3VL-235B:8011] [健康概览] 裁判全部失败 → 加入重试队列
+  [kimi-k2.5:8014] [今日状态] resp(712c) tools=[get_activity_data,get_heart_rate,get_sleep,get_hrv,get_skill]: **今天你的健康状态整体不错，睡眠特别亮眼！** 🌟  从数据看你的恢复和日常活动都维持在较好的水平：  ### 今日核心数据  | 指标 | 今日表现 | 状
+  [kimi-k2.5:8014] [今日状态] 裁判全部失败 → 加入重试队列
+  [Qwen3.5-397B:8013] [增肌训练] resp(1524c) tools=[get_skill,search_courses]: ## **增肌需要训练 + 营养 + 恢复三管齐下**  从照片看，你的手臂已经有一定肌肉线条，想进一步增肌是完全可行的。以下是科学增肌的核心原则：  --- 
+  [Qwen3.5-397B:8013] [增肌训练] 裁判全部失败 → 加入重试队列
+  [Qwen3VL-235B:8011] [深蹲姿势] resp(487c) tools=[get_skill,get_workouts,get_heart_rate,get_sleep]: **你的深蹲姿势整体不错，但有几个关键点可以优化，以提升训练效果并降低受伤风险。**  从图片上看，你的核心收紧、背部挺直，这是非常正确的。不过，有几个细节需要
+  [Qwen3VL-235B:8011] [深蹲姿势] 裁判全部失败 → 加入重试队列
+  [Qwen3.5-122B:8012] [晚餐识别] resp(415c) tools=[get_nutrition]: ## 你的晚餐记录  根据今天的饮食数据，你的晚餐情况如下：  | 项目 | 数值 | |------|------| | **用餐时间** | 19:00 |
+  [Qwen3.5-122B:8012] [晚餐识别] 裁判全部失败 → 加入重试队列
+  [Qwen3.5-122B:8012] [睡眠报告] resp(918c): 我看到这是一份专业的医疗睡眠监测报告（多导睡眠图 PSG）。报告结论显示**睡眠维持障碍**，这确实需要重视。  ## 关键发现  | 指标 | 数值 | 正常
+  [Qwen3.5-122B:8012] [睡眠报告] 裁判全部失败 → 加入重试队列
+  [Qwen3.5-397B:8013] [今日状态] resp(900c) tools=[get_skill,get_activity_data,get_sleep,get_heart_rate,get_hrv,get_stress]: ## **今日整体状态：优秀** 🌟  根据你手表显示和今日健康数据，你的状态非常好！  ### 📊 关键指标一览  | 指标 | 今日数据 | 状态 | |-
+  [Qwen3.5-397B:8013] [今日状态] 裁判全部失败 → 加入重试队列
+  [Qwen3VL-235B:8011] [血压读取] resp(609c) tools=[get_blood_pressure]: **你的血压情况分析：**  根据你提供的血压计图片和系统数据，你的血压读数为 **142/97 mmHg**，心率为 **86 bpm**。这个数值属于**高
+  [Qwen3VL-235B:8011] [血压读取] 裁判全部失败 → 加入重试队列
+  [kimi-k2.5:8014] [体温计准确性] resp(789c) tools=[get_skill,get_body_temperature]: **你现在的体温 38.6°C 确实属于发烧范围**，正常体温一般在 36.0-37.2°C 之间。不过电子体温计读数异常可能有几种原因，建议先复测确认。  -
+  [kimi-k2.5:8014] [体温计准确性] 裁判全部失败 → 加入重试队列
+  [Qwen3.5-122B:8012] [睡前血糖] resp(728c) tools=[get_blood_glucose,get_blood_glucose]: 你的睡前血糖读数是 **5.4 mmol/L**（测量时间：20:48），这个数值非常理想！  ### 📊 血糖健康解读  **当前读数分析：** - **5.
+  [Qwen3.5-122B:8012] [睡前血糖] 裁判全部失败 → 加入重试队列
+
+[Qwen3.5-122B:8012] 重试 16 个裁判失败 cases...
+  [Qwen3.5-122B:8012] [null] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-122B:8012] [爬坡训练建议] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-122B:8012] [跑步情况] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-122B:8012] [医学报告解读] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-122B:8012] [体脂秤读取] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-122B:8012] [增肌训练] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-122B:8012] [今日状态] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-122B:8012] [体温计准确性] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-122B:8012] [健康概览] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-122B:8012] [深蹲姿势] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-122B:8012] [血压读取] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-122B:8012] [血氧读取] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-122B:8012] [食物识别(沙拉)] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-122B:8012] [晚餐识别] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-122B:8012] [睡眠报告] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-122B:8012] [睡前血糖] 裁判依然失败，最终排除出均值计算
+[Qwen3.5-122B:8012] 停止 PHA...
+
+[Qwen3.5-122B:8012] 【异常检测】
+  ⚠️ 异常：16/16 个case含0分，疑似系统错误而非模型能力问题
+  ⚠️ 异常：所有case得分几乎相同，裁判可能未正常工作
+  ⚠️ 裁判失败（16个）：['null', '爬坡训练建议', '跑步情况', '医学报告解读', '体脂秤读取', '增肌训练', '今日状态', '体温计准确性', '健康概览', '深蹲姿势', '血压读取', '血氧读取', '食物识别(沙拉)', '晚餐识别', '睡眠报告', '睡前血糖']
+  [Qwen3.5-397B:8013] [体温计准确性] resp(789c) tools=[get_skill,get_body_temperature]: ## 体温计应该没问题，但 38.6°C 确实需要重视  从你手环的数据来看，今天你的体温在 **36.1-36.4°C** 之间波动，这是完全正常的范围。而电
+  [Qwen3.5-397B:8013] [体温计准确性] 裁判全部失败 → 加入重试队列
+  [Qwen3VL-235B:8011] [血氧读取] resp(448c) tools=[get_spo2]: 从你提供的图片来看，血氧饱和度（SpO2）读数为 **93%**，脉搏（PR）为 **106 bpm**。  **重要提醒：** - **93% 的血氧饱和度属
+  [Qwen3VL-235B:8011] [血氧读取] 裁判全部失败 → 加入重试队列
+  [kimi-k2.5:8014] [健康概览] resp(624c) tools=[get_skill,get_activity_data,get_heart_rate,get_stress]: 你好！我是你的 AI 健康助手 PHA，可以帮你分析健康数据、追踪趋势、制定改善计划。  ---  ## 📊 今日健康概览  根据你今天的实时数据，整体状态**
+  [kimi-k2.5:8014] [健康概览] 裁判全部失败 → 加入重试队列
+  [Qwen3VL-235B:8011] [食物识别(沙拉)] resp(275c) tools=[query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food,log_food_entry,log_food_entry,log_food_entry,log_food_entry]: 你的午餐沙拉已成功记录！这顿饭营养均衡，包含优质蛋白、碳水和维生素。总热量约 **1658千卡**，蛋白质 **125.3克**，脂肪 **65.1克**，碳水
+  [Qwen3VL-235B:8011] [食物识别(沙拉)] 裁判全部失败 → 加入重试队列
+  [Qwen3.5-397B:8013] [健康概览] resp(1363c) tools=[get_skill,get_activity_data,get_heart_rate,get_sleep,get_stress]: ## **今日整体健康状况良好，睡眠和心率表现优秀！**  根据你今天的健康数据，我来为你做一个全面分析：  ---  ### 📊 **活动数据** - **步
+  [Qwen3.5-397B:8013] [健康概览] 裁判全部失败 → 加入重试队列
+  [Qwen3VL-235B:8011] [晚餐识别] resp(229c) tools=[query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food,log_food_entry,log_food_entry]: 好的，我已经为你记录了这顿丰盛的午餐！根据图片内容，我为你录入了豆浆和猪肉包子。  **午餐记录详情：** *   **豆浆**: 2杯 (600克)，共 **
+  [Qwen3VL-235B:8011] [晚餐识别] 裁判全部失败 → 加入重试队列
+  [kimi-k2.5:8014] [深蹲姿势] resp(832c) tools=[get_skill]: **你的深蹲姿势整体尚可，但有几个关键问题需要改进：**  ---  ## 🔍 姿势分析  | 部位 | 状态 | 说明 | |------|------|--
+  [kimi-k2.5:8014] [深蹲姿势] 裁判全部失败 → 加入重试队列
+  [Qwen3.5-397B:8013] [深蹲姿势] resp(693c) tools=[get_skill]: ## 关于深蹲姿势的观察  我需要坦诚说明：**我无法进行专业的动作技术分析**，这需要专业教练现场观察或视频分析。不过基于这张照片，我可以给你一些一般性的观察
+  [Qwen3.5-397B:8013] [深蹲姿势] 裁判全部失败 → 加入重试队列
+  [Qwen3.5-397B:8013] [血压读取] resp(720c) tools=[get_skill,get_blood_pressure]: ## 血压读数分析  从你上传的图片中，我看到血压计显示： - **收缩压（高压）：142 mmHg** - **舒张压（低压）：97 mmHg** - **心
+  [Qwen3.5-397B:8013] [血压读取] 裁判全部失败 → 加入重试队列
+  [kimi-k2.5:8014] [血压读取] resp(623c) tools=[get_skill,get_blood_pressure]: ## 🚨 血压偏高，建议复测确认  从图片中读取到你的血压为： - **收缩压（高压）：142 mmHg** - **舒张压（低压）：97 mmHg** - *
+  [kimi-k2.5:8014] [血压读取] 裁判全部失败 → 加入重试队列
+  [Qwen3VL-235B:8011] [睡眠报告] resp(730c) tools=[get_sleep,get_spo2,get_heart_rate,get_resting_heart_rate,get_naps,get_stress,get_sleep]: **你的睡眠报告分析（2026-03-18）**  **核心指标：** - **总睡眠时长**：**6.7小时**（在健康范围6-10小时之内，但接近下限） -
+  [Qwen3VL-235B:8011] [睡眠报告] 裁判全部失败 → 加入重试队列
+  [Qwen3VL-235B:8011] [睡前血糖] resp(1009c) tools=[get_skill,get_blood_glucose,get_nutrition]: **你的睡前血糖 5.4 mmol/L 处于健康范围，但结合全天数据看，你的血糖波动较大，有优化空间。**  根据你提供的血糖仪照片和系统数据，为你分析如下： 
+  [Qwen3VL-235B:8011] [睡前血糖] 裁判全部失败 → 加入重试队列
+
+[Qwen3VL-235B:8011] 重试 16 个裁判失败 cases...
+  [Qwen3VL-235B:8011] [null] 裁判依然失败，最终排除出均值计算
+  [Qwen3VL-235B:8011] [爬坡训练建议] 裁判依然失败，最终排除出均值计算
+  [Qwen3VL-235B:8011] [跑步情况] 裁判依然失败，最终排除出均值计算
+  [Qwen3VL-235B:8011] [医学报告解读] 裁判依然失败，最终排除出均值计算
+  [Qwen3VL-235B:8011] [体脂秤读取] 裁判依然失败，最终排除出均值计算
+  [Qwen3VL-235B:8011] [增肌训练] 裁判依然失败，最终排除出均值计算
+  [Qwen3VL-235B:8011] [今日状态] 裁判依然失败，最终排除出均值计算
+  [Qwen3VL-235B:8011] [体温计准确性] 裁判依然失败，最终排除出均值计算
+  [Qwen3VL-235B:8011] [健康概览] 裁判依然失败，最终排除出均值计算
+  [Qwen3VL-235B:8011] [深蹲姿势] 裁判依然失败，最终排除出均值计算
+  [Qwen3VL-235B:8011] [血压读取] 裁判依然失败，最终排除出均值计算
+  [Qwen3VL-235B:8011] [血氧读取] 裁判依然失败，最终排除出均值计算
+  [Qwen3VL-235B:8011] [食物识别(沙拉)] 裁判依然失败，最终排除出均值计算
+  [Qwen3VL-235B:8011] [晚餐识别] 裁判依然失败，最终排除出均值计算
+  [Qwen3VL-235B:8011] [睡眠报告] 裁判依然失败，最终排除出均值计算
+  [Qwen3VL-235B:8011] [睡前血糖] 裁判依然失败，最终排除出均值计算
+[Qwen3VL-235B:8011] 停止 PHA...
+
+[Qwen3VL-235B:8011] 【异常检测】
+  ⚠️ 异常：16/16 个case含0分，疑似系统错误而非模型能力问题
+  ⚠️ 异常：所有case得分几乎相同，裁判可能未正常工作
+  ⚠️ 裁判失败（16个）：['null', '爬坡训练建议', '跑步情况', '医学报告解读', '体脂秤读取', '增肌训练', '今日状态', '体温计准确性', '健康概览', '深蹲姿势', '血压读取', '血氧读取', '食物识别(沙拉)', '晚餐识别', '睡眠报告', '睡前血糖']
+  [kimi-k2.5:8014] [血氧读取] resp(630c) tools=[get_skill,get_spo2]: 从图片中我看到您使用的欧姆龙指夹式血氧仪显示 **SpO₂ 93%**，脉率 **106 次/分**。  ---  ## 📊 读数分析  | 指标 | 您的数值
+  [kimi-k2.5:8014] [血氧读取] 裁判全部失败 → 加入重试队列
+  [Qwen3.5-397B:8013] [血氧读取] resp(1083c) tools=[get_skill,get_spo2]: ## 血氧读数分析  根据您提供的血氧仪图片，我可以看到：  | 指标 | 读数 | 状态 | |------|------|------| | **血氧饱和度
+  [Qwen3.5-397B:8013] [血氧读取] 裁判全部失败 → 加入重试队列
+  [Qwen3.5-397B:8013] [食物识别(沙拉)] resp(569c) tools=[get_skill,query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food,log_food_entry,log_food_entry,log_food_entry,log_food_entry,log_food_entry,get_nutrition]: **午餐记录完成** 🍱  这顿"沙拉"相当丰盛啊！我来帮你记录一下：  | 食物 | 数量 | 热量 | 蛋白质 | 脂肪 | 碳水 | |------|--
+  [Qwen3.5-397B:8013] [食物识别(沙拉)] 裁判全部失败 → 加入重试队列
+  [kimi-k2.5:8014] [食物识别(沙拉)] resp(331c) tools=[get_skill,query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food,log_food_entry,log_food_entry,log_food_entry,log_food_entry,log_food_entry,get_nutrition]: 哈哈，这不是沙拉哦，是一份很丰盛的**牛排套餐**！让我帮你记录下来：  📸 **识别到的食物**： - 牛排 2块 ≈ 1000kcal，蛋白质 104g、脂
+  [kimi-k2.5:8014] [食物识别(沙拉)] 裁判全部失败 → 加入重试队列
+  [Qwen3.5-397B:8013] [晚餐识别] resp(593c) tools=[get_skill,query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food]: 我看到你的晚餐很丰盛！从图片中我识别出以下食物：  **识别到的食物：** - 油条：4根 - 煎蛋：4个 - 豆浆：2碗 - 包子：6个（看起来是猪肉包） -
+  [Qwen3.5-397B:8013] [晚餐识别] 裁判全部失败 → 加入重试队列
+  [kimi-k2.5:8014] [晚餐识别] resp(504c) tools=[get_skill,query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food,query_and_format_food]: 我看到图片中有丰盛的餐食，包含油条、煎蛋、小笼包、豆浆、草莓和凉拌菜。让我帮你查询这些食物的营养信息并记录。部分食物数据库中没有精确匹配，让我尝试用更通用的名称
+  [kimi-k2.5:8014] [晚餐识别] 裁判全部失败 → 加入重试队列
+  [GLM-4.6V:8015] [跑步情况] resp(173c) tools=[get_workouts]: 我来帮你查看跑步情况，先获取你的运动记录数据。 根据你的运动记录，**今天还没有进行跑步或其他运动**（count: 0）。如果你想查看历史跑步数据或制定跑步计
+  [GLM-4.6V:8015] [跑步情况] 裁判全部失败 → 加入重试队列
+  [Qwen3.5-397B:8013] [睡眠报告] resp(1469c) tools=[get_sleep,get_skill]: ## 📊 睡眠报告解读  根据你上传的医疗睡眠监测报告和我获取到的今日睡眠数据，我来帮你分析：  ---  ## 🔍 医疗睡眠监测报告关键发现  **诊断结论：
+  [Qwen3.5-397B:8013] [睡眠报告] 裁判全部失败 → 加入重试队列
+  [kimi-k2.5:8014] [睡眠报告] resp(1306c) tools=[get_skill]: ## 睡眠监测报告解读  这是一份多导睡眠监测（PSG）报告，主要发现**睡眠维持障碍**。让我帮你逐条解读关键指标：  ---  ### 📊 核心数据解读  
+  [kimi-k2.5:8014] [睡眠报告] 裁判全部失败 → 加入重试队列
+  [Qwen3.5-397B:8013] [睡前血糖] resp(783c) tools=[get_blood_glucose,get_skill]: ## 睡前血糖 **5.4 mmol/L**，控制得很好！  根据你提供的照片，今晚 **20:48** 测得的睡前血糖为 **5.4 mmol/L**。  #
+  [Qwen3.5-397B:8013] [睡前血糖] 裁判全部失败 → 加入重试队列
+
+[Qwen3.5-397B:8013] 重试 16 个裁判失败 cases...
+  [Qwen3.5-397B:8013] [null] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-397B:8013] [爬坡训练建议] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-397B:8013] [跑步情况] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-397B:8013] [医学报告解读] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-397B:8013] [体脂秤读取] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-397B:8013] [增肌训练] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-397B:8013] [今日状态] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-397B:8013] [体温计准确性] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-397B:8013] [健康概览] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-397B:8013] [深蹲姿势] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-397B:8013] [血压读取] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-397B:8013] [血氧读取] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-397B:8013] [食物识别(沙拉)] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-397B:8013] [晚餐识别] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-397B:8013] [睡眠报告] 裁判依然失败，最终排除出均值计算
+  [Qwen3.5-397B:8013] [睡前血糖] 裁判依然失败，最终排除出均值计算
+[Qwen3.5-397B:8013] 停止 PHA...
+
+[Qwen3.5-397B:8013] 【异常检测】
+  ⚠️ 异常：16/16 个case含0分，疑似系统错误而非模型能力问题
+  ⚠️ 异常：所有case得分几乎相同，裁判可能未正常工作
+  ⚠️ 裁判失败（16个）：['null', '爬坡训练建议', '跑步情况', '医学报告解读', '体脂秤读取', '增肌训练', '今日状态', '体温计准确性', '健康概览', '深蹲姿势', '血压读取', '血氧读取', '食物识别(沙拉)', '晚餐识别', '睡眠报告', '睡前血糖']
+  [kimi-k2.5:8014] [睡前血糖] resp(611c) tools=[get_skill]: 从你上传的血糖仪照片来看，你的**睡前血糖是 5.4 mmol/L**，测量时间是 20:48。  ---  ## 📊 血糖评估  | 指标 | 你的数值 | 
+  [kimi-k2.5:8014] [睡前血糖] 裁判全部失败 → 加入重试队列
+
+[kimi-k2.5:8014] 重试 16 个裁判失败 cases...
+  [kimi-k2.5:8014] [null] 裁判依然失败，最终排除出均值计算
+  [kimi-k2.5:8014] [爬坡训练建议] 裁判依然失败，最终排除出均值计算
+  [kimi-k2.5:8014] [跑步情况] 裁判依然失败，最终排除出均值计算
+  [kimi-k2.5:8014] [医学报告解读] 裁判依然失败，最终排除出均值计算
+  [kimi-k2.5:8014] [体脂秤读取] 裁判依然失败，最终排除出均值计算
+  [kimi-k2.5:8014] [增肌训练] 裁判依然失败，最终排除出均值计算
+  [kimi-k2.5:8014] [今日状态] 裁判依然失败，最终排除出均值计算
+  [kimi-k2.5:8014] [体温计准确性] 裁判依然失败，最终排除出均值计算
+  [kimi-k2.5:8014] [健康概览] 裁判依然失败，最终排除出均值计算
+  [kimi-k2.5:8014] [深蹲姿势] 裁判依然失败，最终排除出均值计算
+  [kimi-k2.5:8014] [血压读取] 裁判依然失败，最终排除出均值计算
+  [kimi-k2.5:8014] [血氧读取] 裁判依然失败，最终排除出均值计算
+  [kimi-k2.5:8014] [食物识别(沙拉)] 裁判依然失败，最终排除出均值计算
+  [kimi-k2.5:8014] [晚餐识别] 裁判依然失败，最终排除出均值计算
+  [kimi-k2.5:8014] [睡眠报告] 裁判依然失败，最终排除出均值计算
+  [kimi-k2.5:8014] [睡前血糖] 裁判依然失败，最终排除出均值计算
+[kimi-k2.5:8014] 停止 PHA...
+
+[kimi-k2.5:8014] 【异常检测】
+  ⚠️ 异常：16/16 个case含0分，疑似系统错误而非模型能力问题
+  ⚠️ 异常：所有case得分几乎相同，裁判可能未正常工作
+  ⚠️ 裁判失败（16个）：['null', '爬坡训练建议', '跑步情况', '医学报告解读', '体脂秤读取', '增肌训练', '今日状态', '体温计准确性', '健康概览', '深蹲姿势', '血压读取', '血氧读取', '食物识别(沙拉)', '晚餐识别', '睡眠报告', '睡前血糖']
+  [GLM-4.6V:8015] [医学报告解读] resp(177c): 很抱歉，我目前无法直接查看或分析图片内容。作为文本交互的AI助手，我没有图像识别功能。  **建议您：** 1. 可以手动输入报告中的关键数据（如血压数值、心率
+  [GLM-4.6V:8015] [医学报告解读] 裁判全部失败 → 加入重试队列
+  [GLM-4.6V:8015] [体脂秤读取] resp(24c) tools=[get_skill]: 我来帮你解读这张体脂秤的图片和体脂秤的使用方法。
+  [GLM-4.6V:8015] [体脂秤读取] 裁判全部失败 → 加入重试队列
+  [GLM-4.6V:8015] [增肌训练] resp(331c) tools=[get_skill,get_skill]: 你好！我是你的 AI 健康助手，可以帮你分析健康数据、制定个性化的健身计划。怎么称呼你比较好？  关于肌肉训练，这是一个很好的目标！为了给你提供最合适的建议，我
+  [GLM-4.6V:8015] [增肌训练] 裁判全部失败 → 加入重试队列
+      [chat error] HTTPConnectionPool(host='127.0.0.1', port=8015): Read timed out.
+  [GLM-4.6V:8015] [今日状态] resp(92c) tools=[get_activity_data]: 你好！我是你的 AI 健康助手，可以帮你分析健康数据、制定计划。怎么称呼你比较好？  为了给你提供准确的今天状态分析，我需要先获取你的健康数据。让我为你查询今天
+  [GLM-4.6V:8015] [今日状态] 裁判全部失败 → 加入重试队列
+  [GLM-4.6V:8015] [体温计准确性] resp(685c) tools=[get_body_temperature]: 我来帮你检查一下体温计的情况。首先让我获取你的体温数据，这样我们可以对比一下。 根据你的体温数据和图片，我来帮你分析一下：  ## 体温对比分析 - **系统记
+  [GLM-4.6V:8015] [体温计准确性] 裁判全部失败 → 加入重试队列
+  [GLM-4.6V:8015] [健康概览] resp(595c) tools=[get_activity_data,get_skill]: 你好！我是你的 AI 健康助手，可以帮你分析健康数据、制定计划。怎么称呼你比较好？  为了全面了解你的健康情况，我需要先获取你的健康数据。让我为你查询今天的活动
+  [GLM-4.6V:8015] [健康概览] 裁判全部失败 → 加入重试队列
+  [GLM-4.6V:8015] [深蹲姿势] resp(2c): 滑翔
+  [GLM-4.6V:8015] [深蹲姿势] 裁判全部失败 → 加入重试队列
+  [GLM-4.6V:8015] [血压读取] resp(19114c): : 数字数据获取数据收集数据: 获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取数据获取 data  analyze健康数据
+  [GLM-4.6V:8015] [血压读取] 裁判全部失败 → 加入重试队列
+  [GLM-4.6V:8015] [血氧读取] resp(501c) tools=[get_spo2]: 我来帮你查看血氧数据。 根据你提供的血氧仪图片，我可以看到你的血氧饱和度读数为 **93%**，心率 **106 bpm**。  ## 血氧情况分析  **当前
+  [GLM-4.6V:8015] [血氧读取] 裁判全部失败 → 加入重试队列
+  [GLM-4.6V:8015] [食物识别(沙拉)] resp(62c) tools=[query_and_format_food]: 我来帮你分析这张餐食图片并记录。从图片中我看到了一份包含烤肉、玉米、烤土豆和蔬菜的餐点。让我先查询食物信息来帮助你准确记录。
+  [GLM-4.6V:8015] [食物识别(沙拉)] 裁判全部失败 → 加入重试队列
+  [GLM-4.6V:8015] [晚餐识别] resp(86c) tools=[get_skill]: 我来帮你分析晚餐并记录。首先加载饮食记录技能： 我来帮你分析晚餐并记录。请告诉我图片中的食物是什么？比如是米饭、面条、蔬菜还是其他什么？这样我就能帮你查询营养信
+  [GLM-4.6V:8015] [晚餐识别] 裁判全部失败 → 加入重试队列
+  [GLM-4.6V:8015] [睡眠报告] resp(9826c): actions: List of actions, can be used in the actions: List of actions, can be us
+  [GLM-4.6V:8015] [睡眠报告] 裁判全部失败 → 加入重试队列
+  [GLM-4.6V:8015] [睡前血糖] resp(488c) tools=[get_blood_glucose]: 我来帮你分析这个睡前血糖数据，并获取你的历史血糖记录以便给出更全面的建议。 根据你提供的睡前血糖数据，我来帮你分析一下：  ## 📊 血糖数据分析  **你上传
+  [GLM-4.6V:8015] [睡前血糖] 裁判全部失败 → 加入重试队列
+
+[GLM-4.6V:8015] 重试 15 个裁判失败 cases...
+  [GLM-4.6V:8015] [null] 裁判依然失败，最终排除出均值计算
+  [GLM-4.6V:8015] [跑步情况] 裁判依然失败，最终排除出均值计算
+  [GLM-4.6V:8015] [医学报告解读] 裁判依然失败，最终排除出均值计算
+  [GLM-4.6V:8015] [体脂秤读取] 裁判依然失败，最终排除出均值计算
+  [GLM-4.6V:8015] [增肌训练] 裁判依然失败，最终排除出均值计算
+  [GLM-4.6V:8015] [今日状态] 裁判依然失败，最终排除出均值计算
+  [GLM-4.6V:8015] [体温计准确性] 裁判依然失败，最终排除出均值计算
+  [GLM-4.6V:8015] [健康概览] 裁判依然失败，最终排除出均值计算
+  [GLM-4.6V:8015] [深蹲姿势] 裁判依然失败，最终排除出均值计算
+  [GLM-4.6V:8015] [血压读取] 裁判依然失败，最终排除出均值计算
+  [GLM-4.6V:8015] [血氧读取] 裁判依然失败，最终排除出均值计算
+  [GLM-4.6V:8015] [食物识别(沙拉)] 裁判依然失败，最终排除出均值计算
+  [GLM-4.6V:8015] [晚餐识别] 裁判依然失败，最终排除出均值计算
+  [GLM-4.6V:8015] [睡眠报告] 裁判依然失败，最终排除出均值计算
+  [GLM-4.6V:8015] [睡前血糖] 裁判依然失败，最终排除出均值计算
+[GLM-4.6V:8015] 停止 PHA...
+
+[GLM-4.6V:8015] 【异常检测】
+  ⚠️ 异常：16/16 个case含0分，疑似系统错误而非模型能力问题
+  ⚠️ 异常：所有case得分几乎相同，裁判可能未正常工作
+  ⚠️ 裁判失败（15个）：['null', '跑步情况', '医学报告解读', '体脂秤读取', '增肌训练', '今日状态', '体温计准确性', '健康概览', '深蹲姿势', '血压读取', '血氧读取', '食物识别(沙拉)', '晚餐识别', '睡眠报告', '睡前血糖']
+
+============================================================
+最终综合排名（11维度）:
+  1. MiniMax-01           0.00  (失败:16)
+  2. Qwen3VL-235B         0.00  (失败:16)
+  3. Qwen3.5-122B         0.00  (失败:16)
+  4. Qwen3.5-397B         0.00  (失败:16)
+  5. kimi-k2.5            0.00  (失败:16)
+  6. GLM-4.6V             0.00  (失败:16)
+============================================================
+
+生成图表...
+生成 summary.docx...
+生成 detail.docx...
+
+【待人工分析的异常】
+  MiniMax-01: ⚠️ 异常：16/16 个case含0分，疑似系统错误而非模型能力问题
+  MiniMax-01: ⚠️ 异常：所有case得分几乎相同，裁判可能未正常工作
+  MiniMax-01: ⚠️ 系统错误响应（16个）：['null', '爬坡训练建议', '跑步情况', '医学报告解读', '体脂秤读取', '增肌训练', '今日状态', '体温计准确性', '健康概览', '深蹲姿势', '血压读取', '血氧读取', '食物识别(沙拉)', '晚餐识别', '睡眠报告', '睡前血糖'] - 疑似OpenRouter截断或PHA内部错误，非模型能力
+  MiniMax-01: ⚠️ 裁判失败（16个）：['null', '爬坡训练建议', '跑步情况', '医学报告解读', '体脂秤读取', '增肌训练', '今日状态', '体温计准确性', '健康概览', '深蹲姿势', '血压读取', '血氧读取', '食物识别(沙拉)', '晚餐识别', '睡眠报告', '睡前血糖']
+  Qwen3.5-122B: ⚠️ 异常：16/16 个case含0分，疑似系统错误而非模型能力问题
+  Qwen3.5-122B: ⚠️ 异常：所有case得分几乎相同，裁判可能未正常工作
+  Qwen3.5-122B: ⚠️ 裁判失败（16个）：['null', '爬坡训练建议', '跑步情况', '医学报告解读', '体脂秤读取', '增肌训练', '今日状态', '体温计准确性', '健康概览', '深蹲姿势', '血压读取', '血氧读取', '食物识别(沙拉)', '晚餐识别', '睡眠报告', '睡前血糖']
+  Qwen3VL-235B: ⚠️ 异常：16/16 个case含0分，疑似系统错误而非模型能力问题
+  Qwen3VL-235B: ⚠️ 异常：所有case得分几乎相同，裁判可能未正常工作
+  Qwen3VL-235B: ⚠️ 裁判失败（16个）：['null', '爬坡训练建议', '跑步情况', '医学报告解读', '体脂秤读取', '增肌训练', '今日状态', '体温计准确性', '健康概览', '深蹲姿势', '血压读取', '血氧读取', '食物识别(沙拉)', '晚餐识别', '睡眠报告', '睡前血糖']
+  Qwen3.5-397B: ⚠️ 异常：16/16 个case含0分，疑似系统错误而非模型能力问题
+  Qwen3.5-397B: ⚠️ 异常：所有case得分几乎相同，裁判可能未正常工作
+  Qwen3.5-397B: ⚠️ 裁判失败（16个）：['null', '爬坡训练建议', '跑步情况', '医学报告解读', '体脂秤读取', '增肌训练', '今日状态', '体温计准确性', '健康概览', '深蹲姿势', '血压读取', '血氧读取', '食物识别(沙拉)', '晚餐识别', '睡眠报告', '睡前血糖']
+  kimi-k2.5: ⚠️ 异常：16/16 个case含0分，疑似系统错误而非模型能力问题
+  kimi-k2.5: ⚠️ 异常：所有case得分几乎相同，裁判可能未正常工作
+  kimi-k2.5: ⚠️ 裁判失败（16个）：['null', '爬坡训练建议', '跑步情况', '医学报告解读', '体脂秤读取', '增肌训练', '今日状态', '体温计准确性', '健康概览', '深蹲姿势', '血压读取', '血氧读取', '食物识别(沙拉)', '晚餐识别', '睡眠报告', '睡前血糖']
+  GLM-4.6V: ⚠️ 异常：16/16 个case含0分，疑似系统错误而非模型能力问题
+  GLM-4.6V: ⚠️ 异常：所有case得分几乎相同，裁判可能未正常工作
+  GLM-4.6V: ⚠️ 裁判失败（15个）：['null', '跑步情况', '医学报告解读', '体脂秤读取', '增肌训练', '今日状态', '体温计准确性', '健康概览', '深蹲姿势', '血压读取', '血氧读取', '食物识别(沙拉)', '晚餐识别', '睡眠报告', '睡前血糖']
+
+✅ 评测完成
+   结果目录: D:\pha-v2\tests\vl-eval\results\run_20260319_1205
+   Summary: D:\pha-v2\tests\vl-eval\results\run_20260319_1205\summary_20260319_1250.docx
+   Detail:  D:\pha-v2\tests\vl-eval\results\run_20260319_1205\detail_20260319_1250.docx
+
+⚠️  综合分析需要 Claude 写入 summary_{ts}.docx 的 [ANALYSIS_PLACEHOLDER] 位置

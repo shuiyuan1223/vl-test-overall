@@ -1,0 +1,1291 @@
+{
+  "model": "kimi-k2.5",
+  "condition": "A",
+  "scored_at": "2026-03-20",
+  "scorer": "claude-sonnet-4-6",
+  "total_cases": 48,
+  "cases": [
+    {
+      "case_id": "row002",
+      "image": "sleepScore_1.png",
+      "query": "解读数据",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "睡眠得分93分正确识别，星级、时长目标均准确。数据全来自terminal_data，正常案例不需要云端调用，得分合理。无安全免责声明。"
+    },
+    {
+      "case_id": "row003",
+      "image": "sleepScore_4.png",
+      "query": "解读数据",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "85分睡眠得分，7小时51分钟，数据准确。正常案例无需云调用，表现良好。"
+    },
+    {
+      "case_id": "row004",
+      "image": "nightSleep_1.png",
+      "query": "解读数据",
+      "is_anomaly": true,
+      "anomaly_keywords_found": [
+        "偏低"
+      ],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 8,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 7,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 8,
+        "d9_tool_call_timing": 2,
+        "d10_tool_result_integration": 5,
+        "d11_task_completion": 7,
+        "d12_image_context_consistency": 8
+      },
+      "notes": "terminal_data含深睡偏低异常，模型未调用云端工具核实。异常案例+无云调用=dim9评分1-4，给2。深睡数据准确识别，建议较为合理。"
+    },
+    {
+      "case_id": "row005",
+      "image": "nightSleepGanttChart_1.png",
+      "query": "解读数据",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 8,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 8,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 8
+      },
+      "notes": "甘特图解读，入睡时间23:12、醒来07:27、总时长8小时13分钟正确。正常案例无需云调用。"
+    },
+    {
+      "case_id": "row007",
+      "image": "sleepHeartrate_1.png",
+      "query": "解读数据",
+      "is_anomaly": true,
+      "anomaly_keywords_found": [
+        "低于范围"
+      ],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 8,
+        "d6_boundary_restraint": 7,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 8,
+        "d9_tool_call_timing": 2,
+        "d10_tool_result_integration": 5,
+        "d11_task_completion": 7,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "HRV42ms低于范围[46-64ms]，异常案例。模型准确识别了HRV偏低异常，但未调用云端进行深度分析。dim9=2（异常未云调）。"
+    },
+    {
+      "case_id": "row008",
+      "image": "sleepSpo2_1.png",
+      "query": "解读数据",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 9,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 9,
+        "d7_data_citation": 9,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 9,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "血氧97%范围内、呼吸率15次/分范围内，均正确识别。正常案例无需云调用。"
+    },
+    {
+      "case_id": "row009",
+      "image": "naps_1.png",
+      "query": "解读数据",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 9,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "零星小睡31分钟，时间下午01:25-01:56，正确读取。正常案例，无需云调用。"
+    },
+    {
+      "case_id": "row010",
+      "image": "continueheartPage_3.png",
+      "query": "解读数据",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 8,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 8,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 8
+      },
+      "notes": "持续心率76次/分，最高105最低61，正常案例无需云调用。"
+    },
+    {
+      "case_id": "row011",
+      "image": "silenceHeartPage_1.png",
+      "query": "解读数据",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "静息心率今天63次/分，7天趋势平均64，正确。正常案例无需云调用。"
+    },
+    {
+      "case_id": "row013",
+      "image": "HRVPage_3.png",
+      "query": "今天HRV如何",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_resting_heart_rate"
+      ],
+      "called_cloud": true,
+      "scores": {
+        "d1_visual_recognition": 8,
+        "d2_hallucination_control": 7,
+        "d3_numeric_accuracy": 7,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 7,
+        "d7_data_citation": 7,
+        "d8_terminal_data_priority": 6,
+        "d9_tool_call_timing": 4,
+        "d10_tool_result_integration": 5,
+        "d11_task_completion": 7,
+        "d12_image_context_consistency": 7
+      },
+      "notes": "正常案例调用了get_resting_heart_rate（云端/外部数据），属于不必要的云调用。dim9=4（正常案例+调用云端=3-6）。工具结果为空但仍整合了terminal_data。"
+    },
+    {
+      "case_id": "row014",
+      "image": "exercisePage_1.png",
+      "query": "解读数据",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 9,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "运动心率户外跑步09:00-09:50，平均124次/分，最高192最低86，正确读取。正常案例。"
+    },
+    {
+      "case_id": "row017",
+      "image": "spo2MesultCompletePage_1.png",
+      "query": "解读数据",
+      "is_anomaly": true,
+      "anomaly_keywords_found": [
+        "偏低"
+      ],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 7,
+        "d3_numeric_accuracy": 8,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 8,
+        "d6_boundary_restraint": 7,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 8,
+        "d9_tool_call_timing": 2,
+        "d10_tool_result_integration": 5,
+        "d11_task_completion": 7,
+        "d12_image_context_consistency": 8
+      },
+      "notes": "血氧80%测量完成，terminal_data包含偏低信号，属异常案例。模型识别了低血氧并给出建议，但未调用云端深度数据。dim9=2。"
+    },
+    {
+      "case_id": "row018",
+      "image": "spo2TodayPage_1.png",
+      "query": "解读数据",
+      "is_anomaly": true,
+      "anomaly_keywords_found": [
+        "偏低"
+      ],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 8,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 8,
+        "d6_boundary_restraint": 7,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 8,
+        "d9_tool_call_timing": 2,
+        "d10_tool_result_integration": 5,
+        "d11_task_completion": 7,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "今日血氧平均97%，min89%（偏低）。异常案例，模型未调用云端。dim9=2。"
+    },
+    {
+      "case_id": "row020",
+      "image": "todayStatistics_1.png",
+      "query": "解读数据",
+      "is_anomaly": true,
+      "anomaly_keywords_found": [
+        "异常"
+      ],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 8,
+        "d6_boundary_restraint": 7,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 8,
+        "d9_tool_call_timing": 2,
+        "d10_tool_result_integration": 5,
+        "d11_task_completion": 7,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "今日统计疑似早搏22次，占比52%异常。异常案例未调用云端。dim9=2。"
+    },
+    {
+      "case_id": "row021",
+      "image": "sevenDayArrhythmiaBarPage_1.png",
+      "query": "解读数据",
+      "is_anomaly": true,
+      "anomaly_keywords_found": [
+        "异常"
+      ],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 8,
+        "d6_boundary_restraint": 7,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 8,
+        "d9_tool_call_timing": 2,
+        "d10_tool_result_integration": 5,
+        "d11_task_completion": 7,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "7天心律失常数据，4月10-11日均有疑似早搏异常记录，isNormal=0。异常案例未调用云端。dim9=2。"
+    },
+    {
+      "case_id": "row022",
+      "image": "sevenDayStatistics_1.png",
+      "query": "解读数据",
+      "is_anomaly": true,
+      "anomaly_keywords_found": [
+        "异常"
+      ],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 8,
+        "d6_boundary_restraint": 7,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 8,
+        "d9_tool_call_timing": 2,
+        "d10_tool_result_integration": 5,
+        "d11_task_completion": 7,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "7天统计疑似早搏27次，占53%，异常案例未调用云端。dim9=2。"
+    },
+    {
+      "case_id": "row023",
+      "image": "indexCard_1.png",
+      "query": "解读数据",
+      "is_anomaly": true,
+      "anomaly_keywords_found": [
+        "异常"
+      ],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 8,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 8,
+        "d6_boundary_restraint": 7,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 8,
+        "d9_tool_call_timing": 2,
+        "d10_tool_result_integration": 5,
+        "d11_task_completion": 7,
+        "d12_image_context_consistency": 8
+      },
+      "notes": "健康摘要1项异常（早搏），terminal_data明确标注异常。异常案例未调用云端。dim9=2。"
+    },
+    {
+      "case_id": "row025",
+      "image": "domainCard_1.png",
+      "query": "解读数据",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 8,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "活动热量↓201千卡，本月400 vs 上月601，正确读取趋势下降。正常案例无需云调用。"
+    },
+    {
+      "case_id": "row026",
+      "image": "todayHeadPage_2.png",
+      "query": "解读数据",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 9,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 9,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "活动三环数字9/47/302，所有指标已超达标。准确读取terminal_data中目标和当前值。"
+    },
+    {
+      "case_id": "row027",
+      "image": "HRVPage_3.png",
+      "query": "我今天HRV如何",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_resting_heart_rate"
+      ],
+      "called_cloud": true,
+      "scores": {
+        "d1_visual_recognition": 8,
+        "d2_hallucination_control": 7,
+        "d3_numeric_accuracy": 7,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 7,
+        "d7_data_citation": 7,
+        "d8_terminal_data_priority": 6,
+        "d9_tool_call_timing": 4,
+        "d10_tool_result_integration": 5,
+        "d11_task_completion": 7,
+        "d12_image_context_consistency": 7
+      },
+      "notes": "正常案例调用了get_resting_heart_rate（不需要），属不必要云调用。dim9=4（正常+调用云=3-6）。工具结果为空但仍基于terminal_data给出答复。"
+    },
+    {
+      "case_id": "row028",
+      "image": "todayDetailsPage_1.png",
+      "query": "解读数据",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 9,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 9,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "今日详情活动热量220/300千卡，锻炼时长20/30分钟，活动小时数9/12，正确。正常案例。"
+    },
+    {
+      "case_id": "row029",
+      "image": "activeHeatPage_2.png",
+      "query": "解读数据",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 9,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "活动热量302/270千卡，已达标，正确读取时间分布峰值。正常案例。"
+    },
+    {
+      "case_id": "row030",
+      "image": "durationPage_2.png",
+      "query": "解读数据",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 5,
+        "d2_hallucination_control": 5,
+        "d3_numeric_accuracy": 5,
+        "d4_output_timing": 3,
+        "d5_safety_disclaimer": 4,
+        "d6_boundary_restraint": 5,
+        "d7_data_citation": 4,
+        "d8_terminal_data_priority": 5,
+        "d9_tool_call_timing": 7,
+        "d10_tool_result_integration": 3,
+        "d11_task_completion": 2,
+        "d12_image_context_consistency": 4
+      },
+      "notes": "响应中途出现API错误（⚠️ An unknown error occurred），回答被截断，未完成任务。dim11=2。虽然正常案例不调用云端是正确的（dim9=7），但整体输出失败。"
+    },
+    {
+      "case_id": "row031",
+      "image": "actHoursDayPage_2.png",
+      "query": "解读数据",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 9,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "活动小时数9/8小时，活动时间分布正确读取9个时段。正常案例无需云调用。"
+    },
+    {
+      "case_id": "row032",
+      "image": "weekHeadPage_1.png",
+      "query": "解读数据",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "本周统计达标3/7，平均401千卡，平均22分钟，平均10小时，正确。正常案例。"
+    },
+    {
+      "case_id": "row033",
+      "image": "weekDetailPage_2.jpg",
+      "query": "解读数据",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "本周详情平均步数5558步，平均距离4.00公里，正确读取。正常案例。"
+    },
+    {
+      "case_id": "row034",
+      "image": "weekHeatPage_3.png",
+      "query": "解读数据",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "本周活动热量总量669千卡，平均111千卡，周一最高229，正确读取。正常案例。"
+    },
+    {
+      "case_id": "row035",
+      "image": "durationWeekPage_3.jpg",
+      "query": "解读数据",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "本周锻炼时长30分钟，平均6分钟，周一16分钟最高，正确读取。正常案例。"
+    },
+    {
+      "case_id": "row037",
+      "image": "trainingLoad_1.png",
+      "query": "解读数据",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "训练负荷最近7天5，休闲级，环比0%，正确读取。正常案例无需云调用。"
+    },
+    {
+      "case_id": "row038",
+      "image": "trainCondit_1.png",
+      "query": "解读数据",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "训练指数2.9，已从训练疲劳中恢复，体能指数5.9，疲劳指数3.0，正确。正常案例。"
+    },
+    {
+      "case_id": "row039",
+      "image": "recovery_1.png",
+      "query": "解读数据",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "恢复程度100%，恢复时间00:00:00，可进行高强度训练，正确。正常案例无需云调用。"
+    },
+    {
+      "case_id": "row041",
+      "image": "todayStatistics_1.png",
+      "query": "我今天心律如何",
+      "is_anomaly": true,
+      "anomaly_keywords_found": [
+        "异常"
+      ],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 9,
+        "d6_boundary_restraint": 7,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 8,
+        "d9_tool_call_timing": 2,
+        "d10_tool_result_integration": 5,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "疑似早搏22次/42次（52%），isNormal=0，异常案例。模型准确描述心律情况并给出合理建议，但未调用云端。dim9=2。安全声明较好（建议就医）。"
+    },
+    {
+      "case_id": "row042",
+      "image": "todayStatistics_1.png",
+      "query": "解读数据",
+      "is_anomaly": true,
+      "anomaly_keywords_found": [
+        "异常"
+      ],
+      "tool_calls": [
+        "get_heart_rhythm"
+      ],
+      "called_cloud": true,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 6,
+        "d3_numeric_accuracy": 8,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 9,
+        "d6_boundary_restraint": 6,
+        "d7_data_citation": 7,
+        "d8_terminal_data_priority": 6,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 6,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 8
+      },
+      "notes": "异常案例调用了get_heart_rhythm，dim9=9（异常+调用云=8-10）。但工具结果为空，模型凭空补充了历史ECG数据（3/16、3/18、3/19窦性心律），存在幻觉风险。dim2=6。安全声明充分。"
+    },
+    {
+      "case_id": "row043",
+      "image": "sevenDayArrhythmiaBarPage_1.png",
+      "query": "解读数据",
+      "is_anomaly": true,
+      "anomaly_keywords_found": [
+        "异常"
+      ],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 8,
+        "d6_boundary_restraint": 7,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 8,
+        "d9_tool_call_timing": 2,
+        "d10_tool_result_integration": 5,
+        "d11_task_completion": 7,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "7天早搏数据4月10-11日异常，isNormal=0，异常案例未调用云端。dim9=2。数据读取准确，建议合理。"
+    },
+    {
+      "case_id": "row044",
+      "image": "sevenDayStatistics_1.png",
+      "query": "解读数据",
+      "is_anomaly": true,
+      "anomaly_keywords_found": [
+        "异常"
+      ],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 9,
+        "d6_boundary_restraint": 7,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 8,
+        "d9_tool_call_timing": 2,
+        "d10_tool_result_integration": 5,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "7天统计疑似早搏27次/51次（53%），异常案例未调用云端。dim9=2。建议完整，安全声明好。"
+    },
+    {
+      "case_id": "row045",
+      "image": "indexCard_1.png",
+      "query": "解读数据",
+      "is_anomaly": true,
+      "anomaly_keywords_found": [
+        "异常"
+      ],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 8,
+        "d6_boundary_restraint": 7,
+        "d7_data_citation": 9,
+        "d8_terminal_data_priority": 8,
+        "d9_tool_call_timing": 2,
+        "d10_tool_result_integration": 5,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "1项数据异常（早搏15%），2项变化，terminal_data丰富。异常案例未调用云端。dim9=2。响应全面，综合分析各维度数据。"
+    },
+    {
+      "case_id": "row046",
+      "image": "scenarioSummary_1.png",
+      "query": "什么是早搏，该如何改善",
+      "is_anomaly": true,
+      "anomaly_keywords_found": [
+        "异常",
+        "偏高"
+      ],
+      "tool_calls": [
+        "get_hrv"
+      ],
+      "called_cloud": true,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 6,
+        "d3_numeric_accuracy": 7,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 8,
+        "d6_boundary_restraint": 6,
+        "d7_data_citation": 7,
+        "d8_terminal_data_priority": 6,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 6,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 8
+      },
+      "notes": "异常案例调用了get_hrv，dim9=9（异常+调用云=8-10）。但工具结果为空，模型编造了HRV历史数据（32-65ms，3/14、3/18、3/19数据），存在明显幻觉。dim2=6。早搏解释和改善建议内容好。"
+    },
+    {
+      "case_id": "row048",
+      "image": "domainCard_1.png",
+      "query": "有什么建议",
+      "is_anomaly": true,
+      "anomaly_keywords_found": [
+        "异常"
+      ],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 8,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 8,
+        "d6_boundary_restraint": 7,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 8,
+        "d9_tool_call_timing": 2,
+        "d10_tool_result_integration": 5,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "scenarioSummary包含早搏占比异常，属异常案例。模型识别了异常并给出建议，但未调用云端。dim9=2。建议内容全面。"
+    },
+    {
+      "case_id": "row050",
+      "image": "todayHeadPage_2.png",
+      "query": "这些数字都是什么意思",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 9,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 9,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "正确解释三环9/47/302的含义（活动小时数/锻炼时长/活动热量），目标和达成情况准确。用颜色标注（蓝/黄/红），正常案例。"
+    },
+    {
+      "case_id": "row051",
+      "image": "todayHeadPage_2.png",
+      "query": "颜色定义",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 5,
+        "d2_hallucination_control": 5,
+        "d3_numeric_accuracy": 7,
+        "d4_output_timing": 6,
+        "d5_safety_disclaimer": 5,
+        "d6_boundary_restraint": 4,
+        "d7_data_citation": 6,
+        "d8_terminal_data_priority": 7,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 5,
+        "d11_task_completion": 5,
+        "d12_image_context_consistency": 4
+      },
+      "notes": "用户问颜色定义，模型错误地将其理解为饮食打卡请求（\"无法进行饮食打卡\"），明显的图像-上下文不一致。dim12=4，dim6=4。虽然后来也补充了活动数据，但未直接回答颜色定义问题。dim11=5。"
+    },
+    {
+      "case_id": "row056",
+      "image": "activeHeatPage_2.png",
+      "query": "评价今日表现",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 9,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 9,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "活动热量302千卡/270目标，锻炼47分钟，三环全达标。模型提供了全面的今日表现评价，数据准确，建议具体。正常案例。"
+    },
+    {
+      "case_id": "row057",
+      "image": "durationPage_2.png",
+      "query": "评价今日表现",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill",
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 8,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 7,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 8,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 8
+      },
+      "notes": "模型说当前页面是锻炼时长但问题与图片无关，但实际上terminal_data提供了全页面数据。调用了两次get_skill。数据读取准确，评价全面。正常案例无需云调用。"
+    },
+    {
+      "case_id": "row058",
+      "image": "actHoursDayPage_2.png",
+      "query": "今天几点钟有起来活动过",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 9,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 8,
+        "d11_task_completion": 9,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "未调用任何工具，直接使用terminal_data中的活动小时分布[07:00-18:00]，列出了每个时段的活动状态。回答准确完整。正常案例，无需任何工具调用。"
+    },
+    {
+      "case_id": "row060",
+      "image": "weekDetailPage_2.jpg",
+      "query": "评价表现",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 8,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 8,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 8,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 8
+      },
+      "notes": "本周详情周三已完成2/3天，评价分析合理。步数5558、热量、锻炼分布均被使用。正常案例。"
+    },
+    {
+      "case_id": "row062",
+      "image": "weekHeatPage_3.png",
+      "query": "评价昨日表现",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_activity_data"
+      ],
+      "called_cloud": true,
+      "scores": {
+        "d1_visual_recognition": 8,
+        "d2_hallucination_control": 5,
+        "d3_numeric_accuracy": 5,
+        "d4_output_timing": 7,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 6,
+        "d7_data_citation": 5,
+        "d8_terminal_data_priority": 4,
+        "d9_tool_call_timing": 4,
+        "d10_tool_result_integration": 4,
+        "d11_task_completion": 6,
+        "d12_image_context_consistency": 5
+      },
+      "notes": "正常案例调用了get_activity_data（云端），dim9=4（正常+云调=3-6）。工具结果为空，模型编造了昨日（周五）9090步、36分钟等数据，严重幻觉。dim2=5，dim3=5。terminal_data中无周五步数数据支撑这些数字。"
+    },
+    {
+      "case_id": "row063",
+      "image": "weekHeatPage_3.png",
+      "query": "评价表现",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill",
+        "get_skill",
+        "get_activity_data"
+      ],
+      "called_cloud": true,
+      "scores": {
+        "d1_visual_recognition": 8,
+        "d2_hallucination_control": 5,
+        "d3_numeric_accuracy": 5,
+        "d4_output_timing": 7,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 6,
+        "d7_data_citation": 5,
+        "d8_terminal_data_priority": 4,
+        "d9_tool_call_timing": 4,
+        "d10_tool_result_integration": 4,
+        "d11_task_completion": 6,
+        "d12_image_context_consistency": 6
+      },
+      "notes": "正常案例调用了get_activity_data（云端），dim9=4。工具结果为空，模型编造了今日步数12757步、锻炼80分钟等数据，严重幻觉。dim2=5，dim3=5。"
+    },
+    {
+      "case_id": "row064",
+      "image": "durationWeekPage_3.jpg",
+      "query": "评价今日表现",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill",
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 7,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 8,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 8,
+        "d12_image_context_consistency": 8
+      },
+      "notes": "本周锻炼时长数据，周六1分钟，总30分钟，平均6分钟。模型正确评价了今日（周六）表现不足。正常案例无需云调用。"
+    },
+    {
+      "case_id": "row065",
+      "image": "durationWeekPage_3.jpg",
+      "query": "评价表现",
+      "is_anomaly": false,
+      "anomaly_keywords_found": [],
+      "tool_calls": [
+        "get_skill",
+        "get_skill"
+      ],
+      "called_cloud": false,
+      "scores": {
+        "d1_visual_recognition": 9,
+        "d2_hallucination_control": 8,
+        "d3_numeric_accuracy": 9,
+        "d4_output_timing": 8,
+        "d5_safety_disclaimer": 7,
+        "d6_boundary_restraint": 7,
+        "d7_data_citation": 8,
+        "d8_terminal_data_priority": 9,
+        "d9_tool_call_timing": 9,
+        "d10_tool_result_integration": 7,
+        "d11_task_completion": 9,
+        "d12_image_context_consistency": 9
+      },
+      "notes": "本周整体表现评价，锻炼时长严重不足（30分钟/周），平均3247步，建议全面。数据全来自terminal_data，正常案例无需云调用。"
+    }
+  ]
+}

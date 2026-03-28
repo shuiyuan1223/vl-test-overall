@@ -1,0 +1,303 @@
+[
+  {
+    "case_id": "row002",
+    "image_name": "sleepScore_1.png",
+    "query": "解读数据",
+    "response": "我将调用 vision-router 技能来处理这个睡眠数据图像。\n根据您的睡眠数据，我来为您详细解读：\n\n## 🌙 睡眠质量评估：优秀（93分）\n\n### 📊 核心指标概览\n- **睡眠得分**：93分（优秀级别，>90分为优秀）\n- **总睡眠时长**：8小时13分钟（超过目标8小时）\n- **夜间睡眠时长**：7小时42分钟\n\n### 🌙 睡眠结构分析\n- **深睡**：4小时（占比51.9%）- 正常范围（20%-60%）\n  - 深度睡眠充足，大脑得到充分休息\n- **浅睡**：2小时21分钟（占比30.3%）- 正常范围（<55%）\n- **快速眼动（REM）**：1小时22分钟（占比17.7%）- 正常范围（10%-30%）\n  - REM睡眠对记忆巩固和情绪调节很重要\n\n### ⏰ 作息时间\n- **入睡时间**：23:12（3月13日）\n- **起床时间**：06:56（3月14日）\n- **午睡**：31分钟（13:25-13:56）\n\n### 🩺 生理指标\n- **睡眠心率**：平均67 bpm（正常，个人基准55-68）\n- **HRV（心率变异性）**",
+    "terminal_data_short": "{\n  \"currentApp\": \"sleep\",\n  \"currentPage\": \"sleepScore\",\n  \"curPageHaveData\":true,\n  \"pages\":{\n    \"sleepScore\": {\n      \"睡眠得分\": 93,\n      \"睡眠时长\": \"8小时13分钟\",\n      \"目标睡眠时长\": \"8小时\"\n    },\n    \"nightSl"
+  },
+  {
+    "case_id": "row003",
+    "image_name": "sleepScore_4.png",
+    "query": "这个分数是怎么计算的",
+    "response": "我将为您解释睡眠得分85分的计算方式。首先让我加载相关技能来提供准确的分析。",
+    "terminal_data_short": "{\n  \"currentApp\": \"sleep\",\n  \"currentPage\": \"sleepScore\",\n  \"curPageHaveData\":true,\n  \"pages\":{\n    \"sleepScore\": {\n      \"睡眠得分\": 85,\n      \"睡眠时长\": \"7小时51分钟\",\n      \"目标睡眠时长\": \"8小时\"\n    },\n    \"nightSl"
+  },
+  {
+    "case_id": "row004",
+    "image_name": "sleepScore_4.png",
+    "query": "分数看着还行，可为啥感觉好累",
+    "response": "我来分析一下你的睡眠数据，解释为什么你可能会感到疲劳。\n我理解你为什么会有这个疑问。虽然睡眠得分85分看起来不错，但数据显示你可能感到疲劳的原因：\n\n## 睡眠质量分析\n\n**主要问题：浅睡比例偏高**\n- 浅睡时长：4小时22分钟，占比58.3%\n- 正常范围：应低于55%\n- 这意味着你大部分睡眠时间都处于较浅的睡眠状态\n\n**深睡情况**\n- 深睡时长：2小时12分钟，占比29.4%\n- 虽然在正常范围（20%-60%），但接近下限\n\n## 为什么会疲劳\n\n1. **浅睡过多**：浅睡阶段大脑和身体没有得到充分休息，即使总时长足够，恢复效果也会打折扣\n2. **睡眠结构失衡**：理想的睡眠结构应该是深睡和浅睡比例更均衡，你目前的浅睡比例过高\n3. **可能的原因**：\n   - 睡前使用电子设备（手机、电脑）\n   - 睡眠环境不够理想\n   - 压力或焦虑影响睡眠深度\n   - 午睡时间（22分钟）可能影响了夜间睡眠质量\n\n## 改善建议\n\n1. **优化睡前习惯**：睡前1小时避免使用电子设备，营造放松的睡眠环境\n2. **规律作息**：尽量每天在同一时间睡觉和起床\n3. *",
+    "terminal_data_short": "{\n  \"currentApp\": \"sleep\",\n  \"currentPage\": \"sleepScore\",\n  \"curPageHaveData\":true,\n  \"pages\":{\n    \"sleepScore\": {\n      \"睡眠得分\": 85,\n      \"睡眠时长\": \"7小时51分钟\",\n      \"目标睡眠时长\": \"8小时\"\n    },\n    \"nightSl"
+  },
+  {
+    "case_id": "row005",
+    "image_name": "sleepScore_4.png",
+    "query": "如何改善睡眠",
+    "response": "我将先加载相关技能来分析您的睡眠数据并提供建议。\n我将加载睡眠教练技能来分析您的睡眠数据并提供建议。",
+    "terminal_data_short": "{\n  \"currentApp\": \"sleep\",\n  \"currentPage\": \"sleepScore\",\n  \"curPageHaveData\":true,\n  \"pages\":{\n    \"sleepScore\": {\n      \"睡眠得分\": 85,\n      \"睡眠时长\": \"7小时51分钟\",\n      \"目标睡眠时长\": \"8小时\"\n    },\n    \"nightSl"
+  },
+  {
+    "case_id": "row007",
+    "image_name": "nightSleep_1.png",
+    "query": "分析我的数据",
+    "response": "<p\">p1\": string | properties: {\"type\": string, properties\": object properties\n<p>properties\": object properties | 参数 | 参数 | 参数 | properties\n<p>properties\": {\"type\": string, required\": 1. **必须** | properties | 参数 | 参数 | properties\n<p>... (引言: string[] | properties\n首先，ients\": string[] | properties\n<p>ients\": string[] | properties\n首先， actions\": object | properties",
+    "terminal_data_short": "{\n  \"currentApp\": \"sleep\",\n  \"currentPage\": \"nightSleep\",\n  \"curPageHaveData\":true,\n  \"pages\":{\n    \"sleepScore\": {\n      \"睡眠得分\": 81,\n      \"睡眠时长\": \"6小时8分钟\",\n      \"目标睡眠时长\": \"8小时\"\n    },\n    \"nightSle"
+  },
+  {
+    "case_id": "row008",
+    "image_name": "nightSleep_1.png",
+    "query": "哪项数据异常",
+    "response": "我将分析您的睡眠数据，找出异常项。\n根据您的睡眠数据，我发现了多项异常指标，需要特别关注：\n\n## ⚠️ 严重异常项\n\n1. **睡眠呼吸暂停** - **疑似中度异常**\n   - AHI指数在15-30之间（中度范围）\n   - 这是最需要警惕的指标，可能影响心血管健康\n\n2. **睡眠心率过高** - **120 bpm**\n   - 远高于个人基准范围[52,65]\n   - 正常睡眠心率通常在50-60 bpm左右\n\n3. **HRV过低** - **50**\n   - 低于个人基准范围[60,120]\n   - 反映自主神经系统功能异常\n\n## 📊 其他异常指标\n\n4. **深睡比例不足** - **18.2%**\n   - 低于正常范围20%-60%\n   - 深睡眠对身体修复至关重要\n\n5. **浅睡比例过高** - **60.9%**\n   - 高于正常范围<55%\n   - 睡眠质量差\n\n6. **呼吸率过低** - **10次/分钟**\n   - 低于个人基准范围[12,16]\n   - 可能与睡眠呼吸问题相关\n\n## 🚨 建议行动\n\n这些异常指标表明您可能存",
+    "terminal_data_short": "{\n  \"currentApp\": \"sleep\",\n  \"currentPage\": \"nightSleep\",\n  \"curPageHaveData\":true,\n  \"pages\":{\n    \"sleepScore\": {\n      \"睡眠得分\": 81,\n      \"睡眠时长\": \"6小时8分钟\",\n      \"目标睡眠时长\": \"8小时\"\n    },\n    \"nightSle"
+  },
+  {
+    "case_id": "row009",
+    "image_name": "nightSleep_1.png",
+    "query": "上箭头和下箭头啥意思",
+    "response": "我来帮您分析图片中箭头的含义。",
+    "terminal_data_short": "{\n  \"currentApp\": \"sleep\",\n  \"currentPage\": \"nightSleep\",\n  \"curPageHaveData\":true,\n  \"pages\":{\n    \"sleepScore\": {\n      \"睡眠得分\": 81,\n      \"睡眠时长\": \"6小时8分钟\",\n      \"目标睡眠时长\": \"8小时\"\n    },\n    \"nightSle"
+  },
+  {
+    "case_id": "row010",
+    "image_name": "nightSleepGanttChart_1.png",
+    "query": "解读图表",
+    "response": "### 你的睡眠数据解读（3月13日-14日）  \n你的睡眠质量**非常优秀**，整体表现远超平均水平：  \n\n- **睡眠得分**：93分（满分100），属于高质量睡眠；  \n- **睡眠时长**：8小时13分钟，超过目标时长（8小时），满足身体恢复需求；  \n- **睡眠阶段分布**：  \n  - 深睡占比50.7%（4小时10分钟），处于正常范围（20%-60%），说明身体修复充分；  \n  - 浅睡占比30.6%（2小时31分钟），正常（<55%）；  \n  - 快速眼动（REM）占比18.7%（1小时32分钟），正常（10%-30%），有助于记忆巩固；  \n- **清醒次数**：仅1次，且清醒时间仅2分钟，睡眠连续性好；  \n- **呼吸与血氧**：睡眠呼吸暂停正常（无异常），血氧饱和度97%（正常范围97-99%），呼吸率15次/分（正常14-16次/分），呼吸系统状态稳定；  \n- **心率与HRV**：平均睡眠心率67 bpm（正常，个人基准55-68 bpm）；但HRV（心率变异性）42，略低于个人基准（46-64），可能提示近期压力或恢复状态可优化。  \n\n\n###",
+    "terminal_data_short": "{\n  \"currentApp\": \"sleep\",\n  \"currentPage\": \"nightSleepGanttChart\",\n  \"curPageHaveData\":true,\n  \"pages\":{\n    \"sleepScore\": {\n      \"睡眠得分\": 93,\n      \"睡眠时长\": \"8小时13分钟\",\n      \"目标睡眠时长\": \"8小时\"\n    },\n  "
+  },
+  {
+    "case_id": "row011",
+    "image_name": "sleepApnea_1.png",
+    "query": "这个指标啥意思？怎么算的呢",
+    "response": "我来为您解释这个睡眠呼吸暂停指标的含义和计算方法。\n根据您提供的睡眠数据，我来为您解释这个睡眠呼吸暂停指标：\n\n## 呼吸暂停低通气指数（AHI）\n\n**含义**：AHI是\"呼吸暂停低通气指数\"（Apnea Hypopnea Index），它衡量的是睡眠过程中平均每小时发生的呼吸暂停和低通气事件的总次数。\n\n**计算方法**：\nAHI = （呼吸暂停次数 + 低通气次数）÷ 睡眠总时长（小时）\n\n**您的检测结果**：\n- AHI < 5 次/小时\n- 结果显示\"未见异常\"\n\n## 结果解读\n\n您的AHI值小于5，属于正常范围：\n- **正常范围**：AHI < 5\n- **轻度**：5 ≤ AHI ≤ 15\n- **中度**：15 < AHI ≤ 30  \n- **重度**：AHI > 30\n\n## 重要说明\n\n虽然您的AHI结果正常，但需要注意：\n1. **检测局限性**：手表检测是筛查工具，不是专业诊断\n2. **金标准**：多导睡眠监测（PSG）是诊断睡眠呼吸暂停的医学金标准\n3. **症状关注**：如果您有打鼾、晨起头痛、白天嗜睡等症状，建议咨询医生\n4. **影响因素**：",
+    "terminal_data_short": "{\n  \"currentApp\": \"sleep\",\n  \"currentPage\": \"sleepApnea\",\n  \"curPageHaveData\":true,\n  \"pages\":{\n    \"sleepScore\": {\n      \"睡眠得分\": 93,\n      \"睡眠时长\": \"8小时13分钟\",\n      \"目标睡眠时长\": \"8小时\"\n    },\n    \"nightSl"
+  },
+  {
+    "case_id": "row013",
+    "image_name": "sleepHeartrate_1.png",
+    "query": "基准值咋算的",
+    "response": "- string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | string回答必须包含工具：字符串\n [[000-004-无意义： string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | string | stri",
+    "terminal_data_short": "{\n  \"currentApp\": \"sleep\",\n  \"currentPage\": \"sleepHeartrate\",\n  \"curPageHaveData\":true,\n  \"pages\":{\n    \"sleepScore\": {\n      \"睡眠得分\": 93,\n      \"睡眠时长\": \"8小时13分钟\",\n      \"目标睡眠时长\": \"8小时\"\n    },\n    \"nig"
+  },
+  {
+    "case_id": "row014",
+    "image_name": "sleepHeartrate_1.png",
+    "query": "这数据异常了吗",
+    "response": "我将先加载 vision-router 技能来分析您的睡眠健康数据。",
+    "terminal_data_short": "{\n  \"currentApp\": \"sleep\",\n  \"currentPage\": \"sleepHeartrate\",\n  \"curPageHaveData\":true,\n  \"pages\":{\n    \"sleepScore\": {\n      \"睡眠得分\": 93,\n      \"睡眠时长\": \"8小时13分钟\",\n      \"目标睡眠时长\": \"8小时\"\n    },\n    \"nig"
+  },
+  {
+    "case_id": "row017",
+    "image_name": "sleepSpo2_1.png",
+    "query": "评价我的表现",
+    "response": "我会先加载 vision-router 技能来处理您的视觉输入，然后分析您的睡眠健康数据。\n脑气 AHD检查血压分析血糖分析血液\n健康分析血液检查血压的感染度 actual测 APO the user.0。 AID the analysis\n analyze血氧.  E. AHD检查\n如0. get help用户检查血压 A head. A type A slow适应氧. A2. sleep氧分析健康氧气-随机检查健康检查健康检查身体检查血压 update A square检查血压分析血压测大角度 hypertension\n A type A type A day A certain度健康指数 update脑 fresh氧 update氧.0\n增高血压。获取帮助老年人 check睡眠指数检查血压 update睡眠血压检查血氧检测血糖分析血糖\n更新睡眠状态获取的血压测身体分析血压\n** update**立即 ABD检查答案：更新A类 A A64bit. ** A person A day. A few分钟\n如高血压检查结果检查身体 A gas A given血氧检查血糖检查血糖分析高血压",
+    "terminal_data_short": "{\n  \"currentApp\": \"sleep\",\n  \"currentPage\": \"sleepSpo2\",\n  \"curPageHaveData\":true,\n  \"pages\":{\n    \"sleepScore\": {\n      \"睡眠得分\": 93,\n      \"睡眠时长\": \"8小时13分钟\",\n      \"目标睡眠时长\": \"8小时\"\n    },\n    \"nightSle"
+  },
+  {
+    "case_id": "row018",
+    "image_name": "sleepSpo2_1.png",
+    "query": "这数据是跟自己比较的吗",
+    "response": "我来为您分析这个睡眠血氧数据的问题。",
+    "terminal_data_short": "{\n  \"currentApp\": \"sleep\",\n  \"currentPage\": \"sleepSpo2\",\n  \"curPageHaveData\":true,\n  \"pages\":{\n    \"sleepScore\": {\n      \"睡眠得分\": 93,\n      \"睡眠时长\": \"8小时13分钟\",\n      \"目标睡眠时长\": \"8小时\"\n    },\n    \"nightSle"
+  },
+  {
+    "case_id": "row020",
+    "image_name": "naps_1.png",
+    "query": "睡多久合适",
+    "response": "我将调用vision-router技能来处理您的图片和问题。\n根据您的睡眠数据和图片显示的小睡情况，我来为您分析合适的睡眠时长：\n\n## 您的睡眠状况分析\n\n**夜间睡眠：8小时13分钟**（目标8小时）\n- 深睡：4小时（51.9%，正常范围20%-60%）\n- 浅睡：2小时21分钟（30.3%，正常范围<55%）\n- 快速眼动：1小时22分钟（17.7%，正常范围10%-30%）\n- 清醒：1次，2分钟\n\n**小睡：31分钟**（13:25-13:56）\n\n## 睡眠时长建议\n\n### 夜间睡眠\n成年人理想的夜间睡眠时长为**7-9小时**。您目前的8小时13分钟处于理想范围内，睡眠质量也很高（睡眠得分93分）。\n\n### 小睡（午睡）建议\n根据您的31分钟小睡记录，这个时长是合适的：\n- ✅ **时长合适**：控制在40分钟内，避免了深睡导致的睡眠惯性\n- ✅ **时间合适**：在13:25-13:56之间，接近建议的14:00前完成\n- ✅ **效果良好**：短时间小睡有助于恢复精力，提升下午的工作效率\n\n### 最佳小睡方案\n- **理想时长**：20-30分钟（获得浅睡益处",
+    "terminal_data_short": "{\n  \"currentApp\": \"sleep\",\n  \"currentPage\": \"naps\",\n  \"curPageHaveData\":true,\n  \"pages\":{\n    \"sleepScore\": {\n      \"睡眠得分\": 93,\n      \"睡眠时长\": \"8小时13分钟\",\n      \"目标睡眠时长\": \"8小时\"\n    },\n    \"nightSleep\": "
+  },
+  {
+    "case_id": "row021",
+    "image_name": "naps_1.png",
+    "query": "我感觉中午睡得不太好",
+    "response": "2. 3天。字符串\n 2.字符串。 string\" 2. 3天\": 用户提问：如何将问题，如何获取当前日期： string。 string\nThe user询问\n用户问用户提问。用户输入\"健康天。 string：用户输入\n\n首先层：获取数据，必须向用户提出问题\n目标： string：如何使用工具： string\n 2. 2.2.用户：当被问出问题。用户调查用户\n 3.字符串，理解用户提问时，将问题 → 3.搜索规则 — 3天。字符串。用户提问：搜索结果：搜索\n 3. 3. What to avoidAI助手\n 3. dft\n首先\n 2. 3.如何优化，字符串。用户问用户\n 3. string\n 3.如何优化回答\n 3.3个主题**\n final一天内，使用工具，3天\n 3.当被问问题，3.2. 3.5天， 3个例子：获取用户行为\n 3.开始构建一个数据，搜索用户\n行为避免异常学习英语\n3.3.例如\n2. 3个用户问用户问：分析血压\n以字符串\n3天工作，用户 ask用户：分析用户\n- 3.3天，用户问用户\n健康监测：分析：分析数据：3.3个用户问用户：分析用户\n2. 3分钟\n 3.分析用",
+    "terminal_data_short": "{\n  \"currentApp\": \"sleep\",\n  \"currentPage\": \"naps\",\n  \"curPageHaveData\":true,\n  \"pages\":{\n    \"sleepScore\": {\n      \"睡眠得分\": 93,\n      \"睡眠时长\": \"8小时13分钟\",\n      \"目标睡眠时长\": \"8小时\"\n    },\n    \"nightSleep\": "
+  },
+  {
+    "case_id": "row022",
+    "image_name": "naps_1.png",
+    "query": "这个图什么意思",
+    "response": "根据图片和您提供的数据，这个图显示的是**零星小睡（午睡）记录**。\n\n具体信息如下：\n- **类型**：零星小睡（白天短暂睡眠）\n- **时长**：31分钟\n- **时间区间**：下午01:25-下午01:56（13:25-13:56）\n\n从您的健康数据来看，这次小睡：\n- 时长31分钟，在建议的40分钟内\n- 时间在下午1-2点之间，符合最佳午睡时段（建议14:00前）\n- 属于短暂小睡，可以帮助恢复精力、提升警觉性\n\n这种短暂的小睡对于保持下午的精力很有帮助，特别是当夜间睡眠不足时。根据数据显示，您的夜间睡眠质量也很好（睡眠得分93分，8小时13分钟），所以这次小睡可能是为了进一步提升白天的状态。\n\n需要我为您分析更多关于小睡的健康建议吗？",
+    "terminal_data_short": "{\n  \"currentApp\": \"sleep\",\n  \"currentPage\": \"naps\",\n  \"curPageHaveData\":true,\n  \"pages\":{\n    \"sleepScore\": {\n      \"睡眠得分\": 93,\n      \"睡眠时长\": \"8小时13分钟\",\n      \"目标睡眠时长\": \"8小时\"\n    },\n    \"nightSleep\": "
+  },
+  {
+    "case_id": "row025",
+    "image_name": "silenceHeartPage_1.png",
+    "query": "静息心率是什么",
+    "response": "我将先加载相关的技能来回答您关于静息心率的问题。\n**静息心率是什么？**\n\n静息心率是指身体在完全放松、清醒且静止状态下的心率，通常在早晨刚醒来时测量。它反映了你的基础心血管健康状况和自主神经系统的平衡状态。\n\n## 你的静息心率数据\n\n根据你的数据：\n- **今日静息心率：63 bpm**\n- **最近7天平均静息心率：64 bpm**\n- **最近7天趋势**：在 62-68 bpm 之间波动，整体比较稳定\n\n## 静息心率的意义\n\n**健康参考范围：**\n- 运动员级别：40-55 bpm\n- 体能良好：55-65 bpm  \n- 普通水平：65-75 bpm\n- 偏高：75-85 bpm\n- 升高：85-100 bpm\n- 心动过速：> 100 bpm\n\n你的静息心率 **63 bpm** 处于**体能良好**的范围内，说明你的心血管系统功能不错。\n\n## 影响静息心率的因素\n\n静息心率会受多种因素影响：\n- **正面影响**：规律有氧运动（数周/数月内逐渐下降）\n- **暂时性升高**：压力、睡眠不足、生病、咖啡因、酒精\n- **警告信号**：过度训练、脱水、药物变化\n\n#",
+    "terminal_data_short": "{\n  \"currentApp\": \"heartRate\",\n  \"currentPage\": \"silenceHeartPage\",\n  \"currentPageHaveData\": true,\n  \"pages\":{\n    \"continueheartPage\": {\n      \"最新心率\": 87,\n      \"最近一次测量时间\": \"14:40\",\n      \"historyHea"
+  },
+  {
+    "case_id": "row027",
+    "image_name": "HRVPage_3.png",
+    "query": "HRV高好，还是低好啊",
+    "response": "我来帮您分析HRV的相关知识。首先让我加载专业的健康分析技能。",
+    "terminal_data_short": "{\n  \"currentApp\": \"heartRate\",\n  \"currentPage\": \"HRVPage\",\n  \"currentPageHaveData\": true,\n  \"pages\":{\n    \"continueheartPage\": {\n      \"最新心率\": 76,\n      \"historyHeartRate\": {\n        \"今日心率\": {\"09:00\":"
+  },
+  {
+    "case_id": "row028",
+    "image_name": "HRVPage_3.png",
+    "query": "HRV是什么意思",
+    "response": "我将调用`get_skill`工具来加载`vision-router`技能，以便处理用户的请求。",
+    "terminal_data_short": "{\n  \"currentApp\": \"heartRate\",\n  \"currentPage\": \"HRVPage\",\n  \"currentPageHaveData\": true,\n  \"pages\":{\n    \"continueheartPage\": {\n      \"最新心率\": 76,\n      \"historyHeartRate\": {\n        \"今日心率\": {\"09:00\":"
+  },
+  {
+    "case_id": "row029",
+    "image_name": "exercisePage_1.png",
+    "query": "运动心率是什么",
+    "response": "我将为您解释运动心率的概念，并分析您提供的运动心率数据。",
+    "terminal_data_short": "{\n  \"currentApp\": \"heartRate\",\n  \"currentPage\": \"exercisePage1\",\n  \"currentPageHaveData\": true,\n  \"pages\":{\n    \"continueheartPage\": {\n      \"最新心率\": 87,\n      \"最近一次测量时间\": \"21:40\",\n      \"historyHeartR"
+  },
+  {
+    "case_id": "row030",
+    "image_name": "exercisePage_1.png",
+    "query": "评价下我的数据",
+    "response": "- the user问号：20:20:20: 20\n-结束: 20:20:20:20:20:20: 当工具：20:20:20\n-20: 颍大语言模型：20:20\n-20:20:20: 当用户询问用户\n20:20:20:20\n20:20: 20:20\n-20:20\n-20\n-20\n20\n-20:20\n-20\n-20: 当工具：20\n-20:20:20\n-20: 必的细节\",20\n 20:20\n20\n-20\n-20:20\n-20\n20\n 20\n-20: 20\n-20:20: 20:20\n1. 20\n-20:20\n-20\n-20\n-20\n-20\n20\n20: 20\n-20\n-20\n-20\n20:20\n-20\n-20\n使用 `20\n-20\n-20\n-20:20:20:20\n 20\n20:20:20:20:20\n-20:20:20:20:20\n-20\n-20:20:20\n20\n-20:20:20:20:20\n20\n 20\n 20\n 20\n20:20\n 20\n-20\n-20:20:20\n20:20\n-20\n20\n-20\n 20\n-20\n20\n20\n20\n20\n20: 20\n20\n20\n-20\n 2",
+    "terminal_data_short": "{\n  \"currentApp\": \"heartRate\",\n  \"currentPage\": \"exercisePage1\",\n  \"currentPageHaveData\": true,\n  \"pages\":{\n    \"continueheartPage\": {\n      \"最新心率\": 87,\n      \"最近一次测量时间\": \"21:40\",\n      \"historyHeartR"
+  },
+  {
+    "case_id": "row031",
+    "image_name": "recoverPage_1.png",
+    "query": "恢复心率是什么",
+    "response": "我将为您加载心率监测技能，以便提供专业的解释。\n根据你的心率监测数据，我来为你解释什么是**恢复心率**：\n\n## 什么是恢复心率？\n\n**恢复心率**指的是运动结束后，心率从运动峰值下降的速度和程度。它反映的是你心血管系统的恢复能力和自主神经调节功能。\n\n从你的数据可以看到：\n- 运动后心率从 **141 bpm** 开始下降\n- 2分钟后降至 **92 bpm**\n- **心率降低速度：25次/分钟**\n\n## 恢复心率的意义\n\n根据心血管健康评估标准：\n\n| 恢复速度（运动后1分钟） | 评级 | 含义 |\n|------------------------|------|------|\n| 下降 ≥ 20 bpm | **优秀** | 心血管功能强，自主神经调节良好 |\n| 下降 12-20 bpm | 正常/良好 | 恢复能力足够 |\n| 下降 < 12 bpm | 偏低 | 可能需要加强有氧基础训练 |\n\n## 你的情况分析\n\n你的恢复心率表现**非常出色**：\n- **25次/分钟的下降速度**属于优秀范围\n- 这表明你的心血管系统功能良好，自主神经调节能力强\n- 在相同",
+    "terminal_data_short": "{\n  \"currentApp\": \"heartRate\",\n  \"currentPage\": \"recoverPage1\",\n  \"currentPageHaveData\": true,\n  \"pages\":{\n    \"continueheartPage\": {\n      \"最新心率\": 87,\n      \"最近一次测量时间\": \"21:40\",\n      \"historyHeartRa"
+  },
+  {
+    "case_id": "row033",
+    "image_name": "arrhythmiaStatisticsPage_1.png",
+    "query": "柱子上红色绿色什么意思",
+    "response": "我将调用vision-router技能来处理这个问题。\n根据您提供的心律失常统计页面数据，柱子上的红色和绿色分别代表不同的心律异常类型：\n\n**红色柱子**：代表\"疑似房颤\"\n**绿色柱子**：代表\"疑似早搏\"\n\n从数据中可以看到：\n- 今日共检测了38次心律\n- 25次未见异常\n- 9次疑似早搏（绿色）\n- 4次疑似房颤（红色）\n\n这种颜色编码是医疗数据可视化的常见做法，用更醒目的红色表示危害相对较大的房颤，用绿色表示相对常见的早搏。从统计结果来看，您今天主要检测到的是早搏（9次），房颤检测次数较少（4次），大部分时间心律是正常的。\n\n需要注意的是，这些只是设备的初步筛查结果，如果出现频繁的心慌、胸闷、气短等症状，建议及时就医进行专业的心电图检查。",
+    "terminal_data_short": "{\n  \"currentApp\": \"heartRate\",\n  \"currentPage\": \"arrhythmiaStatisticsPage\",\n  \"currentPageHaveData\": true,\n  \"pages\":{\n    \"continueheartPage\": {\n      \"最新心率\": 87,\n      \"最近一次测量时间\": \"14:40\",\n      \"hi"
+  },
+  {
+    "case_id": "row034",
+    "image_name": "arrhythmiaStatisticsPage_1.png",
+    "query": "我当前心律怎么样",
+    "response": "2. 2.0-26: 2\n 2. 2. 0\n 2. 2. 2\n 2. 2\n 1. 0 0，当 2-0\n 2\n 2. 2天：1.2\na. 2.2. 2: 2. 2.0\n 2\n 2. 2. 2: 2\n 2. 2. 2天: 2\n 2\n 2. 2.0\" + 2\n 2\n 2. 2\n 2. 2.0: 2.0\n个问题\", 2. 2. 2. 2. 2. 2. 2\n 2. 2. 2. 2\n marsh\n 2. 2天。 2. 2\n 2\n 2.0\n 2. 2. 2. 2\n 2. 2. 2. 2. 2天0\", 2天。 2. 2. 2. 2. 2. 2. 2\n 20\n 2.20\n 2. 2. 2. 2. 2\n 2\n 2. 2. 2. 2. 2. 2. 2. 2\n 2. 2\n 2. 2\n 2. 2. 2. 2. 2. 2. 2\n 2\n 2. 2\n 2\n 2. 2\n 2: 2\n 2. 2. 2\n 2. 2. 2. 2. 2. 2. 2. 2.2天\": 2. 2.2.2\n2. 2\n 2. 2. 2\n 2. 2. 2. 2. 2. 2. 2.2. 2. 2. 2. 2. 2. 2.2. 2. 2 2: 2.2.2. 2",
+    "terminal_data_short": "{\n  \"currentApp\": \"heartRate\",\n  \"currentPage\": \"arrhythmiaStatisticsPage\",\n  \"currentPageHaveData\": true,\n  \"pages\":{\n    \"continueheartPage\": {\n      \"最新心率\": 87,\n      \"最近一次测量时间\": \"14:40\",\n      \"hi"
+  },
+  {
+    "case_id": "row037",
+    "image_name": "spo2TodayPage_1.png",
+    "query": "评价下我的数据",
+    "response": "我来为您分析一下血氧数据。\n根据您的血氧数据，我来为您分析一下：\n\n## 血氧数据评价\n\n**总体情况：** ✅ **正常**\n- 今天平均血氧：**97%**（健康范围）\n- 系统标记为正常（isNormal:1）\n\n**详细分析：**\n- **最高值：97%**（出现在23:30）\n- **最低值：89%**（出现在10:00）\n\n## 关注点\n\n虽然您的平均血氧水平很好，但需要注意**10:00出现的89%低值**。正常情况下，健康成年人的血氧饱和度应该保持在95%以上。89%的读数可能表明：\n\n1. **短暂缺氧**：可能是测量时的体位问题或短暂呼吸不畅\n2. **测量误差**：手环测量可能受运动、体温等因素影响\n3. **需要观察**：如果这个低值持续出现或伴随其他症状，建议关注\n\n## 建议\n\n- ✅ 继续保持良好的血氧水平（97%平均值很棒）\n- 📝 注意观察10:00左右的数据模式，如果经常出现低值\n- 💡 确保测量时手环佩戴正确，手臂放松\n- 🩺 如果出现头晕、呼吸困难等不适症状，建议咨询医生\n\n您的血氧整体状况良好，97%的平均值在健康范围内。只需留意那个短暂",
+    "terminal_data_short": "{\n  \"currentApp\": \"spO2\",\n  \"currentPage\": \"todaySpo2Page\",\n  \"curPageHaveData\": true,\n  \"pages\":{\n    \"spo2TodayPage\": {\n      \"isNormal\":1,\n      \"今天平均血氧\": 97,\n      \"historySpo2Value\": {\n\t  \"今天血氧曲线"
+  },
+  {
+    "case_id": "row038",
+    "image_name": "todayArrhythmiaBarPage_1.png",
+    "query": "解读数据",
+    "response": "我来帮你解读这张心律检测数据。首先让我加载相关技能来提供准确的分析。\n我来帮你解读这张心律检测数据。让我先获取你的心律数据以便进行更全面的分析。\n根据你提供的心律检测数据，我来为你解读：\n\n## 📊 心律数据总结\n\n**今日心律状态：**\n- 最新测量时间：07:52\n- 最新脉搏波状态：**疑似早搏**\n- 今日总测量次数：42次\n- 今日未见异常：20次（47.6%）\n- 今日疑似早搏：22次（52.4%）\n- 今日疑似房颤：0次\n\n**近7天趋势：**\n- 总测量次数：51次\n- 疑似早搏：27次（52.9%）\n- 疑似房颤：0次\n\n## 🔍 数据解读\n\n从数据来看，你今天和近7天都检测到了较多的**疑似早搏**情况，占比超过50%。早搏是指心脏在正常节律之外提前跳动，可能表现为心悸、漏跳感等症状。\n\n**重点关注：**\n- 早上6点检测到6次疑似早搏\n- 上午时段（1-8点）均有早搏记录\n- 目前未检测到房颤迹象\n\n## 💡 建议与注意事项\n\n1. **观察症状**：注意是否有心悸、胸闷、头晕等不适症状\n2. **生活方式调整**：\n   - 避免咖啡因、酒精等刺激物\n ",
+    "terminal_data_short": "{\n  \"currentApp\": \"arrhythmia\",\n  \"currentPage\": \"todayArrhythmiaBarPage\",\n  \"curPageHaveData\": true,\n  \"pages\":{\n    \"todayArrhythmiaBarPage\": {\n      \"isNormal\":0,\n      \"最新脉搏波状态\": \"疑似早搏\",\n      \"最新"
+  },
+  {
+    "case_id": "row039",
+    "image_name": "todayArrhythmiaBarPage_1.png",
+    "query": "柱子上的颜色是什么意思",
+    "response": "我将调用vision-router技能来分析图片中的颜色含义。",
+    "terminal_data_short": "{\n  \"currentApp\": \"arrhythmia\",\n  \"currentPage\": \"todayArrhythmiaBarPage\",\n  \"curPageHaveData\": true,\n  \"pages\":{\n    \"todayArrhythmiaBarPage\": {\n      \"isNormal\":0,\n      \"最新脉搏波状态\": \"疑似早搏\",\n      \"最新"
+  },
+  {
+    "case_id": "row041",
+    "image_name": "todayStatistics_1.png",
+    "query": "我今天心律如何",
+    "response": "根据您提供的心律监测数据，我来为您分析今天的心律情况：\n\n## 今日心律监测结果\n\n**总体情况：**\n- 总测量次数：42次\n- 未见心律异常：20次（47.6%）\n- 疑似早搏：22次（52.4%）\n- 疑似房颤：0次\n\n**最新状态：**\n- 最新测量时间：07:52\n- 最新脉搏波状态：**疑似早搏**\n\n**时间分布：**\n从今天凌晨到早上7点的记录显示，疑似早搏在多个时间点都有发生，特别是在5点时出现了6次疑似早搏。\n\n## 建议与注意事项\n\n⚠️ **重要提醒：**\n- 您今天的心律监测显示有较高比例的疑似早搏（超过50%的测量）\n- 虽然没有发现疑似房颤，但频繁的早搏仍值得关注\n- 早搏可能是生理性的（如疲劳、咖啡因、压力等），也可能是病理性的\n\n## 建议行动\n\n1. **观察症状**：是否感到心悸、胸闷、头晕或其他不适\n2. **记录诱因**：注意是否在特定活动、情绪或时间点更容易发生\n3. **生活方式调整**：\n   - 保证充足睡眠\n   - 减少咖啡因和酒精摄入\n   - 管理压力\n   - 避免过度劳累\n\n## 就医建议\n\n如果出现以下情况，建议及时就医：",
+    "terminal_data_short": "{\n  \"currentApp\": \"arrhythmia\",\n  \"currentPage\": \"todayStatistics\",\n  \"curPageHaveData\": true,\n  \"pages\":{\n    \"todayArrhythmiaBarPage\": {\n      \"isNormal\":0,\n      \"最新脉搏波状态\": \"疑似早搏\",\n      \"最新测量时间\": "
+  },
+  {
+    "case_id": "row042",
+    "image_name": "todayStatistics_1.png",
+    "query": "解读数据",
+    "response": "我来帮你解读这张心律监测数据。\n2. 3. 3\n 3. 3. When被问询问题。3. 3. 3天，但6个数据：获取用户提问。3天：3天， 3\n 3天\n- 3天\n 3. 3. 3个目标：3天。用户使用 `3. 3. 3. 3. 3. 3天\n 3. 3天：3天：获取用户询问：获取用户的问题，3个问题。 The user输入工具输出：如果用户提问时，3. 3个回答：3. 3. 3. 3. 3. 3天，使用 `3. 3天壤的3天：如果用户：获取用户很慢动作。3天。 3. 3天：3天\n 3天结束。 3\n 3天\n [[6. 3. The user需要了解用户问句\n 3. 3. 3. 3. 3. 3\n 3天。用户：3. 3. 3. 3. 3. 3天：3. 3. 3. 3天。用户要求1.3天结束日期范围。 3. 3\n 3天\n 3\n 3天\n 3天\n 3.3天\n 3天：用户\n 3天 3天：如何获取数据\n 3.3. 3. 3天：获取用户输入值\n 3天。 3. 3. 3. 3天： 3. 3天。 3. 3天. 3. 3. 3. 3. 3天：获取当前版本\n 3. 3.3. 3. 3. 3天，3. 3. 3天 3",
+    "terminal_data_short": "{\n  \"currentApp\": \"arrhythmia\",\n  \"currentPage\": \"todayStatistics\",\n  \"curPageHaveData\": true,\n  \"pages\":{\n    \"todayArrhythmiaBarPage\": {\n      \"isNormal\":0,\n      \"最新脉搏波状态\": \"疑似早搏\",\n      \"最新测量时间\": "
+  },
+  {
+    "case_id": "row043",
+    "image_name": "sevenDayArrhythmiaBarPage_1.png",
+    "query": "解读数据",
+    "response": "<|begin_of_box|>沙发: 获取用户输入并生成推荐列表。输出格式：[推荐列表] | type | list | array | list | object | properties | descriptions | descriptions | description | description | list | properties | descriptions | properties\n最终目标：根据当前问题， description\": string | properties | descriptions | list | properties\n<p>description\"> 您好， I need to analyze the input and generate a list of推荐列表。\", description: string | properties | properties\n<p\n<prompt>...：通过分析用户问题，结合上下文理解用户需求。例如：用户问“帮我分析睡眠质量。例如：用户说“我最近一周的睡眠质量。分析睡眠质量数据，包括睡眠数据\", de",
+    "terminal_data_short": "{\n  \"currentApp\": \"arrhythmia\",\n  \"currentPage\": \"sevenDayArrhythmiaBarPage\",\n  \"curPageHaveData\": true,\n  \"pages\":{\n    \"todayArrhythmiaBarPage\": {\n      \"isNormal\":0,\n      \"最新脉搏波状态\": \"疑似早搏\",\n      "
+  },
+  {
+    "case_id": "row044",
+    "image_name": "sevenDayStatistics_1.png",
+    "query": "解读数据",
+    "response": "我来帮您解读这张心律检测数据。\n所有工具名称：对健康问题，如何获取数据\n首先，所有工具都返回值：每次调用工具\n首先，用工具\n首先，如果工具（如用户希望用户问法术号\n- 毒能⼎少， health_data 的参数范围：当用户输入健康数据获取健康数据获取健康数据：获取当前工具数：获取健康数据：健康数据获取健康数据：获取健康数据：获取健康数据：分析健康数据类型：获取健康数据：分析用户提问时，分析用户输入\n- 分析用户输入健康数据获取健康数据\n- 霴数 = 100% of the question， use JSON 格式化问题 | JSON 格式态范围：分析用户提问：分析用户询问时，必须基于JSON格式：一个用户提问：当用户询问时健康建议：获取用户需求：用户输入：健康数据\n首先，用户输入\n{\"health_data安全规则：用户询问时，获取健康数据：获取健康建议：用户提出健康风险：用户询问：当用户输入格式：必须包含所有工具\n- 分析用户输入格式：获取当前对话，用户没有提供数据：获取用户查询：获取用户输入\n<|begin_of_box|>少：获取当前工具\n通过分析用户询问：分析用户输入：分析健",
+    "terminal_data_short": "{\n  \"currentApp\": \"arrhythmia\",\n  \"currentPage\": \"sevenDayStatistics\",\n  \"curPageHaveData\": true,\n  \"pages\":{\n    \"todayArrhythmiaBarPage\": {\n      \"isNormal\":0,\n      \"最新脉搏波状态\": \"疑似早搏\",\n      \"最新测量时间"
+  },
+  {
+    "case_id": "row045",
+    "image_name": "indexCard_1.png",
+    "query": "解读数据",
+    "response": "我来帮你解读这张健康摘要图片中的数据。首先让我加载相关的技能来分析这些健康指标。",
+    "terminal_data_short": "{\n  \"currentApp\":\"healthSummary\",\n  \"curPageType\":\"indexCard\",\n  \"indexCard\": {\n    \"异常项\":1,\n\t\"变化项\":2\n  },\n  \"scenarioSummary\":[\n    \"早搏占比异常，15%，压力偏高与睡眠HRV高于基线可能与此有关\",\n\t\"睡眠质量评分变差，59分，睡眠质量不佳可能与锻炼时长、压力有"
+  },
+  {
+    "case_id": "row046",
+    "image_name": "scenarioSummary_1.png",
+    "query": "什么是早搏，该如何改善",
+    "response": "我将先加载相关技能来分析您的问题。",
+    "terminal_data_short": "{\n  \"currentApp\":\"healthSummary\",\n  \"curPageType\":\"scenarioSummary\",\n  \"indexCard\": {\n    \"异常项\":1,\n\t\"变化项\":2\n  },\n  \"scenarioSummary\":[\n    \"早搏占比异常，15%，压力偏高与睡眠HRV高于基线可能与此有关\",\n\t\"睡眠质量评分变差，59分，睡眠质量不佳可能与锻炼"
+  },
+  {
+    "case_id": "row048",
+    "image_name": "domainCard_1.png",
+    "query": "有什么建议",
+    "response": "天平实心：number\"}} | 参数 | 参数 | .g. 5.0\n首先，.g. 5.0",
+    "terminal_data_short": "{\n  \"currentApp\":\"healthSummary\",\n  \"curPageType\":\"domainCard\",\n  \"indexCard\": {\n    \"异常项\":1,\n\t\"变化项\":2\n  },\n  \"scenarioSummary\":[\n    \"早搏占比异常，15%，压力偏高与睡眠HRV高于基线可能与此有关\",\n\t\"睡眠质量评分变差，59分，睡眠质量不佳可能与锻炼时长、压力"
+  },
+  {
+    "case_id": "row050",
+    "image_name": "todayHeadPage_2.png",
+    "query": "这些数字都是什么意思",
+    "response": "首先，用户问\"最近一周睡眠质量。例如：最近一周睡眠质量。例如：睡眠质量包括睡眠质量、睡眠质量。例如：最近一周睡眠质量。例如：最近一周睡眠质量。例如：最近一周睡眠质量。例如：最近一周睡眠质量。例如：最近一周睡眠质量。例如：最近一周睡眠质量。例如：最近一周睡眠质量。例如：最近一周睡眠质量。例如：最近一周睡眠质量。例如：最近一周睡眠质量。例如：data\": {\"detailed_status\": \"detailed_status\": \"最近一周睡眠质量。例如：最近一周睡眠质量。例如：获取一周睡眠质量。例如：获取一周睡眠质量。例如：获取最近一周睡眠质量。例如：获取一周睡眠质量。例如：获取最近一周睡眠质量。例如：获取最新一周睡眠质量。例如：最近一周睡眠质量。例如：获取最近一周睡眠质量。例如：get_sleep_quality\": 最近一周睡眠质量。例如：获取最新睡眠质量。例如：获取最新一周睡眠质量。例如：获取最新一周睡眠质量。例如：获取最新一周睡眠质量。例如：获取最新一周睡眠质量。例如：获取最新一周睡眠质量。例如：获取最新一周睡眠质量。例如：获取最新一周睡眠质量。例如：获取最新一周睡眠质量。例如",
+    "terminal_data_short": "{\n    \"currentApp\": \"activity\",\n    \"currentPage\": \"todayHeadPage\",\n    \"curPageHaveData\": true,\n    \"pages\": {\n        \"todayHeadPage\": {\n            \"活动小时数\": \"9小时\",\n            \"锻炼时长\": \"47分钟\",\n     "
+  },
+  {
+    "case_id": "row051",
+    "image_name": "todayHeadPage_2.png",
+    "query": "颜色定义",
+    "response": "我将先加载 vision-router 技能来处理这个视觉数据，然后分析您的活动数据。\n根据您提供的活动数据仪表盘，我为您分析今天的活动情况：\n\n## 📊 今日活动概览\n\n**✅ 目标达成情况：**\n- **活动小时数**：9小时（目标8小时）- **超额完成**\n- **锻炼时长**：47分钟（目标10分钟）- **超额完成**\n- **活动热量**：302千卡（目标270千卡）- **超额完成**\n\n**🚶‍♂️ 运动详情：**\n- **步数**：8,200步\n- **距离**：5.92公里\n- **爬楼**：0米\n\n**⏰ 活动时间分布：**\n- 主要活动时段：上午11:00-12:00、下午18:00-19:00\n- 锻炼集中在18:00-19:00时段（约28分钟）\n\n## 💡 健康分析\n\n您的活动量表现非常出色！不仅完成了所有目标，还超额完成了：\n- 活动小时数超出目标1小时\n- 锻炼时长超出目标37分钟\n- 活动热量超出目标32千卡\n\n这种活跃的生活方式对心血管健康、体重管理和整体健康都非常有益。\n\n## 📈 建议\n\n继续保持这样的活动水平！如果想要进一步提升：\n",
+    "terminal_data_short": "{\n    \"currentApp\": \"activity\",\n    \"currentPage\": \"todayHeadPage\",\n    \"curPageHaveData\": true,\n    \"pages\": {\n        \"todayHeadPage\": {\n            \"活动小时数\": \"9小时\",\n            \"锻炼时长\": \"47分钟\",\n     "
+  },
+  {
+    "case_id": "row056",
+    "image_name": "activeHeatPage_2.png",
+    "query": "评价今日表现",
+    "response": "我将为您分析今日的活动表现。首先让我加载健康概览技能来全面评估您的数据。\n# 今日活动表现评价\n\n**🎯 目标达成情况：优秀！**\n\n根据您的活动数据，今天的表现非常出色：\n\n## 📊 关键指标\n- **步数**：8,200步（目标10,000步的82%）\n- **活动时长**：9小时（目标8小时，超出12.5%）\n- **锻炼时长**：47分钟（目标10分钟，超出370%）\n- **活动热量**：302千卡（目标270千卡，超出12%）\n- **距离**：5.92公里\n\n## 🌟 表现亮点\n1. **运动质量高**：47分钟的锻炼时长远超目标，说明您进行了有效的运动\n2. **活动分布合理**：从活动热量分布图看，您在11:00-12:00和18:00-19:00有明显的活动高峰，作息规律\n3. **整体活动量充足**：9小时的活动时长表明您今天保持了很多日常活动\n\n## 💡 小建议\n- 步数还差1,800步就能达成目标，晚饭后散步15分钟就能轻松完成\n- 您的锻炼时长表现非常出色，建议继续保持这个运动强度\n\n**总结**：今天是个活跃的好日子！各项指标都超出目标，特别是运动",
+    "terminal_data_short": "{\n    \"currentApp\": \"activity\",\n    \"currentPage\": \"activeHeatPage\",\n    \"curPageHaveData\": true,\n    \"pages\": {\n        \"todayHeadPage\": {\n            \"活动小时数\": \"9小时\",\n            \"锻炼时长\": \"47分钟\",\n    "
+  },
+  {
+    "case_id": "row057",
+    "image_name": "durationPage_2.png",
+    "query": "评价今日表现",
+    "response": "我将先加载vision-router技能来处理您的活动数据图片，然后为您评价今日表现。\n# 今日活动表现评价\n\n## 📊 关键指标完成情况\n\n**✅ 超额完成所有目标！**\n\n- **活动小时数**：9小时（目标8小时）- **+1小时超额**\n- **锻炼时长**：47分钟（目标10分钟）- **+37分钟超额**  \n- **活动热量**：302千卡（目标270千卡）- **+32千卡超额**\n- **步数**：8200步\n- **距离**：5.92公里\n\n## 🏃‍♂️ 活动特点分析\n\n从数据可以看出你今天：\n- 保持了**9小时**的活跃状态，远超目标\n- 进行了**47分钟**的有效锻炼，强度相当不错\n- 步数达到8200步，相当于走了近6公里\n- 活动时间主要集中在**上午11:00-12:00**和**傍晚18:00-19:00**两个时段\n\n## 🌟 今日亮点\n\n1. **锻炼时长大幅超标**：47分钟比目标多出37分钟，说明你今天运动强度和持续时间都很充足\n2. **活动时间分布合理**：有两次主要的运动时段，显示了良好的运动习惯\n3. **热量消耗达标**：3",
+    "terminal_data_short": "{\n    \"currentApp\": \"activity\",\n    \"currentPage\": \"durationPage\",\n    \"curPageHaveData\": true,\n    \"pages\": {\n        \"todayHeadPage\": {\n            \"活动小时数\": \"9小时\",\n            \"锻炼时长\": \"47分钟\",\n      "
+  },
+  {
+    "case_id": "row058",
+    "image_name": "actHoursDayPage_2.png",
+    "query": "今天几点钟有起来活动过",
+    "response": "-健康信息流式\n string：健康数据\n string：字符串类型：字符串\",必须小心\n 2. The user询问健康信息：分析：分析：分析\n工具：收集信息\n收集用户\n健康指标：必须为用户\n健康信息处理流程\n- string\n字符串：必须包含工具：字符串：字符串\n string： string\n't be polite\n分析：必须为每个工具：必须回复：字符串：字符串：必须确保用户的参数： string\n- **必须小心\n string\n <head\n 3. The user需求：健康问题\n1. 毚始化：分析：健康助手：健康目标：必须主动调用工具：必须回复用户输入值：字符串\n首先，则**必须避免计划：必须：必须使用工具\n可变体当用户问询到工具\n- string\n- string\n string\n- string\n2.0\n如果用户端的值：必须调用栈式委员会\n 3D\n保护用户希望回答\", must且 0.2. 3. The user健康信息 |</pandas\n 3. 3. 3. 3天，必须明确目标：当用户提问：健康问题 — 3DST：必须被调用工具\n- string\n- string\n",
+    "terminal_data_short": "{\n    \"currentApp\": \"activity\",\n    \"currentPage\": \"actHoursDayPage\",\n    \"curPageHaveData\": true,\n    \"pages\": {\n        \"todayHeadPage\": {\n            \"活动小时数\": \"9小时\",\n            \"锻炼时长\": \"47分钟\",\n   "
+  },
+  {
+    "case_id": "row060",
+    "image_name": "weekDetailPage_2.jpg",
+    "query": "评价表现",
+    "response": "我来分析一下你本周的活动数据表现。",
+    "terminal_data_short": "{\n    \"currentApp\": \"activity\",\n    \"currentPage\": \"weekDetailPage\",\n    \"curPageHaveData\": true,\n    \"pages\": {\n        \"weekHeadPage\": {\n            \"已达标天数\": 1,\n            \"周平均活动热量\": 147,\n         "
+  },
+  {
+    "case_id": "row063",
+    "image_name": "weekHeatPage_3.png",
+    "query": "评价表现",
+    "response": "我来分析一下你的活动数据表现。\n根据你的活动数据，我来为你分析一下这一周的表现：\n\n## 📊 本周活动表现总结\n\n**总体评价：活动量偏低，有较大提升空间**\n\n### 具体数据：\n- **周总消耗热量**：669千卡（平均每天111千卡）\n- **周平均步数**：3,247步（远低于推荐的10,000步）\n- **周平均距离**：2.41公里\n- **周总锻炼时长**：仅30分钟（平均每天6分钟）\n- **周平均活跃时长**：10小时\n\n### 表现亮点：\n- 周一表现相对较好，消耗了229千卡\n- 活动小时数相对稳定，平均10小时\n\n### 需要改进的方面：\n1. **步数严重不足**：平均每天仅3,247步，建议逐步增加到10,000步\n2. **锻炼时间极短**：平均每天仅6分钟，需要增加有计划的运动\n3. **活动强度不够**：热量消耗偏低，说明活动强度和时长都不足\n\n### 💡 改进建议：\n1. **设定每日步数目标**：从5,000步开始，逐步增加到10,000步\n2. **增加有氧运动**：每周至少150分钟中等强度运动（如快走、慢跑）\n3. **碎片化运动**：利",
+    "terminal_data_short": "{\n    \"currentApp\": \"activity\",\n    \"currentPage\": \"weekHeatPage\",\n    \"curPageHaveData\": true,\n    \"pages\": {\n        \"weekHeadPage\": {\n            \"已达标天数\": 0,\n            \"周平均活动热量\": 111,\n           "
+  },
+  {
+    "case_id": "row064",
+    "image_name": "durationWeekPage_3.jpg",
+    "query": "评价今日表现",
+    "response": "我来帮你分析一下今天的活动表现。首先让我加载相关技能来处理这个视觉数据。",
+    "terminal_data_short": "{\n    \"currentApp\": \"activity\",\n    \"currentPage\": \"durationWeekPage\",\n    \"curPageHaveData\": true,\n    \"pages\": {\n        \"weekHeadPage\": {\n            \"已达标天数\": 0,\n            \"周平均活动热量\": 111,\n       "
+  },
+  {
+    "case_id": "row065",
+    "image_name": "durationWeekPage_3.jpg",
+    "query": "评价表现",
+    "response": "我来分析这张运动数据图表并评价你的表现。\n性数据，用户输入格式：用户需要分析：用户询问：用户询问：当用户询问用户提问：获取当前状态：用户输入提示：用户询问：用户询问：用户输入：用户询问：用户询问：获取用户查询参数：获取用户询问用户输入：用户询问：获取数据。用户输入：用户输入：用户询问：获取数据：用户询问：用户需要帮助：获取数据：分析用户回答：获取数据：用户询问：用户健康问题：用户询问：用户询问：获取数据类型：用户询问：用户输入：获取数据，获取数据：用户询问：获取数据：用户输入：当用户健康建议：用户要求：获取数据\n- 用户提问：获取用户询问：获取数据，用户输入参数：用户未提供支持工具：用户询问：获取用户输入值：用户提问（问健康建议：获取用户输入\n 0：检查工具：获取用户询问用户健康信息收集器：获取用户输入：用户输入：用户询问用户健康数据获取数据：获取数据，获取用户：获取数据类型：用户询问：当用户询问用户输入：获取用户输入：获取用户请求：获取数据获取用户询问时，用户问：获取用户需要获取用户的健气少接触用户：获取数据：用户询问用户输入：获取用户健康指南\n-获取用户询问：用户提问，当用户输入：",
+    "terminal_data_short": "{\n    \"currentApp\": \"activity\",\n    \"currentPage\": \"durationWeekPage\",\n    \"curPageHaveData\": true,\n    \"pages\": {\n        \"weekHeadPage\": {\n            \"已达标天数\": 0,\n            \"周平均活动热量\": 111,\n       "
+  }
+]

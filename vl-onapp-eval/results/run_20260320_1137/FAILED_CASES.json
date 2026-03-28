@@ -1,0 +1,58 @@
+{
+  "Qwen3.5-122B::C::row048": {
+    "model": "Qwen3.5-122B",
+    "condition": "C",
+    "case_id": "row048",
+    "error": "empty response",
+    "ts": "2026-03-20 12:22:36"
+  },
+  "GLM-4.6V::A::row039": {
+    "model": "GLM-4.6V",
+    "condition": "A",
+    "case_id": "row039",
+    "error": "empty response",
+    "ts": "2026-03-20 12:33:08"
+  },
+  "GLM-4.6V::C::row026": {
+    "model": "GLM-4.6V",
+    "condition": "C",
+    "case_id": "row026",
+    "error": "empty response",
+    "ts": "2026-03-20 14:58:58"
+  },
+  "GLM-4.6V::C::row032": {
+    "model": "GLM-4.6V",
+    "condition": "C",
+    "case_id": "row032",
+    "error": "empty response",
+    "ts": "2026-03-20 15:11:34"
+  },
+  "GLM-4.6V::C::row035": {
+    "model": "GLM-4.6V",
+    "condition": "C",
+    "case_id": "row035",
+    "error": "empty response",
+    "ts": "2026-03-20 15:20:54"
+  },
+  "Qwen3-235B::B::row008": {
+    "model": "Qwen3-235B",
+    "condition": "B",
+    "case_id": "row008",
+    "error": "empty response",
+    "ts": "2026-03-20 16:27:52"
+  },
+  "Qwen3-235B::C::row045": {
+    "model": "Qwen3-235B",
+    "condition": "C",
+    "case_id": "row045",
+    "error": "empty response",
+    "ts": "2026-03-20 18:04:03"
+  },
+  "Qwen3-235B::D::row043": {
+    "model": "Qwen3-235B",
+    "condition": "D",
+    "case_id": "row043",
+    "error": "empty response",
+    "ts": "2026-03-20 19:51:44"
+  }
+}

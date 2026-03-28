@@ -1,0 +1,172 @@
+{
+  "model": {
+    "id": "minimax/minimax-01",
+    "name": "MiniMax-01",
+    "port": 8010
+  },
+  "vl_supported": true,
+  "timestamp": "2026-03-19 12:01:40",
+  "results": [
+    {
+      "label": "null",
+      "query": "null",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\null.png"
+      ],
+      "response": "⚠️ 404 No endpoints found that support tool use. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection",
+      "tool_calls": [],
+      "status": "judge_pending",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 0,
+          "幻觉控制率": 0,
+          "数值读取精度": 0,
+          "输出时序合规": 0,
+          "安全声明合规": 0,
+          "边界克制合规": 0,
+          "数据引用质量": 0,
+          "工具调用合理性": 0,
+          "任务完成度": 0,
+          "图像与上下文一致性": 0,
+          "主动澄清行为": 0
+        },
+        "reasons": {
+          "视觉识别准确率": "裁判调用失败",
+          "幻觉控制率": "裁判调用失败",
+          "数值读取精度": "裁判调用失败",
+          "输出时序合规": "裁判调用失败",
+          "安全声明合规": "裁判调用失败",
+          "边界克制合规": "裁判调用失败",
+          "数据引用质量": "裁判调用失败",
+          "工具调用合理性": "裁判调用失败",
+          "任务完成度": "裁判调用失败",
+          "图像与上下文一致性": "裁判调用失败",
+          "主动澄清行为": "裁判调用失败"
+        },
+        "overall_comment": "裁判调用失败，分数为默认值"
+      }
+    },
+    {
+      "label": "今天第二天爬坡，一开始坡度4 速度2.5 后面坡度8 速度4，差不多50-60分钟，想问下大佬们这样练下去合适吗，或者有什么建议呢，另外可以只爬坡不用器材嘛？",
+      "query": "今天第二天爬坡，一开始坡度4 速度2.5 后面坡度8 速度4，差不多50-60分钟，想问下大佬们这样练下去合适吗，或者有什么建议呢，另外可以只爬坡不用器材嘛？",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\今天第二天爬坡，一开始坡度4 速度2.5 后面坡度8 速度4，差不多50-60分钟，想问下大佬们这样练下去合适吗，或者有什么建议呢，另外可以只爬坡不用器材嘛？.png"
+      ],
+      "response": "⚠️ 404 No endpoints found that support tool use. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection",
+      "tool_calls": [],
+      "status": "judge_pending",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 0,
+          "幻觉控制率": 0,
+          "数值读取精度": 0,
+          "输出时序合规": 0,
+          "安全声明合规": 0,
+          "边界克制合规": 0,
+          "数据引用质量": 0,
+          "工具调用合理性": 0,
+          "任务完成度": 0,
+          "图像与上下文一致性": 0,
+          "主动澄清行为": 0
+        },
+        "reasons": {
+          "视觉识别准确率": "裁判调用失败",
+          "幻觉控制率": "裁判调用失败",
+          "数值读取精度": "裁判调用失败",
+          "输出时序合规": "裁判调用失败",
+          "安全声明合规": "裁判调用失败",
+          "边界克制合规": "裁判调用失败",
+          "数据引用质量": "裁判调用失败",
+          "工具调用合理性": "裁判调用失败",
+          "任务完成度": "裁判调用失败",
+          "图像与上下文一致性": "裁判调用失败",
+          "主动澄清行为": "裁判调用失败"
+        },
+        "overall_comment": "裁判调用失败，分数为默认值"
+      }
+    },
+    {
+      "label": "帮我看一下跑步情况",
+      "query": "帮我看一下跑步情况",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\帮我看一下跑步情况\\1973f9dfb18143d2b74f3d47ad1485a0.png~tplv-a9rns2rl98-image.png",
+        "D:\\pha-v2\\tests\\test-img\\帮我看一下跑步情况\\23331d86d4da46c68545b14ae5cb1b61.png~tplv-a9rns2rl98-image.png",
+        "D:\\pha-v2\\tests\\test-img\\帮我看一下跑步情况\\600b8ed8774047ddb15931de857d7fdf.png~tplv-a9rns2rl98-image.png",
+        "D:\\pha-v2\\tests\\test-img\\帮我看一下跑步情况\\79cb18ffa7ba4347a5f6c609945e9d39.png~tplv-a9rns2rl98-image.png",
+        "D:\\pha-v2\\tests\\test-img\\帮我看一下跑步情况\\c6cb49f7576a4db9b01fe61dfaf58ca0.png~tplv-a9rns2rl98-image.png",
+        "D:\\pha-v2\\tests\\test-img\\帮我看一下跑步情况\\d3adb11065f848efa1fe75ee504f70c7.png~tplv-a9rns2rl98-image.png"
+      ],
+      "response": "⚠️ 404 No endpoints found that support tool use. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection",
+      "tool_calls": [],
+      "status": "judge_pending",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 0,
+          "幻觉控制率": 0,
+          "数值读取精度": 0,
+          "输出时序合规": 0,
+          "安全声明合规": 0,
+          "边界克制合规": 0,
+          "数据引用质量": 0,
+          "工具调用合理性": 0,
+          "任务完成度": 0,
+          "图像与上下文一致性": 0,
+          "主动澄清行为": 0
+        },
+        "reasons": {
+          "视觉识别准确率": "裁判调用失败",
+          "幻觉控制率": "裁判调用失败",
+          "数值读取精度": "裁判调用失败",
+          "输出时序合规": "裁判调用失败",
+          "安全声明合规": "裁判调用失败",
+          "边界克制合规": "裁判调用失败",
+          "数据引用质量": "裁判调用失败",
+          "工具调用合理性": "裁判调用失败",
+          "任务完成度": "裁判调用失败",
+          "图像与上下文一致性": "裁判调用失败",
+          "主动澄清行为": "裁判调用失败"
+        },
+        "overall_comment": "裁判调用失败，分数为默认值"
+      }
+    },
+    {
+      "label": "帮我看下这份报告，解读",
+      "query": "帮我看下这份报告，解读",
+      "image_paths": [
+        "D:\\pha-v2\\tests\\test-img\\帮我看下这份报告，解读.png"
+      ],
+      "response": "⚠️ 404 No endpoints found that support tool use. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection",
+      "tool_calls": [],
+      "status": "judge_pending",
+      "judgment": {
+        "scores": {
+          "视觉识别准确率": 0,
+          "幻觉控制率": 0,
+          "数值读取精度": 0,
+          "输出时序合规": 0,
+          "安全声明合规": 0,
+          "边界克制合规": 0,
+          "数据引用质量": 0,
+          "工具调用合理性": 0,
+          "任务完成度": 0,
+          "图像与上下文一致性": 0,
+          "主动澄清行为": 0
+        },
+        "reasons": {
+          "视觉识别准确率": "裁判调用失败",
+          "幻觉控制率": "裁判调用失败",
+          "数值读取精度": "裁判调用失败",
+          "输出时序合规": "裁判调用失败",
+          "安全声明合规": "裁判调用失败",
+          "边界克制合规": "裁判调用失败",
+          "数据引用质量": "裁判调用失败",
+          "工具调用合理性": "裁判调用失败",
+          "任务完成度": "裁判调用失败",
+          "图像与上下文一致性": "裁判调用失败",
+          "主动澄清行为": "裁判调用失败"
+        },
+        "overall_comment": "裁判调用失败，分数为默认值"
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+=== Anomaly Report: D:\pha-v2\tests\vl-onapp-eval\results\run_20260320_1418 ===
+
+[Qwen3.5-122B][A] total=0 done=0 failed=0 empty=0 loops=0 judged=0 anomaly_no_tool=0 normal_with_tool=0
+[Qwen3.5-122B][B] total=0 done=0 failed=0 empty=0 loops=0 judged=0 anomaly_no_tool=0 normal_with_tool=0
+[Qwen3.5-122B][C] total=4 done=4 failed=0 empty=0 loops=0 judged=0 anomaly_no_tool=0 normal_with_tool=0
+[Qwen3.5-122B][D] total=0 done=0 failed=0 empty=0 loops=0 judged=0 anomaly_no_tool=0 normal_with_tool=0
+
+✅ No issues found
